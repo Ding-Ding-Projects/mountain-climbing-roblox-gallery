@@ -7,6 +7,8 @@
 - [x] Add design references, evidence rules, and a hand-written feature inventory.
 - [x] Review and admit the forest ascent original as construction progress with a bounded review record; final-review receipt remains unavailable.
 - [ ] Review and admit only additional approved captures with their original bytes and honest provenance; the cave capture remains withheld.
+- [x] Implement record-derived capture-type, location, and stage filters with plain-text-first search, explicit regex application, validation refusal, and match preview.
+- [ ] Verify search and filtering at runtime, with accessibility checks and at 320 CSS pixels; add the focused negative regression.
 - [ ] Publish the public gallery and verify its page and every image URL.
 
 ## Verification

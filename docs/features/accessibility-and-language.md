@@ -12,6 +12,10 @@ If browser storage is unavailable, controls remain usable for the current page v
 
 These controls are implemented in source. Runtime, screen-reader, touch-device, large-text, and real capture checks are still pending.
 
+## Gallery search and filters
+
+Search and its record-derived capture type, location, and stage facets have complete English, Cantonese, and bilingual labels, choices, mode notices, validation messages, preview summaries, and empty states. Native buttons provide keyboard and touch operation with visible focus and minimum 44-pixel targets. The adjacent pattern builder restores focus to its opening control when closed. Runtime, screen-reader, touch-device, and 320-pixel layout verification for these controls remains pending.
+
 ## Suggested articles
 
 - [Gallery search](gallery-search.md)

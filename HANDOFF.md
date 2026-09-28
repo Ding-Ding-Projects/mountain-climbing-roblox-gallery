@@ -6,6 +6,8 @@ The public gallery repository was empty at task start. A static gallery surface,
 
 The public page has not been deployed. The source inventory records incomplete cross-project page features, source-only UI states, and the missing runtime evidence. This handoff is a source preparation milestone, not completion of the public gallery.
 
+Gallery search source now includes verified-record facets for capture type, location, and stage; plain-text-first filtering; an adjacent anchored JavaScript regex builder; invalid-pattern refusal; synchronized search and pattern input; and sample plus current-record match previews. Search controls and statuses have English, Cantonese, and bilingual copy. Focused browser/runtime, accessibility, 320-pixel layout, and negative-regression checks are pending.
+
 ## Remaining work
 
 1. Obtain further genuine Studio captures only when their pixels and distribution rights are reviewable; keep the cave capture withheld until its visible supplied asset has documented distribution permission.
