@@ -1,5 +1,46 @@
 {
   "schemaVersion": 1,
-  "images": [],
+  "images": [
+    {
+      "captureClass": "construction-progress",
+      "captureId": "forest-ascent-overview-001",
+      "path": "images/forest-ascent-overview-001.jpg",
+      "sha256": "85ca212afb63a2eaa334b58cffec07cb37677aec1acb4ed06985d9e74439fa59",
+      "sourceRevision": "34fa6fd9e13e73234317138a44ec8daf4e5a6b39",
+      "state": "Roblox Studio edit-mode forest ascent construction overview",
+      "title": "Forest ascent construction progress",
+      "caption": "An overhead view of the in-progress forest ascent, with a winding trail, grouped trees, and small route structures. This is construction progress only.",
+      "alt": "Overhead view of a green forested Roblox terrain with a winding uphill trail, grouped conifer trees, and small structures along the route.",
+      "location": "Forest ascent",
+      "activity": "Construction review",
+      "stage": "In progress",
+      "viewport": {
+        "width": 1264,
+        "height": 830
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP",
+      "captureMode": "Edit",
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This image shows an in-progress scene and is not final realism evidence.",
+        "This image is an Edit-mode view and is not Play mode proof.",
+        "The capture does not prove runtime behavior, collision, or accessibility."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "The image depicts the in-progress forest ascent. Pixel and source review found no identifiable supplied catalogue model; the inspected source describes generated foliage and native scene parts."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "The JPEG contains JFIF metadata only, with no EXIF tags, comments, or ICC profile. Capture time and display scale were unavailable and are recorded as null."
+      },
+      "privacyReviewer": "Gallery review",
+      "privacyReview": "passed"
+    }
+  ],
   "excluded": []
 }

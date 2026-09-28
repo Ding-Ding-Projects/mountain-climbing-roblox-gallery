@@ -11,20 +11,20 @@ The gallery publishes only real images captured from Roblox Studio. It does not 
 | `sourceRevision` | Source revision used for the capture, when available |
 | `state` | The actual screen or interaction shown |
 | `viewport` | Captured width and height |
-| `scale` | Display scale used by the capture route |
-| `theme` | Theme shown in the capture |
+| `scale` | Display scale used by the capture route, or `null` when unavailable |
+| `theme` | Theme shown in the capture, or `not-applicable` for world captures |
 | `method` | The real capture method and tool |
-| `privacyReview` | Reviewer and pass or exclusion result, without private details |
+| `privacyReview` | Reviewer label and pass or exclusion result, without private details |
 | `capturedAt` | Timestamp and timezone copied only from a validated capture receipt; otherwise `null` |
 
 Original captures stay unchanged. Review image pixels, captions, metadata, and filenames before publication. Never include private source details, machine paths, account data, credentials, or unrelated screen content. A withheld image is recorded with a public-safe reason that does not repeat the sensitive content.
 
 ## Present inventory
 
-`docs/evidence/gallery.json` currently contains zero entries. That is an honest pending state, not a sample gallery. The required real Studio capture batch has not reached this repository.
+The gallery currently contains one edit-mode forest construction image. It is labeled as construction progress and does not prove final realism or Play behavior. The cave image is withheld because the capture shows a supplied door whose distribution permission is unverified. The gallery does not claim that withheld image is available.
 
 ## Adding a reviewed batch
 
-Use `node scripts/add-reviewed-capture.mjs --image <original-image> --receipt <validated-receipt.json>` for each original image. The utility checks the receipt version and required fields, verifies the source file SHA-256 against the receipt, copies the original bytes without image editing, and adds a manifest record. It rejects diagnostic images, failed privacy reviews, duplicate capture IDs, unsupported formats, invalid dates, and path-like capture IDs. It never guesses a timestamp. Inspect image pixels and metadata before invoking it; the utility cannot judge whether the content is safe or realistic.
+Use `node scripts/add-reviewed-capture.mjs --image <original-image> --receipt <validated-receipt.json>` for final-review captures. For accepted Edit-mode construction records, use `node scripts/add-reviewed-capture.mjs --image <original-image> --construction-record <review-record.json>`. The construction record requires explicit limitations, privacy review, rights review, source revision, original file hash, and source dimensions. Its manifest entry has `receiptValidated: false` and cannot be mistaken for final evidence. The utility copies original bytes without image editing and rejects diagnostic class names, failed reviews, duplicate capture IDs, unsupported formats, invalid dates, and unsafe paths. It never guesses a timestamp. Inspect image pixels and metadata before invoking it; the utility cannot judge whether the content is safe or realistic.
 
-After the capture is included, rebuild or deploy the static page, inspect it as a visitor, and verify the public page and every image URL independently. Dates come from validated receipts, never filenames or local file timestamps.
+After an image is included, inspect the source page behavior locally. Do not deploy until every required page feature and verification row passes. After any later publication, verify unauthenticated page access and every image URL independently. Dates come from validated receipts, never filenames or local file timestamps.

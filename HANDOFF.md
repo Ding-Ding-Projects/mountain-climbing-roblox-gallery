@@ -2,17 +2,17 @@
 
 ## Current state
 
-The public gallery repository was empty at task start. A static gallery surface, design reference, evidence rules, and a hand-written completeness inventory have been added. The live capture list is empty because no verified Roblox screenshots or capture receipts have been delivered to this lane.
+The public gallery repository was empty at task start. A static gallery surface, design reference, evidence rules, and a hand-written completeness inventory have been added. One forest ascent image has been reviewed as Edit-mode construction progress with source revision and image SHA-256 provenance. It is not final realism evidence and does not show Play behavior. A cave construction image was withheld because a supplied door is visible and distribution permission is not established.
 
 The public page has not been deployed. The source inventory records incomplete cross-project page features, source-only UI states, and the missing runtime evidence. This handoff is a source preparation milestone, not completion of the public gallery.
 
 ## Remaining work
 
-1. Receive real Studio captures and provenance receipts from the world-building lane.
-2. Review pixels, captions, metadata, and filenames for privacy and accuracy.
-3. Add every approved image and its SHA-256 and validated capture metadata.
-4. Publish through the approved public gallery route and verify page access and each image URL independently.
+1. Obtain further genuine Studio captures only when their pixels and distribution rights are reviewable; keep the cave capture withheld until its visible supplied asset has documented distribution permission.
+2. Obtain a validated capture receipt for any capture intended to prove a final or runtime state. The current forest image remains construction progress only.
+3. Complete the mandatory page feature inventory and built-page verification without upgrading source-only work into evidence.
+4. Publish through the approved public gallery route only after the required page checks pass, then verify unauthenticated access and every image URL independently.
 
 ## Limits
 
-Material Designer and Status Hub tools were unavailable in this session. The local design handoff records that constraint. No public page or image deployment is claimed by this handoff.
+No Material Designer creation or export tool was exposed in the available tools. The Status Hub client returned `MISSING_INGEST_TOKEN`, so no session record was written. The local design handoff records the design-tool limitation. No public page or image deployment is claimed by this handoff.

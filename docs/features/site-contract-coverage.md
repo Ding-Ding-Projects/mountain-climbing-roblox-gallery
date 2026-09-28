@@ -10,7 +10,7 @@ The initial source also lacks the complete tab customization and discovery syste
 
 ## Why this handoff is explicit
 
-This repository lane was assigned to prepare a focused capture-gallery source and provenance pipeline while the world lane corrects its Terrain captures. It must not pretend that those images exist or publish construction diagnostics as completed scenes. The public gallery remains unpublished until a genuine, privacy-reviewed Terrain capture and its receipt are available.
+This repository lane prepares a focused capture-gallery source and provenance pipeline. One genuine Studio Edit-mode image is admitted as construction progress only; it is not final realism or Play evidence. The public gallery remains unpublished until the mandatory page requirements, built-page verification, and public access checks are satisfied.
 
 ## Suggested articles
 
