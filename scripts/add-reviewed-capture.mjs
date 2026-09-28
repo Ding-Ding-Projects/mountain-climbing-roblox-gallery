@@ -47,7 +47,7 @@ if (receipt.capturedAt !== null && (typeof receipt.capturedAt !== 'string' || !/
 const isConstructionRecord = constructionRecordArg !== null;
 if (isConstructionRecord) {
   if (receipt.recordType !== 'gallery-review-record' || receipt.captureClass !== 'construction-progress' || receipt.captureMode !== 'Edit') throw new Error('A construction record must identify a reviewed Edit-mode construction-progress capture.');
-  if (typeof receipt.sourcePath !== 'string' || !/^evidence\/world\/[A-Za-z0-9._/-]+$/.test(receipt.sourcePath) || receipt.sourcePath.split('/').includes('..')) throw new Error('Construction sourcePath must be a repository-relative evidence path.');
+  if (typeof receipt.sourcePath !== 'string' || !/^evidence\/(?:world|town)\/[A-Za-z0-9._/-]+$/.test(receipt.sourcePath) || receipt.sourcePath.split('/').includes('..')) throw new Error('Construction sourcePath must be an approved repository-relative evidence path.');
   if (receipt.scale !== null || receipt.theme !== 'not-applicable' || receipt.capturedAt !== null) throw new Error('Unavailable construction metadata must stay null or not-applicable.');
   if (!Array.isArray(receipt.limitations) || receipt.limitations.length < 2 || receipt.limitations.some(x => typeof x !== 'string' || !x.trim() || x.length > 512)) throw new Error('Construction records need bounded, explicit limitations.');
   if (!receipt.limitations.some(x => /not final realism evidence/i.test(x)) || !receipt.limitations.some(x => /not Play mode/i.test(x))) throw new Error('Construction records must disclaim final realism and Play-mode proof.');

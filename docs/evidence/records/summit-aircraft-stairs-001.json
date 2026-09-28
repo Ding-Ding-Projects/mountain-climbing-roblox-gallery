@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordType": "gallery-review-record",
+  "captureClass": "construction-progress",
+  "captureId": "summit-aircraft-stairs-001",
+  "sourceRevision": "3dabe98333b520065c6e3c29367b2abeef1b5d8a",
+  "sourcePath": "evidence/town/11-fixed-supported-stairs.jpg",
+  "state": "Roblox Studio Edit-mode summit airport stair construction",
+  "title": "Summit aircraft stairs under construction",
+  "caption": "A supported fixed boarding stair beside the constructed summit aircraft. This is component construction progress, not a completed flight.",
+  "alt": "Small white and blue aircraft beside a supported metal boarding stair on a summit airport apron, viewed in Roblox Studio Edit mode.",
+  "location": "Summit airport",
+  "activity": "Aircraft construction review",
+  "stage": "In progress",
+  "method": "Roblox Studio MCP",
+  "captureMode": "Edit",
+  "viewport": {
+    "width": 1264,
+    "height": 830
+  },
+  "scale": null,
+  "theme": "not-applicable",
+  "capturedAt": null,
+  "imageSha256": "555317609645527743b266845d4fb0e19d3b73fc5447621cec07d4e0195be402",
+  "limitations": [
+    "This image shows an in-progress scene and is not final realism evidence.",
+    "This image is an Edit-mode view and is not Play mode proof.",
+    "The capture does not prove boarding, an occupied flight, return timing, or runtime clearance."
+  ],
+  "privacyReview": {
+    "result": "passed",
+    "reviewer": "Gallery review",
+    "pixelsReviewed": true,
+    "metadataReviewed": true,
+    "filenameReviewed": true,
+    "summary": "Pixels, embedded metadata, and the source filename were reviewed. No avatar, account name, credential, private desktop content, or unrelated data is visible."
+  },
+  "rightsReview": {
+    "result": "passed",
+    "basis": "The airport source constructs the aircraft, stair, and apron geometry from native parts. Pixel and source review found no identifiable supplied catalogue model or external asset ID in this capture."
+  },
+  "metadataReview": {
+    "result": "passed",
+    "summary": "The JPEG has JFIF metadata only, no EXIF tags, comment, or ICC profile. Capture time, timezone, and display scale were unavailable and remain null."
+  }
+}
