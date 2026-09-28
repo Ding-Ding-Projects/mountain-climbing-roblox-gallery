@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-09-28T18:17:07Z",
+  "sourceRevision": "a79d053535cd10b0e679521395ee9e399f26639c",
+  "hosting": {
+    "repositoryVisibility": "public",
+    "pagesStatus": "built",
+    "sourceBranch": "main",
+    "sourcePath": "/docs",
+    "url": "https://ding-ding-projects.github.io/mountain-climbing-roblox-gallery/"
+  },
+  "http": {
+    "page": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "byteLength": 75588,
+      "title": "Mountain Climbing | Field Gallery",
+      "settingsSearchMarkupPresent": true,
+      "paletteRegexMarkupPresent": true
+    },
+    "manifest": {
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "byteLength": 2093,
+      "imageRecordCount": 1
+    },
+    "forestImage": {
+      "status": 200,
+      "contentType": "image/jpeg",
+      "byteLength": 237085,
+      "sha256": "85ca212afb63a2eaa334b58cffec07cb37677aec1acb4ed06985d9e74439fa59",
+      "manifestHashMatched": true
+    }
+  },
+  "limitations": [
+    "HTTP delivery and image bytes were checked directly against the public URL.",
+    "Current browser interaction, accessibility tree, responsive layout, and visual capture were not verified because the required isolated browser-control route was unavailable.",
+    "The published forest image documents Edit-mode construction progress, not final landscape quality or Play behavior."
+  ]
+}

@@ -1,10 +1,10 @@
 # Mountain Climbing Gallery
 
-This public gallery holds images captured from the real Roblox experience after privacy and rights review. Construction-progress images are labeled as such and never presented as final realism or Play evidence. The public page remains unpublished until its mandatory page requirements and evidence checks pass.
+This public gallery holds images captured from the real Roblox experience after privacy and rights review. Construction-progress images are labeled as such and never presented as final realism or Play evidence. The public page is live, while its current browser interaction and broader page requirements remain unfinished.
 
 ## Open the gallery
 
-Open [`docs/index.html`](docs/index.html) directly, or serve the `docs/` directory with any static web server. It uses no remote scripts, fonts, images, analytics, or runtime services.
+Open the [public gallery](https://ding-ding-projects.github.io/mountain-climbing-roblox-gallery/). Its page, capture manifest, and one reviewed image returned unauthenticated HTTP 200 responses, and the image bytes matched the manifest SHA-256. The [publication receipt](docs/evidence/live-publication.json) records the source revision, checks, and limitations. The page uses no remote scripts, fonts, images, analytics, or runtime services.
 
 ## Evidence policy
 
@@ -12,11 +12,11 @@ Each image record includes a content SHA-256, source state, viewport, capture me
 
 ## Current status
 
-The source includes one edit-mode forest construction image. It does not prove final terrain quality or Play behavior. The cave construction image is withheld because distribution permission for a visible supplied door has not been established. See [ROADMAP.md](ROADMAP.md) and [HANDOFF.md](HANDOFF.md) for the current implementation state and evidence still needed.
+The published gallery includes one Edit-mode forest construction image. It does not prove final terrain quality or Play behavior. A cave construction image remains withheld pending complete pixel, metadata, caption, and distribution review; permission for the two supplied door types alone does not establish that this capture is ready. See [ROADMAP.md](ROADMAP.md) and [HANDOFF.md](HANDOFF.md) for the current implementation state and evidence still needed.
 
 ## Responsive browser evidence
 
-The current source was rebuilt and inspected in an isolated browser at a 929×1004 window and a 320×800 CSS-pixel touch viewport. The desktop capture shows the responsive toolbar after the search field and record-derived facets were repaired. The narrow capture shows the same controls stacking without horizontal overflow. These images document the gallery interface only; they are not evidence of additional game content.
+An earlier source revision was rebuilt and inspected in an isolated browser at a 929×1004 window and a 320×800 CSS-pixel touch viewport. The desktop capture shows the responsive toolbar after the search field and record-derived facets were repaired. The narrow capture shows the same controls stacking without horizontal overflow. The current settings and command-palette search revision has not received the same browser inspection. These images document the earlier gallery interface only; they are not evidence of additional game content.
 
 ![Gallery at a 929 by 1004 browser window after the responsive repair](docs/evidence/ui/responsive-after-929.png)
 
