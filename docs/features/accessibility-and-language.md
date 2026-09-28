@@ -10,11 +10,11 @@ If browser storage is unavailable, controls remain usable for the current page v
 
 ## Verification
 
-These controls are implemented in source. Runtime, screen-reader, touch-device, large-text, and real capture checks are still pending.
+The responsive search and filter controls were checked in an isolated browser at desktop and 320 CSS-pixel touch-emulated sizes. Both had no horizontal overflow; tested controls were at least 44 pixels high, and the accessibility tree had no unnamed interactive controls. This focused check does not replace screen-reader testing, large-text verification, or full-page accessibility review.
 
 ## Gallery search and filters
 
-Search and its record-derived capture type, location, and stage facets have complete English, Cantonese, and bilingual labels, choices, mode notices, validation messages, preview summaries, and empty states. Native buttons provide keyboard and touch operation with visible focus and minimum 44-pixel targets. The adjacent pattern builder restores focus to its opening control when closed. Runtime, screen-reader, touch-device, and 320-pixel layout verification for these controls remains pending.
+Search and its record-derived capture type, location, and stage facets have complete English, Cantonese, and bilingual labels, choices, mode notices, validation messages, preview summaries, and empty states. Native buttons provide keyboard and touch operation with visible focus and minimum 44-pixel targets. The adjacent pattern builder restores focus to its opening control when closed. Focused browser checks verified keyboard open/close, a touch filter selection, no unnamed interactive controls, and no horizontal overflow at 929×1004 and 320×800. Screen-reader testing and the remaining universal page contracts are still pending. Measurements and captures are linked from [the responsive report](../evidence/ui/responsive-layout.json).
 
 ## Suggested articles
 

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "sourceRevision": "93abe3583cb61cb35438d3ec236835189ebf54d9",
+  "build": {
+    "outputManifestSha256": "d9fb4bd5422875f14f115385c946c109a3ca1d28ac0830ca884be479460f1c76",
+    "receiptSha256": "3acf45166bf1298761c9ff003923272c84c44cdab18efe45585720f1e7f26a07",
+    "indexHtmlSha256": "3eab4e048a2e24a1b56b99f62b9ce5861ba46c4cef830b2c49b8e366e4d55120"
+  },
+  "scope": "Gallery interface evidence only; these captures are not game-world evidence.",
+  "captureMethod": "Genuine isolated Microsoft Edge browser captures using the approved Lowlevel headless route and browser DevTools Protocol. Original PNG bytes are preserved unchanged.",
+  "privacyReview": "pass; pixels inspected, and the images contain only the public gallery interface and its already reviewed construction capture.",
+  "dateAndTimezone": null,
+  "accessibility": {
+    "desktopAccessibilityTreeNodes": 303,
+    "mobileAccessibilityTreeNodes": 316,
+    "unnamedInteractiveControls": 0,
+    "minimumVisibleControlHeightCssPixels": 44,
+    "keyboard": "Enter opens the pattern builder and focuses its pattern field; Escape closes it and restores focus.",
+    "touch": "A touch-emulated location filter selection updates the visible result."
+  },
+  "resourceCheck": {
+    "pageExceptions": 0,
+    "consoleErrors": 0,
+    "failedRequests": 0,
+    "nonSuccessResponses": 0,
+    "externalOrigins": 0
+  },
+  "viewports": [
+    {
+      "id": "before-929",
+      "windowPixels": { "width": 929, "height": 1004 },
+      "cssViewportPixels": { "width": 885, "height": 900 },
+      "sourceRevision": "9afe0b77b628eb04bab0dc17f43bdf6776cac6c4",
+      "horizontalOverflow": false,
+      "finding": "The search field is compressed and the three facet columns are narrow.",
+      "image": {
+        "path": "responsive-before-929.png",
+        "sha256": "13d1bae07cba0399f0d7ea59267c6bccd18e4d1846edd3d6409123a0d2dc3521",
+        "width": 929,
+        "height": 1004
+      }
+    },
+    {
+      "id": "after-929",
+      "windowPixels": { "width": 929, "height": 1004 },
+      "cssViewportPixels": { "width": 885, "height": 900 },
+      "sourceRevision": "93abe3583cb61cb35438d3ec236835189ebf54d9",
+      "searchFieldWidthCssPixels": 560.92,
+      "facetColumnWidthsCssPixels": [261.91, 261.91, 261.91],
+      "horizontalOverflow": false,
+      "image": {
+        "path": "responsive-after-929.png",
+        "sha256": "cd774faaa836ec3d98e9a3bde3054777dd2ee889cf783ece6aeea03df47a387a",
+        "width": 929,
+        "height": 1004
+      }
+    },
+    {
+      "id": "after-320-touch",
+      "cssViewportPixels": { "width": 320, "height": 800 },
+      "sourceRevision": "93abe3583cb61cb35438d3ec236835189ebf54d9",
+      "inputMode": "touch emulation",
+      "searchFieldWidthCssPixels": 292.81,
+      "facetColumnWidthsCssPixels": [288.81, 288.81, 288.81],
+      "horizontalOverflow": false,
+      "image": {
+        "path": "responsive-320-after.png",
+        "sha256": "66ead08e893ef3a609a7879ebe7adaec742af8c843a4d22c77de0356c2a5e831",
+        "width": 320,
+        "height": 800
+      }
+    },
+    {
+      "id": "builder-open-320",
+      "cssViewportPixels": { "width": 320, "height": 800 },
+      "sourceRevision": "93abe3583cb61cb35438d3ec236835189ebf54d9",
+      "inputMode": "touch emulation",
+      "horizontalOverflow": false,
+      "image": {
+        "path": "builder-open-320.png",
+        "sha256": "47235f3c7a6c16278898625d92a1a9045a3554c3a863cbcd780090b81f9c1d07",
+        "width": 320,
+        "height": 800
+      }
+    }
+  ],
+  "publication": "The public page and its image URLs have not been deployed or verified."
+}

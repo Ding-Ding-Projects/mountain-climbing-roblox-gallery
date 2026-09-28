@@ -3,35 +3,234 @@
   "surface": "public-gallery",
   "note": "Hand-written source inventory. Source presence is not built-page, accessibility, privacy, or deployment evidence.",
   "features": [
-    {"id":"real-capture-gallery","state":"construction-progress-source-only","implementation":"docs/index.html","documentation":"docs/evidence/README.md","evidence":"docs/evidence/gallery.json","limitation":"One genuine Edit-mode forest construction capture is reviewed and admitted as progress only. No final realism or Play-mode evidence is admitted, and there is no built-page proof."},
-    {"id":"truthful-empty-state","state":"implemented-source-only","implementation":"docs/index.html","documentation":"README.md","evidence":null,"limitation":"No published browser capture exists."},
-    {"id":"search-and-regex-workbench","state":"implemented-source-pending-runtime","implementation":"docs/index.html","documentation":"docs/features/gallery-search.md","evidence":null,"limitation":"Plain-text-first search, verified-record facets, synchronized explicit regex mode, bounded risk refusal, match and replacement preview, and keyboard focus behavior are implemented. Focused interaction passed on source revision 9afe0b77b628eb04bab0dc17f43bdf6776cac6c4, including invalid-pattern refusal, preview-before-apply, localization, and keyboard open/close. The 320-pixel overflow probe passed. A 929-pixel capture exposed a compressed search field and narrow facet columns; the responsive repair is implemented but its browser verification remains pending. Full accessibility-node review, complete engine-capability documentation, and negative regression evidence also remain pending."},
-    {"id":"language-modes","state":"partial-source-only","implementation":"docs/index.html","documentation":"docs/features/accessibility-and-language.md","evidence":null,"limitation":"Search, its facets, builder controls, errors, preview summaries, and empty states now have English, Cantonese, and bilingual copy. Other page sections and messages remain incompletely localized."},
-    {"id":"funny-levels-and-dialog-emoji","state":"partial-source-only","implementation":"docs/index.html","documentation":"docs/features/accessibility-and-language.md","evidence":null,"limitation":"Preferences persist, but sliders do not style every message class at all levels."},
-    {"id":"local-vocabulary-file","state":"partial-source-only","implementation":"docs/index.html","documentation":"docs/features/accessibility-and-language.md","evidence":null,"limitation":"Bounded local validation and storage exist. Imported replacements are not applied to rendered copy."},
-    {"id":"theme-and-responsive-layout","state":"implemented-source-only","implementation":"docs/index.html","documentation":"design/README.md","evidence":null,"limitation":"Source includes two themes and responsive CSS. A 929-pixel browser capture exposed toolbar compression and narrow facet columns; the breakpoint repair is implemented but needs a fresh browser capture. The emulated 320-pixel page had no horizontal overflow, and visible controls met 44-pixel minimum height. Full responsive evidence remains pending."},
-    {"id":"narration","state":"partial-source-only","implementation":"docs/index.html","documentation":"docs/features/accessibility-and-language.md","evidence":null,"limitation":"Browser speech controls are present. Serialized narration, Cantonese voice confirmation, cooldowns, and assistive-technology coexistence are unverified."},
-    {"id":"notification-centre","state":"partial-source-only","implementation":"docs/index.html","documentation":"docs/features/accessibility-and-language.md","evidence":null,"limitation":"Basic local messages can be reviewed. Persistence and complete filtering controls are absent."},
-    {"id":"command-palette","state":"partial-source-only","implementation":"docs/index.html","documentation":"docs/features/accessibility-and-language.md","evidence":null,"limitation":"Keyboard shortcut and navigation list exist. The full command-palette contract is not implemented."},
-    {"id":"browser-tabs","state":"partial-source-only","implementation":"docs/index.html","documentation":"design/README.md","evidence":null,"limitation":"Four section tabs exist. Reorder, pin, group, overflow, and discovery controls are absent."},
-    {"id":"personalized-appearance","state":"partial-source-only","implementation":"docs/index.html","documentation":"design/README.md","evidence":null,"limitation":"Light and dark themes exist. Per-element editors, full color translation, typography, presets, and import/export are absent."},
-    {"id":"open-graph-card","state":"implemented-source-only","implementation":"docs/index.html","documentation":"design/README.md","evidence":"docs/evidence/field-gallery-card.svg","limitation":"The local SVG is authored but has not been inspected in a real link preview."},
-    {"id":"capture-ingestion","state":"construction-record-processed-source-only","implementation":"scripts/add-reviewed-capture.mjs","documentation":"docs/evidence/README.md","evidence":"docs/evidence/gallery.json","limitation":"The original forest image passed construction-review record intake. No final-review receipt has been processed, and no browser verification exists."},
-    {"id":"public-availability","state":"not-published","implementation":null,"documentation":"HANDOFF.md","evidence":null,"limitation":"Publication is intentionally held until mandatory page feature, accessibility, layout, and runtime evidence requirements are satisfied."},
-    {"id":"status-hub-session","state":"blocked-authentication","implementation":null,"documentation":"HANDOFF.md","evidence":null,"limitation":"The Status Hub client was available but session creation returned MISSING_INGEST_TOKEN; no status record was written."},
-    {"id":"design-tool-handoff","state":"unavailable-tool","implementation":"design/README.md","documentation":"design/README.md","evidence":null,"limitation":"No Material Designer creation or export tool was exposed in the available tools; the checked-in visual reference remains the local handoff."},
-    {"id":"school-mode","state":"not-implemented","implementation":null,"documentation":"docs/features/site-contract-coverage.md","evidence":null},
-    {"id":"scheduled-and-external-settings","state":"not-implemented","implementation":null,"documentation":"docs/features/site-contract-coverage.md","evidence":null},
-    {"id":"dim-sum-surprise","state":"not-implemented","implementation":null,"documentation":"docs/features/site-contract-coverage.md","evidence":null},
-    {"id":"destructive-action-confirmation","state":"not-implemented","implementation":null,"documentation":"docs/features/site-contract-coverage.md","evidence":null},
-    {"id":"local-history-and-changelog","state":"not-implemented","implementation":null,"documentation":"docs/features/site-contract-coverage.md","evidence":null},
-    {"id":"external-editor-integration","state":"not-implemented","implementation":null,"documentation":"docs/features/site-contract-coverage.md","evidence":null},
-    {"id":"bulk-actions-and-complete-exports","state":"not-implemented","implementation":null,"documentation":"docs/features/site-contract-coverage.md","evidence":null},
-    {"id":"toy-locks-and-unlock-ladder","state":"not-implemented","implementation":null,"documentation":"docs/features/site-contract-coverage.md","evidence":null},
-    {"id":"authenticator-and-two-factor","state":"not-implemented","implementation":null,"documentation":"docs/features/site-contract-coverage.md","evidence":null},
-    {"id":"extension-download-capture","state":"not-implemented","implementation":null,"documentation":"docs/features/site-contract-coverage.md","evidence":null},
-    {"id":"file-converter-and-local-ai-manager","state":"not-implemented","implementation":null,"documentation":"docs/features/site-contract-coverage.md","evidence":null},
-    {"id":"per-element-context-actions","state":"partial-source-only","implementation":"docs/index.html","documentation":"docs/features/site-contract-coverage.md","evidence":null,"limitation":"A basic page menu exists. Per-element search, regex builder, appearance editing, and lock workflows are absent."},
-    {"id":"accessible-touch-and-screen-reader-proof","state":"pending-evidence","implementation":"docs/index.html","documentation":"docs/features/accessibility-and-language.md","evidence":null,"limitation":"Source semantics are present in part. No runtime, screen-reader, or touch-device capture is recorded."}
+    {
+      "id": "real-capture-gallery",
+      "state": "construction-progress-source-only",
+      "implementation": "docs/index.html",
+      "documentation": "docs/evidence/README.md",
+      "evidence": "docs/evidence/gallery.json",
+      "limitation": "One genuine Edit-mode forest construction capture is reviewed and admitted as progress only. No final realism or Play-mode evidence is admitted, and there is no built-page proof."
+    },
+    {
+      "id": "truthful-empty-state",
+      "state": "implemented-source-only",
+      "implementation": "docs/index.html",
+      "documentation": "README.md",
+      "evidence": null,
+      "limitation": "No published browser capture exists."
+    },
+    {
+      "id": "search-and-regex-workbench",
+      "state": "implemented-focused-runtime",
+      "implementation": "docs/index.html",
+      "documentation": "docs/features/gallery-search.md",
+      "evidence": "docs/evidence/ui/responsive-layout.json",
+      "limitation": "Focused interaction passed on source revision 9afe0b77b628eb04bab0dc17f43bdf6776cac6c4. Responsive browser verification passed on 93abe3583cb61cb35438d3ec236835189ebf54d9 at 929×1004 and 320×800, with no horizontal overflow, unnamed interactive controls, page exceptions, console errors, failed requests, or non-success responses. See the evidence report for measurements, keyboard and touch results, and original capture hashes. The focused negative regression, screen-reader review, complete page contract, and public-page verification remain pending."
+    },
+    {
+      "id": "language-modes",
+      "state": "partial-source-only",
+      "implementation": "docs/index.html",
+      "documentation": "docs/features/accessibility-and-language.md",
+      "evidence": null,
+      "limitation": "Search, its facets, builder controls, errors, preview summaries, and empty states now have English, Cantonese, and bilingual copy. Other page sections and messages remain incompletely localized."
+    },
+    {
+      "id": "funny-levels-and-dialog-emoji",
+      "state": "partial-source-only",
+      "implementation": "docs/index.html",
+      "documentation": "docs/features/accessibility-and-language.md",
+      "evidence": null,
+      "limitation": "Preferences persist, but sliders do not style every message class at all levels."
+    },
+    {
+      "id": "local-vocabulary-file",
+      "state": "partial-source-only",
+      "implementation": "docs/index.html",
+      "documentation": "docs/features/accessibility-and-language.md",
+      "evidence": null,
+      "limitation": "Bounded local validation and storage exist. Imported replacements are not applied to rendered copy."
+    },
+    {
+      "id": "theme-and-responsive-layout",
+      "state": "partial-source-runtime-verified",
+      "implementation": "docs/index.html",
+      "documentation": "design/README.md",
+      "evidence": "docs/evidence/ui/responsive-layout.json",
+      "limitation": "Responsive search and facet layout was verified at 929×1004 and 320×800 on source 93abe3583cb61cb35438d3ec236835189ebf54d9. Both viewports had no horizontal overflow and controls met the 44-pixel minimum. Broader theme, display-scale, large-text, and full-page layout coverage remains incomplete."
+    },
+    {
+      "id": "narration",
+      "state": "partial-source-only",
+      "implementation": "docs/index.html",
+      "documentation": "docs/features/accessibility-and-language.md",
+      "evidence": null,
+      "limitation": "Browser speech controls are present. Serialized narration, Cantonese voice confirmation, cooldowns, and assistive-technology coexistence are unverified."
+    },
+    {
+      "id": "notification-centre",
+      "state": "partial-source-only",
+      "implementation": "docs/index.html",
+      "documentation": "docs/features/accessibility-and-language.md",
+      "evidence": null,
+      "limitation": "Basic local messages can be reviewed. Persistence and complete filtering controls are absent."
+    },
+    {
+      "id": "command-palette",
+      "state": "partial-source-only",
+      "implementation": "docs/index.html",
+      "documentation": "docs/features/accessibility-and-language.md",
+      "evidence": null,
+      "limitation": "Keyboard shortcut and navigation list exist. The full command-palette contract is not implemented."
+    },
+    {
+      "id": "browser-tabs",
+      "state": "partial-source-only",
+      "implementation": "docs/index.html",
+      "documentation": "design/README.md",
+      "evidence": null,
+      "limitation": "Four section tabs exist. Reorder, pin, group, overflow, and discovery controls are absent."
+    },
+    {
+      "id": "personalized-appearance",
+      "state": "partial-source-only",
+      "implementation": "docs/index.html",
+      "documentation": "design/README.md",
+      "evidence": null,
+      "limitation": "Light and dark themes exist. Per-element editors, full color translation, typography, presets, and import/export are absent."
+    },
+    {
+      "id": "open-graph-card",
+      "state": "implemented-source-only",
+      "implementation": "docs/index.html",
+      "documentation": "design/README.md",
+      "evidence": "docs/evidence/field-gallery-card.svg",
+      "limitation": "The local SVG is authored but has not been inspected in a real link preview."
+    },
+    {
+      "id": "capture-ingestion",
+      "state": "construction-record-processed-source-only",
+      "implementation": "scripts/add-reviewed-capture.mjs",
+      "documentation": "docs/evidence/README.md",
+      "evidence": "docs/evidence/gallery.json",
+      "limitation": "The original forest image passed construction-review record intake. No final-review receipt has been processed, and no browser verification exists."
+    },
+    {
+      "id": "public-availability",
+      "state": "not-published",
+      "implementation": null,
+      "documentation": "HANDOFF.md",
+      "evidence": null,
+      "limitation": "Publication is intentionally held until mandatory page feature, accessibility, layout, and runtime evidence requirements are satisfied."
+    },
+    {
+      "id": "status-hub-session",
+      "state": "blocked-authentication",
+      "implementation": null,
+      "documentation": "HANDOFF.md",
+      "evidence": null,
+      "limitation": "The Status Hub client was available but session creation returned MISSING_INGEST_TOKEN; no status record was written."
+    },
+    {
+      "id": "design-tool-handoff",
+      "state": "unavailable-tool",
+      "implementation": "design/README.md",
+      "documentation": "design/README.md",
+      "evidence": null,
+      "limitation": "No Material Designer creation or export tool was exposed in the available tools; the checked-in visual reference remains the local handoff."
+    },
+    {
+      "id": "school-mode",
+      "state": "not-implemented",
+      "implementation": null,
+      "documentation": "docs/features/site-contract-coverage.md",
+      "evidence": null
+    },
+    {
+      "id": "scheduled-and-external-settings",
+      "state": "not-implemented",
+      "implementation": null,
+      "documentation": "docs/features/site-contract-coverage.md",
+      "evidence": null
+    },
+    {
+      "id": "dim-sum-surprise",
+      "state": "not-implemented",
+      "implementation": null,
+      "documentation": "docs/features/site-contract-coverage.md",
+      "evidence": null
+    },
+    {
+      "id": "destructive-action-confirmation",
+      "state": "not-implemented",
+      "implementation": null,
+      "documentation": "docs/features/site-contract-coverage.md",
+      "evidence": null
+    },
+    {
+      "id": "local-history-and-changelog",
+      "state": "not-implemented",
+      "implementation": null,
+      "documentation": "docs/features/site-contract-coverage.md",
+      "evidence": null
+    },
+    {
+      "id": "external-editor-integration",
+      "state": "not-implemented",
+      "implementation": null,
+      "documentation": "docs/features/site-contract-coverage.md",
+      "evidence": null
+    },
+    {
+      "id": "bulk-actions-and-complete-exports",
+      "state": "not-implemented",
+      "implementation": null,
+      "documentation": "docs/features/site-contract-coverage.md",
+      "evidence": null
+    },
+    {
+      "id": "toy-locks-and-unlock-ladder",
+      "state": "not-implemented",
+      "implementation": null,
+      "documentation": "docs/features/site-contract-coverage.md",
+      "evidence": null
+    },
+    {
+      "id": "authenticator-and-two-factor",
+      "state": "not-implemented",
+      "implementation": null,
+      "documentation": "docs/features/site-contract-coverage.md",
+      "evidence": null
+    },
+    {
+      "id": "extension-download-capture",
+      "state": "not-implemented",
+      "implementation": null,
+      "documentation": "docs/features/site-contract-coverage.md",
+      "evidence": null
+    },
+    {
+      "id": "file-converter-and-local-ai-manager",
+      "state": "not-implemented",
+      "implementation": null,
+      "documentation": "docs/features/site-contract-coverage.md",
+      "evidence": null
+    },
+    {
+      "id": "per-element-context-actions",
+      "state": "partial-source-only",
+      "implementation": "docs/index.html",
+      "documentation": "docs/features/site-contract-coverage.md",
+      "evidence": null,
+      "limitation": "A basic page menu exists. Per-element search, regex builder, appearance editing, and lock workflows are absent."
+    },
+    {
+      "id": "accessible-touch-and-screen-reader-proof",
+      "state": "pending-evidence",
+      "implementation": "docs/index.html",
+      "documentation": "docs/features/accessibility-and-language.md",
+      "evidence": null,
+      "limitation": "Source semantics are present in part. No runtime, screen-reader, or touch-device capture is recorded."
+    }
   ]
 }

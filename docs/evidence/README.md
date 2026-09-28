@@ -23,6 +23,10 @@ Original captures stay unchanged. Review image pixels, captions, metadata, and f
 
 The gallery currently contains one edit-mode forest construction image. It is labeled as construction progress and does not prove final realism or Play behavior. The cave image is withheld because the capture shows a supplied door whose distribution permission is unverified. The gallery does not claim that withheld image is available.
 
+## Interface verification
+
+Browser captures under `ui/` document the gallery's own responsive layout and interaction states. They are not game-world evidence and do not add records to the gallery inventory. The responsive report binds each image to the source revision and includes viewport measurements, accessibility-tree checks, and resource results. A public deployment has not been verified.
+
 ## Adding a reviewed batch
 
 Use `node scripts/add-reviewed-capture.mjs --image <original-image> --receipt <validated-receipt.json>` for final-review captures. For accepted Edit-mode construction records, use `node scripts/add-reviewed-capture.mjs --image <original-image> --construction-record <review-record.json>`. The construction record requires explicit limitations, privacy review, rights review, source revision, original file hash, and source dimensions. Its manifest entry has `receiptValidated: false` and cannot be mistaken for final evidence. The utility copies original bytes without image editing and rejects diagnostic class names, failed reviews, duplicate capture IDs, unsupported formats, invalid dates, and unsafe paths. It never guesses a timestamp. Inspect image pixels and metadata before invoking it; the utility cannot judge whether the content is safe or realistic.

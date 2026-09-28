@@ -8,12 +8,12 @@
 - [x] Review and admit the forest ascent original as construction progress with a bounded review record; final-review receipt remains unavailable.
 - [ ] Review and admit only additional approved captures with their original bytes and honest provenance; the cave capture remains withheld.
 - [x] Implement record-derived capture-type, location, and stage filters with plain-text-first search, explicit regex application, validation refusal, and match preview.
-- [ ] Complete runtime verification and the focused negative regression. A focused browser run on `9afe0b77b628eb04bab0dc17f43bdf6776cac6c4` passed search, regex preview/refusal, language switching, facet state, and keyboard open/close. The 320 CSS-pixel overflow probe passed; the 929-pixel browser capture exposed a compressed search field and narrow facet columns. A breakpoint repair is implemented but not yet verified.
+- [ ] Complete the focused negative regression and remaining page verification. Browser interaction and responsive checks passed on source `93abe3583cb61cb35438d3ec236835189ebf54d9`; the responsive report records the 929×1004 and 320×800 captures, no overflow, 44-pixel controls, keyboard and touch behavior, accessible-name scan, and resource checks. Screen-reader review, the full page contract, and public availability remain incomplete.
 - [ ] Publish the public gallery and verify its page and every image URL.
 
 ## Verification
 
-- [ ] Inspect the repaired built page at 929px and 320 CSS pixels using the approved capture route.
+- [x] Inspect the built page at 929×1004 and 320×800 using the approved capture route; bind the captures and measurements in `docs/evidence/ui/responsive-layout.json`.
 - [ ] Exercise the actual gallery with reviewed capture entries.
 - [ ] Verify public access and image hashes after publication.
 
