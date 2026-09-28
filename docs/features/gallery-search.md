@@ -6,7 +6,7 @@ The verified source currently has one construction-progress record. Facet values
 
 ## Failure modes and privacy
 
-Invalid expressions and unsupported flags are shown inline and never applied. Patterns are limited to 128 characters, test text to 512 characters, and repeated ambiguous groups or quantified alternatives are refused before matching. This risk screen is bounded and does not prove all JavaScript expressions safe. Image captions and metadata are treated as text. The gallery does not render remote URLs as images. Each image is verified against its recorded SHA-256 before it can be displayed.
+Invalid expressions and unsupported flags are shown inline and never applied. Patterns are limited to 128 characters, test text to 512 characters, and repeated ambiguous groups or quantified alternatives are refused before matching. This risk screen is bounded and does not prove all JavaScript expressions safe. Image captions and metadata are treated as text. Image paths must match the local evidence-image filename format and resolve relative to the evidence manifest; remote URLs and traversal paths are rejected. Each image is verified against its recorded SHA-256 before it can be displayed.
 
 All search labels, facet legends and choices, builder actions, errors, mode notices, empty states, and preview summaries support English, Cantonese, and bilingual copy. Filter chips and builder actions use native buttons with visible keyboard focus and at least 44-pixel targets. At narrow widths the facet groups stack and the anchored builder becomes an inline panel under its search field.
 
