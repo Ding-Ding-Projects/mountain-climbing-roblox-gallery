@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordType": "gallery-review-record",
+  "captureClass": "construction-progress",
+  "captureId": "summit-approach-eye-005",
+  "sourceRevision": "c279302487145c124fff1c7cb98f192a902f4e8c",
+  "sourcePath": "evidence/world/summit-terrain-native-006.md",
+  "state": "Roblox Studio Edit-mode view along the measured summit approach",
+  "title": "Summit approach under construction",
+  "caption": "A daylight view along a measured section of the summit approach. This partial route remains under construction; the image does not establish complete traversal, final terrain quality, or Play mode acceptance.",
+  "alt": "Edit-mode view up a narrow rocky mountain approach with timber treads, metal rails, trail beacons, and a distant rest structure beneath a bright sky.",
+  "location": "Summit ridge",
+  "activity": "Route construction review",
+  "stage": "In progress",
+  "method": "Roblox Studio MCP",
+  "captureMode": "Edit",
+  "viewport": {
+    "width": 1264,
+    "height": 830
+  },
+  "scale": null,
+  "theme": "not-applicable",
+  "capturedAt": null,
+  "imageSha256": "e3df6d1a925093e5e36ba8add1f55f003bdb824670b970b5da88b1c2b6efd205",
+  "limitations": [
+    "This image shows an in-progress scene and is not final realism evidence.",
+    "This is a partial route view and does not prove full-route traversal or collision.",
+    "This image is an Edit-mode view and is not Play mode proof."
+  ],
+  "privacyReview": {
+    "reviewer": "Gallery review",
+    "summary": "Pixels, embedded metadata, and the source filename were reviewed. No personal account or unrelated desktop content is visible.",
+    "metadataReviewed": true,
+    "filenameReviewed": true,
+    "result": "passed",
+    "pixelsReviewed": true
+  },
+  "rightsReview": {
+    "basis": "The frame shows project-built native Terrain, tread, rail, and beacon geometry. No identifiable supplied model, personal data, or avatar is visible.",
+    "result": "passed"
+  },
+  "metadataReview": {
+    "result": "passed",
+    "summary": "The original JPEG contains JFIF metadata only. EXIF is empty; there are no comments or embedded profile. Capture time and timezone were unavailable."
+  }
+}

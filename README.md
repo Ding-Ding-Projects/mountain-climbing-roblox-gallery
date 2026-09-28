@@ -12,7 +12,7 @@ Each image record includes a content SHA-256, source state, viewport, capture me
 
 ## Current status
 
-The published gallery includes two Edit-mode construction images, one of the forest ascent and one of supported summit aircraft stairs. Neither proves final terrain quality, boarding, or Play behavior. A cave construction image remains withheld pending complete pixel, metadata, caption, and distribution review; permission for the two supplied door types alone does not establish that this capture is ready. See [ROADMAP.md](ROADMAP.md) and [HANDOFF.md](HANDOFF.md) for the current implementation state and evidence still needed.
+The gallery source now contains four construction images: the forest ascent, supported summit aircraft stairs, a partial daytime summit approach, and a short night-lit trailhead segment. The new route images are original Edit-mode captures and are labeled as unfinished progress; they do not establish complete traversal, final realism, collision, or full-route night lighting. The last verified hosted revision still contains the earlier two images. A cave construction image remains withheld pending complete pixel, metadata, caption, and distribution review; permission for the two supplied door types alone does not establish that this capture is ready. See [ROADMAP.md](ROADMAP.md) and [HANDOFF.md](HANDOFF.md) for the current implementation state and evidence still needed.
 
 ## Responsive browser evidence
 

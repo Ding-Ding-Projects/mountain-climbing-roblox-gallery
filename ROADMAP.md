@@ -7,6 +7,7 @@
 - [x] Add design references, evidence rules, and a hand-written feature inventory.
 - [x] Review and admit the forest ascent original as construction progress with a bounded review record; final-review receipt remains unavailable.
 - [x] Review and admit the original summit aircraft stair image as Edit-mode construction progress with byte-identical source, rights and metadata review, and a public SHA-256 readback.
+- [x] Review and admit one partial daytime summit approach and one short night-lit trailhead segment as Edit-mode construction progress with unchanged JPEG bytes, bounded privacy and rights records, and no captured-time claims; full route traversal and nighttime continuity remain unverified.
 - [ ] Review and admit only further approved captures with their original bytes and honest provenance; the cave capture remains withheld.
 - [x] Implement record-derived capture-type, location, and stage filters with plain-text-first search, explicit regex application, validation refusal, and match preview.
 - [ ] Complete the focused negative regression and remaining page verification.

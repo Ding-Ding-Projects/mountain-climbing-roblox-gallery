@@ -2,7 +2,7 @@
 
 The gallery defaults to plain-text title, caption, location, activity, stage, and capture-type search. Three facet groups are generated from the verified records, so their choices never claim values absent from the current inventory. Search results combine the text query with every selected facet. The adjacent builder opens beside the field and switches to regex only when a valid pattern is explicitly applied. In regex mode, the main search field and builder pattern stay synchronized. Invalid patterns refuse application and return no stale matches. The test-text preview shows match counts, replacement output, elapsed time, and the current gallery records matched. Search and filtering run locally. No query or preference is sent to a server.
 
-The verified source currently has two construction-progress records. Facet values are derived from verified records, not sample content. A pattern that matches nothing reports an empty result instead of showing sample material. Start, end, and word-boundary controls insert anchors at the caret; the literal action escapes the current search text before testing it.
+The source manifest contains four construction-progress records; the last verified hosted revision contains two. Facet values are derived from reviewed records, not sample content. A pattern that matches nothing reports an empty result instead of showing sample material. Start, end, and word-boundary controls insert anchors at the caret; the literal action escapes the current search text before testing it.
 
 ## Failure modes and privacy
 

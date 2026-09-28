@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordType": "gallery-review-record",
+  "captureClass": "construction-progress",
+  "captureId": "trail-lantern-night-001",
+  "sourceRevision": "2e8c494fc82240625bcea843786dd7a1501c0712",
+  "sourcePath": "evidence/world/CONSTRUCTION_STATE.md",
+  "state": "Roblox Studio Edit-mode eye-height view at midnight along the first trail-lighting segment",
+  "title": "First trail lantern segment at night",
+  "caption": "Several handmade lanterns illuminate a short section near the trailhead. Nearby tree geometry covers part of the right side of the frame; full-route night continuity and runtime behavior are not established.",
+  "alt": "A bright trailhead path at night with a wooden lantern close in the foreground and several smaller lights along the grassy route; nearby tree geometry blocks part of the right side.",
+  "location": "Trailhead forest",
+  "activity": "Route lighting review",
+  "stage": "In progress",
+  "method": "Roblox Studio MCP",
+  "captureMode": "Edit",
+  "viewport": {
+    "height": 830,
+    "width": 1264
+  },
+  "scale": null,
+  "theme": "not-applicable",
+  "capturedAt": null,
+  "imageSha256": "d82bf43847dc5699ab4511f26c7a68db537e1be08443bfcf913c9bd8eb867032",
+  "limitations": [
+    "This image shows an in-progress scene and is not final realism evidence.",
+    "The capture shows only the first route-lighting segment and does not establish full nighttime continuity.",
+    "A nearby tree obscures part of the right side; the image is an Edit-mode view and is not Play mode proof."
+  ],
+  "privacyReview": {
+    "summary": "Pixels, embedded metadata, and the source filename were reviewed. No personal account or unrelated desktop content is visible.",
+    "result": "passed",
+    "metadataReviewed": true,
+    "filenameReviewed": true,
+    "pixelsReviewed": true,
+    "reviewer": "Gallery review"
+  },
+  "rightsReview": {
+    "basis": "The lanterns are assembled from project-authored native parts. The adjacent foliage is the project original generated spruce asset documented in FOREST_CONSTRUCTION.md. No identifiable supplied catalogue model or external branding is visible.",
+    "result": "passed"
+  },
+  "metadataReview": {
+    "summary": "The original JPEG contains JFIF metadata only. EXIF is empty; there are no comments or embedded profile. Capture time and timezone were unavailable.",
+    "result": "passed"
+  }
+}
