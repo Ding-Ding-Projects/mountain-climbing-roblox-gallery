@@ -4,6 +4,8 @@
 
 The public gallery repository was empty at task start. A static gallery surface, design reference, evidence rules, and a hand-written completeness inventory have been added. The live capture list is empty because no verified Roblox screenshots or capture receipts have been delivered to this lane.
 
+The public page has not been deployed. The source inventory records incomplete cross-project page features, source-only UI states, and the missing runtime evidence. This handoff is a source preparation milestone, not completion of the public gallery.
+
 ## Remaining work
 
 1. Receive real Studio captures and provenance receipts from the world-building lane.
