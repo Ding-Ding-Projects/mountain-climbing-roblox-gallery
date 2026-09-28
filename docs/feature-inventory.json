@@ -21,11 +21,11 @@
     },
     {
       "id": "search-and-regex-workbench",
-      "state": "implemented-focused-runtime",
+      "state": "previously-runtime-verified-current-source-unverified",
       "implementation": "docs/index.html",
       "documentation": "docs/features/gallery-search.md",
       "evidence": "docs/evidence/ui/responsive-layout.json",
-      "limitation": "Focused interaction passed on source revision 9afe0b77b628eb04bab0dc17f43bdf6776cac6c4. Responsive browser verification passed on 93abe3583cb61cb35438d3ec236835189ebf54d9 at 929×1004 and 320×800, with no horizontal overflow, unnamed interactive controls, page exceptions, console errors, failed requests, or non-success responses. See the evidence report for measurements, keyboard and touch results, and original capture hashes. The focused negative regression, screen-reader review, complete page contract, and public-page verification remain pending."
+      "limitation": "The gallery search behavior previously passed focused interaction on source 9afe0b77b628eb04bab0dc17f43bdf6776cac6c4 and responsive checks on 93abe3583cb61cb35438d3ec236835189ebf54d9. The current docs/index.html has since changed for settings and command-palette search; those older browser receipts do not verify the current file. Current syntax, identifier, label, and localized-key checks pass. Current built-page interaction, negative regression, full page contract, and public verification remain unrun."
     },
     {
       "id": "language-modes",
@@ -33,7 +33,7 @@
       "implementation": "docs/index.html",
       "documentation": "docs/features/accessibility-and-language.md",
       "evidence": null,
-      "limitation": "Search, its facets, builder controls, errors, preview summaries, and empty states now have English, Cantonese, and bilingual copy. Other page sections and messages remain incompletely localized."
+      "limitation": "Gallery search, its facets and builder, plus settings and command-palette search labels, result text, validation statuses, previews, and empty states now have English, Cantonese, and bilingual copy. Other page sections and messages remain incompletely localized; the new settings and palette copy has source checks but no current built-page evidence."
     },
     {
       "id": "funny-levels-and-dialog-emoji",
@@ -81,7 +81,7 @@
       "implementation": "docs/index.html",
       "documentation": "docs/features/accessibility-and-language.md",
       "evidence": null,
-      "limitation": "Keyboard shortcut and navigation list exist. The full command-palette contract is not implemented."
+      "limitation": "Keyboard shortcut and section navigation remain. Searchable indexed settings and section results, local wording-file controls, plain-text-first matching, and a separate bounded regex builder are now present in source. The new controls lack current built-page interaction, accessibility, responsive, and capture evidence; the full command-palette contract remains incomplete."
     },
     {
       "id": "browser-tabs",
@@ -231,6 +231,14 @@
       "documentation": "docs/features/accessibility-and-language.md",
       "evidence": null,
       "limitation": "Source semantics are present in part. No runtime, screen-reader, or touch-device capture is recorded."
+    },
+    {
+      "id": "settings-and-command-palette-search",
+      "state": "implemented-source-only-runtime-unverified",
+      "implementation": "docs/index.html",
+      "documentation": "docs/features/settings-search.md",
+      "evidence": null,
+      "limitation": "Separate settings and command-palette indexes, local plain-text-first search, anchored-regex controls, bounded pattern preview, invalid-pattern refusal, English/Cantonese/bilingual labels, keyboard-operable result buttons, and local file-control navigation are implemented in source. Inline JavaScript syntax, duplicate-id, label-target, literal-selector, localized-key, and five regex assertions pass. The approved isolated browser route is unavailable in this task environment, so current runtime behavior, accessible tree, 320-pixel layout, and capture evidence remain unverified."
     }
   ]
 }
