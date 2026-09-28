@@ -4,7 +4,7 @@ This public gallery holds images captured from the real Roblox experience after 
 
 ## Open the gallery
 
-Open the [public gallery](https://ding-ding-projects.github.io/mountain-climbing-roblox-gallery/). Its page, capture manifest, and one reviewed image returned unauthenticated HTTP 200 responses, and the image bytes matched the manifest SHA-256. The [publication receipt](docs/evidence/live-publication.json) records the source revision, checks, and limitations. The page uses no remote scripts, fonts, images, analytics, or runtime services.
+Open the [public gallery](https://ding-ding-projects.github.io/mountain-climbing-roblox-gallery/). Its page, capture manifest, and both reviewed images returned unauthenticated HTTP 200 responses, and each downloaded image matched its manifest SHA-256. The [current publication receipt](docs/evidence/live-publication-002.json) records the source revision, checks, and limitations; the [earlier receipt](docs/evidence/live-publication.json) remains available. The page uses no remote scripts, fonts, images, analytics, or runtime services.
 
 ## Evidence policy
 
@@ -12,7 +12,7 @@ Each image record includes a content SHA-256, source state, viewport, capture me
 
 ## Current status
 
-The published gallery includes one Edit-mode forest construction image. It does not prove final terrain quality or Play behavior. A cave construction image remains withheld pending complete pixel, metadata, caption, and distribution review; permission for the two supplied door types alone does not establish that this capture is ready. See [ROADMAP.md](ROADMAP.md) and [HANDOFF.md](HANDOFF.md) for the current implementation state and evidence still needed.
+The published gallery includes two Edit-mode construction images, one of the forest ascent and one of supported summit aircraft stairs. Neither proves final terrain quality, boarding, or Play behavior. A cave construction image remains withheld pending complete pixel, metadata, caption, and distribution review; permission for the two supplied door types alone does not establish that this capture is ready. See [ROADMAP.md](ROADMAP.md) and [HANDOFF.md](HANDOFF.md) for the current implementation state and evidence still needed.
 
 ## Responsive browser evidence
 

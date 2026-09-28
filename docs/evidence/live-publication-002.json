@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-09-28T18:58:18Z",
+  "sourceRevision": "eda2f85dfbfc12b6dfc49e055afa1723b430e43c",
+  "hosting": {
+    "repositoryVisibility": "public",
+    "pagesStatus": "built",
+    "sourceBranch": "main",
+    "sourcePath": "/docs",
+    "url": "https://ding-ding-projects.github.io/mountain-climbing-roblox-gallery/"
+  },
+  "http": {
+    "page": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "byteLength": 75588,
+      "title": "Mountain Climbing | Field Gallery"
+    },
+    "manifest": {
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "byteLength": 4133,
+      "imageRecordCount": 2
+    },
+    "images": [
+      {
+        "captureId": "forest-ascent-overview-001",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 237085,
+        "sha256": "85ca212afb63a2eaa334b58cffec07cb37677aec1acb4ed06985d9e74439fa59",
+        "manifestHashMatched": true
+      },
+      {
+        "captureId": "summit-aircraft-stairs-001",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 232779,
+        "sha256": "555317609645527743b266845d4fb0e19d3b73fc5447621cec07d4e0195be402",
+        "manifestHashMatched": true
+      }
+    ]
+  },
+  "limitations": [
+    "Direct public HTTP delivery and image bytes were checked against the gallery manifest.",
+    "Both captures document Roblox Studio Edit-mode construction only.",
+    "Current browser interaction, accessibility tree, responsive layout, and visual capture were not verified because the required isolated browser-control route was unavailable."
+  ]
+}

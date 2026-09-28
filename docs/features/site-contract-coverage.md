@@ -10,7 +10,7 @@ The current source adds separate plain-text-first settings and command-palette s
 
 ## Why this handoff is explicit
 
-This repository lane prepares a focused capture-gallery source and provenance pipeline. One genuine Studio Edit-mode image is admitted as construction progress only; it is not final realism or Play evidence. The public gallery remains unpublished until the mandatory page requirements, built-page verification, and public access checks are satisfied.
+This repository lane provides a focused capture gallery and provenance pipeline. Two genuine Studio Edit-mode images are published as construction progress only; neither is final realism or Play evidence. The public page and both image URLs have direct HTTP and SHA-256 proof at the source revision in `../evidence/live-publication-002.json`. The mandatory current built-page interaction, accessibility, responsive, and capture checks remain unfinished, along with broader interface requirements.
 
 ## Suggested articles
 
