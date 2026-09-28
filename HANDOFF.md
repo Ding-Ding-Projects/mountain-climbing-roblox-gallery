@@ -10,8 +10,6 @@ Other inspected candidates were excluded: `summit-terrain-overview-001.jpg`, `su
 
 This capture update has not been rebuilt, browser-checked, or verified on the hosted page. The source records do not claim that the new images are publicly live.
 
-This capture update has not been rebuilt, browser-checked, or verified on the hosted page. The source records do not claim that the new images are publicly live.
-
 The public gallery repository was empty at task start. A static gallery surface, design reference, evidence rules, and a hand-written completeness inventory have been added. Two images, forest ascent and supported summit aircraft stairs, have been reviewed as Edit-mode construction progress with source revision and image SHA-256 provenance. Neither is final realism evidence or Play proof. A cave construction image remains withheld pending direct review of its pixels, metadata, caption, and distribution terms. The owner authorized both supplied door types, but that permission alone does not establish that this specific capture is ready for publication.
 
 The public page is deployed at https://ding-ding-projects.github.io/mountain-climbing-roblox-gallery/ from `main`. On 2026-09-28 at 18:58 UTC, direct unauthenticated HTTP checks returned 200 for the page, capture manifest, and both reviewed images. Each downloaded image SHA-256 matched its manifest record. `docs/evidence/live-publication-002.json` binds the exact source revision, responses, and limitations; `docs/evidence/live-publication.json` retains the earlier one-image proof. The source inventory still records incomplete page features and missing current browser interaction evidence; public delivery does not complete the gallery contract.
