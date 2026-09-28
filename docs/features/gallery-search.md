@@ -2,7 +2,7 @@
 
 The gallery defaults to plain-text title, caption, location, activity, stage, and capture-type search. Three facet groups are generated from the verified records, so their choices never claim values absent from the current inventory. Search results combine the text query with every selected facet. The adjacent builder opens beside the field and switches to regex only when a valid pattern is explicitly applied. In regex mode, the main search field and builder pattern stay synchronized. Invalid patterns refuse application and return no stale matches. The test-text preview shows match counts, replacement output, elapsed time, and the current gallery records matched. Search and filtering run locally. No query or preference is sent to a server.
 
-The source manifest contains four construction-progress records; the last verified hosted revision contains two. Facet values are derived from reviewed records, not sample content. A pattern that matches nothing reports an empty result instead of showing sample material. Start, end, and word-boundary controls insert anchors at the caret; the literal action escapes the current search text before testing it.
+The source manifest and latest verified hosted revision each contain four construction-progress records. Facet values are derived from reviewed records, not sample content. A pattern that matches nothing reports an empty result instead of showing sample material. Start, end, and word-boundary controls insert anchors at the caret; the literal action escapes the current search text before testing it.
 
 ## Failure modes and privacy
 
@@ -16,7 +16,7 @@ The current source includes record-derived type, location, and stage facets; pla
 
 The responsive repair was verified against source revision `93abe3583cb61cb35438d3ec236835189ebf54d9`. At a 929×1004 browser window, the measured CSS viewport was 885×900 after browser chrome and scrollbars; the search field measured 560.92 CSS pixels and each of three facet columns measured 261.91 pixels. At a 320×800 emulated touch viewport, the search field measured 292.81 pixels and each facet measured 288.81 pixels. Neither viewport had horizontal overflow. Visible controls met the 44-pixel minimum. Enter opens the pattern builder and moves focus into it; Escape closes it and restores focus. A touch selection updates the location filter. The accessibility tree contained no unnamed interactive controls in either viewport. The desktop and mobile checks reported no page exceptions, console errors, failed requests, or non-success responses. See [the measured report](../evidence/ui/responsive-layout.json) and its original captures.
 
-The focused negative regression, full cross-feature accessibility contract, screen-reader testing, and current hosted-browser interaction verification remain pending. Public HTTP delivery and both image hashes are recorded separately in `../evidence/live-publication-002.json`; those responses do not prove the current rendered search controls.
+The focused negative regression, full cross-feature accessibility contract, screen-reader testing, and current hosted-browser interaction verification remain pending. Public HTTP delivery and all four image hashes are recorded separately in `../evidence/live-publication-004.json`; those responses do not prove the current rendered search controls.
 
 ## Suggested articles
 

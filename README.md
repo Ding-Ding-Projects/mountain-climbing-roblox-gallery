@@ -4,7 +4,7 @@ This public gallery holds images captured from the real Roblox experience after 
 
 ## Open the gallery
 
-Open the [public gallery](https://ding-ding-projects.github.io/mountain-climbing-roblox-gallery/). Its page, capture manifest, and both reviewed images returned unauthenticated HTTP 200 responses, and each downloaded image matched its manifest SHA-256. The [current publication receipt](docs/evidence/live-publication-002.json) records the source revision, checks, and limitations; the [earlier receipt](docs/evidence/live-publication.json) remains available. The page uses no remote scripts, fonts, images, analytics, or runtime services.
+Open the [public gallery](https://ding-ding-projects.github.io/mountain-climbing-roblox-gallery/). Its page, four-record capture manifest, and all four reviewed images returned unauthenticated HTTP 200 responses; every image matched its manifest SHA-256. The latest four-image publication receipt is [live-publication-004](docs/evidence/live-publication-004.json), bound to `main` at `08f3effa734a473e6114df847b8a6a17440de055`. Earlier receipts remain available. The page uses no remote scripts, fonts, images, analytics, or runtime services.
 
 ## Evidence policy
 
@@ -12,7 +12,7 @@ Each image record includes a content SHA-256, source state, viewport, capture me
 
 ## Current status
 
-The gallery source now contains four construction images: the forest ascent, supported summit aircraft stairs, a partial daytime summit approach, and a short night-lit trailhead segment. The new route images are original Edit-mode captures and are labeled as unfinished progress; they do not establish complete traversal, final realism, collision, or full-route night lighting. The last verified hosted revision still contains the earlier two images. A cave construction image remains withheld pending complete pixel, metadata, caption, and distribution review; permission for the two supplied door types alone does not establish that this capture is ready. See [ROADMAP.md](ROADMAP.md) and [HANDOFF.md](HANDOFF.md) for the current implementation state and evidence still needed.
+The gallery source and latest verified hosted manifest contain four construction images: the forest ascent, supported summit aircraft stairs, a partial daytime summit approach, and a short night-lit trailhead segment. The new route images are original Edit-mode captures and are labeled as unfinished progress; they do not establish complete traversal, final realism, collision, or full-route night lighting. A cave construction image remains withheld pending complete pixel, metadata, caption, and distribution review; permission for the two supplied door types alone does not establish that this capture is ready. See [ROADMAP.md](ROADMAP.md) and [HANDOFF.md](HANDOFF.md) for the current implementation state and evidence still needed.
 
 ## Responsive browser evidence
 

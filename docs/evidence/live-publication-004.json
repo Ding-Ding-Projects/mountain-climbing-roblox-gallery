@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-09-28T19:58:04Z",
+  "sourceRevision": "08f3effa734a473e6114df847b8a6a17440de055",
+  "hosting": {
+    "repositoryVisibility": "public",
+    "pagesStatus": "built",
+    "pagesBuiltAt": "2026-09-28T19:56:01Z",
+    "sourceBranch": "main",
+    "sourcePath": "/docs",
+    "url": "https://ding-ding-projects.github.io/mountain-climbing-roblox-gallery/"
+  },
+  "http": {
+    "page": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "byteLength": 75588,
+      "sha256": "f8f0464b65c3578b92df2b9cb2589464136a9ce871b59e9189c6cd85ed136b27",
+      "title": "Mountain Climbing | Field Gallery"
+    },
+    "manifest": {
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "byteLength": 8480,
+      "sha256": "d9411b932134d32537d5821033c3a5461c42a82996a744735a4e769b600e2f3b",
+      "imageRecordCount": 4
+    },
+    "images": [
+      {
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 237085,
+        "manifestHashMatched": true,
+        "sha256": "85ca212afb63a2eaa334b58cffec07cb37677aec1acb4ed06985d9e74439fa59",
+        "captureId": "forest-ascent-overview-001"
+      },
+      {
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 232779,
+        "manifestHashMatched": true,
+        "sha256": "555317609645527743b266845d4fb0e19d3b73fc5447621cec07d4e0195be402",
+        "captureId": "summit-aircraft-stairs-001"
+      },
+      {
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 234294,
+        "manifestHashMatched": true,
+        "sha256": "e3df6d1a925093e5e36ba8add1f55f003bdb824670b970b5da88b1c2b6efd205",
+        "captureId": "summit-approach-eye-005"
+      },
+      {
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 403121,
+        "manifestHashMatched": true,
+        "sha256": "d82bf43847dc5699ab4511f26c7a68db537e1be08443bfcf913c9bd8eb867032",
+        "captureId": "trail-lantern-night-001"
+      }
+    ]
+  },
+  "limitations": [
+    "Direct unauthenticated HTTP responses and all four original image byte streams were verified against the manifest at the recorded source revision.",
+    "All four images document construction progress only. They do not establish final realism, complete route traversal, full-route nighttime continuity, collision, or Play behavior.",
+    "Current browser interaction, accessibility tree, responsive layout, and a visual browser capture were not verified by this receipt.",
+    "Capture timestamps, timezones, and display scale remain unavailable where the source records mark them unavailable."
+  ]
+}
