@@ -12,7 +12,7 @@ All search labels, facet legends and choices, builder actions, errors, mode noti
 
 ## Verification
 
-The current source includes record-derived type, location, and stage facets; plain-text-first filtering; explicit regex opt-in; synchronized query and pattern fields; validation refusal; sample and gallery match previews; anchor insertion; literal escaping; bilingual/bilingual-mode strings; keyboard-focus restoration; and image-hash verification. Browser/runtime interaction, accessibility, 320-pixel layout, and published-page evidence remain pending.
+The current source includes record-derived type, location, and stage facets; plain-text-first filtering; explicit regex opt-in; synchronized query and pattern fields; validation refusal; sample and gallery match previews; anchor insertion; literal escaping; bilingual/bilingual-mode strings; keyboard-focus restoration; and image-hash verification. Focused browser/runtime interaction passed on source revision `9afe0b77b628eb04bab0dc17f43bdf6776cac6c4`: plain-text match and empty state, invalid-pattern refusal, preview before Apply, valid application, return to plain text, Cantonese and bilingual copy, facet state and focus, and Enter/Escape builder operation. The emulated 320-pixel page had no horizontal overflow; visible tested search, facet, and builder controls were at least 44 pixels high. A genuine 929×1004 Lowlevel capture exposed a compressed search field and overly narrow facet columns. A breakpoint repair is in the current source but has not yet been re-captured. A complete unnamed-control scan, negative regression, and public-page evidence remain pending.
 
 ## Suggested articles
 
