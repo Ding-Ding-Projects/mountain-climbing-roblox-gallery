@@ -2,9 +2,9 @@
 
 ## Version 80 and Bakery progress, 2026-09-29
 
-Version 80 preservation is recorded, and Bakery circulation and supports have been revised in source. Native Play has resumed. The interior pilot and full door acceptance remain in progress. No new reviewed interior imagery has been added. Exact earlier timeouts and current technical readings are retained in the [progress evidence](docs/evidence/progress-version80-20260929.json). The four existing reviewed gallery images are unchanged.
+Version 80 preservation is recorded, and Bakery walking routes and structural supports have been revised in source. Bounded Play checks passed on the original Bakery door controller, including entry, return, and a hold-open case. Studio is back in Edit mode. The interior pilot and full door acceptance remain in progress. No new reviewed interior imagery has been added. Detailed test observations and the rejected interior transaction are recorded in the [progress evidence](docs/evidence/progress-version80-20260929.json). The four existing reviewed gallery images are unchanged.
 
-**廣東話：** Version 80 保留工作已有記錄，Bakery 流通系統同支撐結構已在源碼修訂。遊戲內 Play 已恢復。室內試行同完整門口驗收仍在進行。暫無新增已審核的室內圖片。先前超時紀錄同目前技術讀數保存在[進度證據](docs/evidence/progress-version80-20260929.json)。現有四張已審核畫廊圖片保持不變。
+**廣東話：** Version 80 保留工作已有記錄，Bakery 步行路線同結構支撐已在源碼修訂。原有 Bakery 門口控制器的有限 Play 檢查已完成，涵蓋進入、返回同暫時保持門開啟。Studio 已返回 Edit 模式。室內試行同完整門口驗收仍在進行。暫無新增已審核的室內圖片。詳細測試觀察同新室內更新被拒的原因記錄於[進度證據](docs/evidence/progress-version80-20260929.json)。現有四張已審核畫廊圖片保持不變。
 
 ## Current state
 

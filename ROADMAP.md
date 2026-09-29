@@ -2,7 +2,7 @@
 
 ## Gallery foundation
 
-- [x] Record version 80 preservation and revised Bakery circulation/supports. Native Play has resumed; the interior pilot and full door acceptance remain in progress, with no new reviewed interior imagery added. Exact timeout history and technical readings are in `docs/evidence/progress-version80-20260929.json`.
+- [x] Record version 80 preservation and revised Bakery walking routes and structural supports. Bounded Play checks passed on the original Bakery door controller; the interior pilot and full door acceptance remain in progress, with no new reviewed interior imagery added. Detailed evidence is in `docs/evidence/progress-version80-20260929.json`.
 - [x] Add a responsive static gallery shell with a truthful no-capture state.
 - [x] Add local visitor preferences, accessible navigation, gallery search, and a search-pattern workbench.
 - [x] Add design references, evidence rules, and a hand-written feature inventory.
