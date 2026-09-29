@@ -12,6 +12,10 @@ Each image record includes a content SHA-256, source state, viewport, capture me
 
 ## Current status
 
+Version 80 recovery is recorded in the source project, and Bakery construction repairs have progressed. Roblox Studio Play startup, state read, and stop each timed out after 300 seconds. No new Bakery capture has been accepted for publication. This reports source progress only; visual review and native acceptance remain pending.
+
+**廣東話：** Version 80 已記錄為源項目恢復，Bakery 施工修復亦有進展。Roblox Studio 的 Play 啟動、狀態讀取同停止操作，各自等待 300 秒後超時。暫無新 Bakery 圖片獲接納發布。以上只反映源碼進度；視覺檢視同原生項目驗收仍待完成。
+
 The gallery source and latest verified hosted manifest contain four construction images: the forest ascent, supported summit aircraft stairs, a partial daytime summit approach, and a short night-lit trailhead segment. The new route images are original Edit-mode captures and are labeled as unfinished progress; they do not establish complete traversal, final realism, collision, or full-route night lighting. A cave construction image remains withheld pending complete pixel, metadata, caption, and distribution review; permission for the two supplied door types alone does not establish that this capture is ready. See [ROADMAP.md](ROADMAP.md) and [HANDOFF.md](HANDOFF.md) for the current implementation state and evidence still needed.
 
 ## Responsive browser evidence
