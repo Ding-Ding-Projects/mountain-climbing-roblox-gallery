@@ -2,7 +2,7 @@
 
 ## Gallery foundation
 
-- [x] Record version 80 recovery and Bakery source progress. Play startup, state read, and stop each timed out after 300 seconds; no new capture or visual/native acceptance is claimed.
+- [x] Record version 80 recovery and Bakery source progress. The selected Studio state endpoint recovered at about 20:46 UTC on 2026-09-29 and reported Play with Client/Server available; a server read confirmed one character, health 100, and reviewed runtime length 24806. Earlier Play startup, state read, and stop each timed out after 300 seconds. No door crossing or Bakery native acceptance has occurred; both remain pending, and no new Bakery image has been accepted.
 - [x] Add a responsive static gallery shell with a truthful no-capture state.
 - [x] Add local visitor preferences, accessible navigation, gallery search, and a search-pattern workbench.
 - [x] Add design references, evidence rules, and a hand-written feature inventory.
