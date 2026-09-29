@@ -7,8 +7,10 @@
     "version80": "Preservation is recorded.",
     "bakery": "Walking routes and structural supports are revised in source.",
     "currentStudioState": {
+      "mode": "Edit"
+    },
+    "historicalPlayObservation": {
       "stateEndpoint": "Recovered",
-      "mode": "Edit",
       "playOptions": "Play with Client/Server available",
       "serverRead": {
         "characters": 1,
