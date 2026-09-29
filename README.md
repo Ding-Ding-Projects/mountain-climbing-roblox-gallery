@@ -12,9 +12,9 @@ Each image record includes a content SHA-256, source state, viewport, capture me
 
 ## Current status
 
-Version 80 recovery is recorded in the source project, and Bakery construction repairs have progressed. At about 20:46 UTC on 2026-09-29, the selected Studio state endpoint recovered and reported Play with Client/Server as available. A server read confirmed one character, health 100, and reviewed runtime length 24806. Earlier Play startup, state-read, and stop calls each timed out after 300 seconds. No new door crossing or Bakery native acceptance has occurred; both remain pending. No new Bakery image has been accepted.
+Version 80 preservation is recorded, and Bakery circulation and supports have been revised in source. Native Play has resumed. The interior pilot and full door acceptance remain in progress. No new reviewed interior imagery has been added. Exact earlier timeouts and current technical readings are retained in the [progress evidence](docs/evidence/progress-version80-20260929.json); the four existing gallery images are unchanged.
 
-**廣東話：** Version 80 已記錄為源項目恢復，Bakery 施工源碼修復亦有進展。2026-09-29 約於 20:46 UTC，已選取的 Studio 狀態端點恢復，並回報 Play with Client/Server 可用。伺服器讀取確認一個角色、健康值 100，已檢視的 runtime 長度為 24806。較早前的 Play 啟動、狀態讀取同停止操作，各自等待 300 秒後超時。尚未有新門口穿越或 Bakery 原生項目驗收，兩者仍待完成。暫無新 Bakery 圖片獲接納。
+**廣東話：** Version 80 保留工作已有記錄，Bakery 流通系統同支撐結構已在源碼修訂。遊戲內 Play 已恢復。室內試行同完整門口驗收仍在進行。暫無新增已審核的室內圖片。先前超時紀錄同目前技術讀數保存在[進度證據](docs/evidence/progress-version80-20260929.json)；現有四張畫廊圖片保持不變。
 
 The gallery source and latest verified hosted manifest contain four construction images: the forest ascent, supported summit aircraft stairs, a partial daytime summit approach, and a short night-lit trailhead segment. The new route images are original Edit-mode captures and are labeled as unfinished progress; they do not establish complete traversal, final realism, collision, or full-route night lighting. A cave construction image remains withheld pending complete pixel, metadata, caption, and distribution review; permission for the two supplied door types alone does not establish that this capture is ready. See [ROADMAP.md](ROADMAP.md) and [HANDOFF.md](HANDOFF.md) for the current implementation state and evidence still needed.
 
