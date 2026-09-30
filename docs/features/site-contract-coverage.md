@@ -10,7 +10,7 @@ The current source adds separate plain-text-first settings and command-palette s
 
 ## Why this handoff is explicit
 
-This repository lane provides a focused capture gallery and provenance pipeline. Two genuine Studio Edit-mode images are published as construction progress only; neither is final realism or Play evidence. The public page and both image URLs have direct HTTP and SHA-256 proof at the source revision in `../evidence/live-publication-002.json`. The mandatory current built-page interaction, accessibility, responsive, and capture checks remain unfinished, along with broader interface requirements.
+This repository lane provides a focused capture gallery and provenance pipeline. The source candidate contains eleven genuine Roblox Studio images, all classified as construction progress. Four route and landscape images are joined by three historical facility views and four new scene-placed Play-mode Bakery appearance images. The four new images do not establish physical entry, room circulation, collision, service operation, persistence, final realism, or facility acceptance. [The current hosted delivery receipt](../evidence/live-publication-007.json) binds the page, manifest, and seven image hashes to source revision `fcbb06c86738f3196340435cfe9b8deda8856494`; the four new images remain pending hosted delivery verification. The mandatory current built-page interaction, accessibility, responsive, and capture checks remain unfinished, along with broader interface requirements.
 
 ## Suggested articles
 

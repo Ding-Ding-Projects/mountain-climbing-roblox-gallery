@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordType": "gallery-review-record",
+  "captureClass": "construction-progress",
+  "captureId": "bakery-side-day-001",
+  "sourceRevision": "d21238095bc1ead1c54ae4a02136c13c8479d033",
+  "sourcePath": null,
+  "state": "Roblox Studio Play-mode scene-placed view, Bakery side wall in daylight",
+  "title": "Bakery side wall in daylight",
+  "caption": "A scene-placed Play-mode appearance view of the brick side wall, roof, and chimney in daylight. Appearance only: it does not establish physical entry, room circulation, collision, service operation, persistence, or whole-facility acceptance.",
+  "alt": "Daylight scene-placed view of a brick bakery side wall, roof, and chimney.",
+  "location": "Stone Hearth Bakery",
+  "activity": "Construction appearance review",
+  "stage": "In progress",
+  "viewport": {
+    "height": 712,
+    "width": 624
+  },
+  "scale": null,
+  "theme": "not-applicable",
+  "method": "Roblox Studio MCP",
+  "captureMode": "Play",
+  "capturedAt": null,
+  "imageSha256": "10cf41f7f993b55ae22859de3c29035a81748369ec64d56f917a5575d67529ef",
+  "privacyReview": {
+    "reviewer": "Gallery review",
+    "metadataReviewed": true,
+    "result": "passed",
+    "filenameReviewed": true,
+    "pixelsReviewed": true
+  },
+  "limitations": [
+    "This scene-placed Play-mode capture documents appearance only and is not proof of physical entry, room circulation, collision, service operation, persistence, or whole-facility acceptance.",
+    "This image is construction progress only and is not final realism evidence.",
+    "Capture time, timezone, and display scale remain unavailable; camera preparation time is not the capture time."
+  ],
+  "rightsReview": {
+    "basis": "Pixel review shows only project-built brick, roof, chimney, counter, bread, oven, and room signs. No supplied door, external asset, avatar, account identity, or interface is visible.",
+    "result": "passed"
+  },
+  "metadataReview": {
+    "summary": "The original JPEG contains JFIF metadata only, with no EXIF, comment, or embedded profile. Exact capture time, timezone, and display scale are unavailable.",
+    "result": "passed"
+  },
+  "captureContext": {
+    "sourceRevision": "d21238095bc1ead1c54ae4a02136c13c8479d033",
+    "nativeSnapshotSha256": "b654570f17fdf8f566b9e2f7483ed63e285a12dd1549ac94f90234fe1d67bc7a",
+    "nativeSnapshotByteLength": 12088997,
+    "savedEditVersion": 103,
+    "playVersion": 0,
+    "cameraPlacement": "scene-only",
+    "cameraPreparedAt": "2026-09-30T05:45:25Z",
+    "lightingClockTime": 15
+  }
+}

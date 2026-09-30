@@ -285,6 +285,210 @@
       },
       "privacyReviewer": "Gallery review",
       "privacyReview": "passed"
+    },
+    {
+      "captureClass": "construction-progress",
+      "captureId": "bakery-side-day-001",
+      "path": "images/bakery-side-day-001.jpg",
+      "sha256": "10cf41f7f993b55ae22859de3c29035a81748369ec64d56f917a5575d67529ef",
+      "sourceRevision": "d21238095bc1ead1c54ae4a02136c13c8479d033",
+      "sourcePath": null,
+      "state": "Roblox Studio Play-mode scene-placed view, Bakery side wall in daylight",
+      "title": "Bakery side wall in daylight",
+      "caption": "A scene-placed Play-mode appearance view of the brick side wall, roof, and chimney in daylight. Appearance only: it does not establish physical entry, room circulation, collision, service operation, persistence, or whole-facility acceptance.",
+      "alt": "Daylight scene-placed view of a brick bakery side wall, roof, and chimney.",
+      "location": "Stone Hearth Bakery",
+      "activity": "Construction appearance review",
+      "stage": "In progress",
+      "viewport": {
+        "height": 712,
+        "width": 624
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP",
+      "captureMode": "Play",
+      "captureContext": {
+        "sourceRevision": "d21238095bc1ead1c54ae4a02136c13c8479d033",
+        "nativeSnapshotSha256": "b654570f17fdf8f566b9e2f7483ed63e285a12dd1549ac94f90234fe1d67bc7a",
+        "nativeSnapshotByteLength": 12088997,
+        "savedEditVersion": 103,
+        "playVersion": 0,
+        "cameraPlacement": "scene-only",
+        "cameraPreparedAt": "2026-09-30T05:45:25Z",
+        "lightingClockTime": 15
+      },
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This scene-placed Play-mode capture documents appearance only and is not proof of physical entry, room circulation, collision, service operation, persistence, or whole-facility acceptance.",
+        "This image is construction progress only and is not final realism evidence.",
+        "Capture time, timezone, and display scale remain unavailable; camera preparation time is not the capture time."
+      ],
+      "rightsReview": {
+        "basis": "Pixel review shows only project-built brick, roof, chimney, counter, bread, oven, and room signs. No supplied door, external asset, avatar, account identity, or interface is visible.",
+        "result": "passed"
+      },
+      "metadataReview": {
+        "summary": "The original JPEG contains JFIF metadata only, with no EXIF, comment, or embedded profile. Exact capture time, timezone, and display scale are unavailable.",
+        "result": "passed"
+      },
+      "privacyReviewer": "Gallery review",
+      "privacyReview": "passed"
+    },
+    {
+      "captureClass": "construction-progress",
+      "captureId": "bakery-side-night-001",
+      "path": "images/bakery-side-night-001.jpg",
+      "sha256": "a0e86f7ce6ab85d4399f2cefe1475730eb5193d26f28fd787f7c1352c4ce0ad0",
+      "sourceRevision": "d21238095bc1ead1c54ae4a02136c13c8479d033",
+      "sourcePath": null,
+      "state": "Roblox Studio Play-mode scene-placed view, Bakery side wall at night",
+      "title": "Bakery side wall at night",
+      "caption": "A scene-placed Play-mode appearance view of the brick side wall, roof, and chimney at night. Appearance only: it does not establish physical entry, room circulation, collision, service operation, persistence, or whole-facility acceptance.",
+      "alt": "Nighttime scene-placed view of a brick bakery side wall, roof, and chimney.",
+      "location": "Stone Hearth Bakery",
+      "activity": "Construction appearance review",
+      "stage": "In progress",
+      "viewport": {
+        "height": 712,
+        "width": 624
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP",
+      "captureMode": "Play",
+      "captureContext": {
+        "sourceRevision": "d21238095bc1ead1c54ae4a02136c13c8479d033",
+        "nativeSnapshotSha256": "b654570f17fdf8f566b9e2f7483ed63e285a12dd1549ac94f90234fe1d67bc7a",
+        "nativeSnapshotByteLength": 12088997,
+        "savedEditVersion": 103,
+        "playVersion": 0,
+        "cameraPlacement": "scene-only",
+        "cameraPreparedAt": "2026-09-30T05:46:09Z",
+        "lightingClockTime": 0.5
+      },
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This scene-placed Play-mode capture documents appearance only and is not proof of physical entry, room circulation, collision, service operation, persistence, or whole-facility acceptance.",
+        "This image is construction progress only and is not final realism evidence.",
+        "Capture time, timezone, and display scale remain unavailable; camera preparation time is not the capture time."
+      ],
+      "rightsReview": {
+        "basis": "Pixel review shows only project-built brick, roof, chimney, counter, bread, oven, and room signs. No supplied door, external asset, avatar, account identity, or interface is visible.",
+        "result": "passed"
+      },
+      "metadataReview": {
+        "summary": "The original JPEG contains JFIF metadata only, with no EXIF, comment, or embedded profile. Exact capture time, timezone, and display scale are unavailable.",
+        "result": "passed"
+      },
+      "privacyReviewer": "Gallery review",
+      "privacyReview": "passed"
+    },
+    {
+      "captureClass": "construction-progress",
+      "captureId": "bakery-counter-day-001",
+      "path": "images/bakery-counter-day-001.jpg",
+      "sha256": "39cf39e84e2b101a48a4999343a24acab961e4d4f94dcf028bdfa60a320df246",
+      "sourceRevision": "d21238095bc1ead1c54ae4a02136c13c8479d033",
+      "sourcePath": null,
+      "state": "Roblox Studio Play-mode scene-placed view, Bakery counter in daylight",
+      "title": "Bakery counter in daylight",
+      "caption": "A scene-placed Play-mode appearance view of the authored counter, bread, oven, and room signs in daylight. It does not establish physical entry, room circulation, collision, service operation, persistence, or whole-facility acceptance.",
+      "alt": "Daylight scene-placed view of a bakery counter with bread, oven, and room signs.",
+      "location": "Stone Hearth Bakery",
+      "activity": "Construction appearance review",
+      "stage": "In progress",
+      "viewport": {
+        "height": 712,
+        "width": 624
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP",
+      "captureMode": "Play",
+      "captureContext": {
+        "sourceRevision": "d21238095bc1ead1c54ae4a02136c13c8479d033",
+        "nativeSnapshotSha256": "b654570f17fdf8f566b9e2f7483ed63e285a12dd1549ac94f90234fe1d67bc7a",
+        "nativeSnapshotByteLength": 12088997,
+        "savedEditVersion": 103,
+        "playVersion": 0,
+        "cameraPlacement": "scene-only",
+        "cameraPreparedAt": "2026-09-30T05:46:12Z",
+        "lightingClockTime": 15
+      },
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This scene-placed Play-mode capture documents appearance only and is not proof of physical entry, room circulation, collision, service operation, persistence, or whole-facility acceptance.",
+        "This image is construction progress only and is not final realism evidence.",
+        "Capture time, timezone, and display scale remain unavailable; camera preparation time is not the capture time."
+      ],
+      "rightsReview": {
+        "basis": "Pixel review shows only project-built brick, roof, chimney, counter, bread, oven, and room signs. No supplied door, external asset, avatar, account identity, or interface is visible.",
+        "result": "passed"
+      },
+      "metadataReview": {
+        "summary": "The original JPEG contains JFIF metadata only, with no EXIF, comment, or embedded profile. Exact capture time, timezone, and display scale are unavailable.",
+        "result": "passed"
+      },
+      "privacyReviewer": "Gallery review",
+      "privacyReview": "passed"
+    },
+    {
+      "captureClass": "construction-progress",
+      "captureId": "bakery-counter-night-001",
+      "path": "images/bakery-counter-night-001.jpg",
+      "sha256": "c23923e2fecd53000ceca613ad97493247141afc0f839178213038ec7b808ae4",
+      "sourceRevision": "d21238095bc1ead1c54ae4a02136c13c8479d033",
+      "sourcePath": null,
+      "state": "Roblox Studio Play-mode scene-placed view, Bakery counter at night",
+      "title": "Bakery counter at night",
+      "caption": "A scene-placed Play-mode appearance view of the authored counter, bread, oven, and room signs at night. It does not establish physical entry, room circulation, collision, service operation, persistence, or whole-facility acceptance.",
+      "alt": "Nighttime scene-placed view of a bakery counter with bread, oven, and room signs.",
+      "location": "Stone Hearth Bakery",
+      "activity": "Construction appearance review",
+      "stage": "In progress",
+      "viewport": {
+        "height": 712,
+        "width": 624
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP",
+      "captureMode": "Play",
+      "captureContext": {
+        "sourceRevision": "d21238095bc1ead1c54ae4a02136c13c8479d033",
+        "nativeSnapshotSha256": "b654570f17fdf8f566b9e2f7483ed63e285a12dd1549ac94f90234fe1d67bc7a",
+        "nativeSnapshotByteLength": 12088997,
+        "savedEditVersion": 103,
+        "playVersion": 0,
+        "cameraPlacement": "scene-only",
+        "cameraPreparedAt": "2026-09-30T05:46:13Z",
+        "lightingClockTime": 0.5
+      },
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This scene-placed Play-mode capture documents appearance only and is not proof of physical entry, room circulation, collision, service operation, persistence, or whole-facility acceptance.",
+        "This image is construction progress only and is not final realism evidence.",
+        "Capture time, timezone, and display scale remain unavailable; camera preparation time is not the capture time."
+      ],
+      "rightsReview": {
+        "basis": "Pixel review shows only project-built brick, roof, chimney, counter, bread, oven, and room signs. No supplied door, external asset, avatar, account identity, or interface is visible.",
+        "result": "passed"
+      },
+      "metadataReview": {
+        "summary": "The original JPEG contains JFIF metadata only, with no EXIF, comment, or embedded profile. Exact capture time, timezone, and display scale are unavailable.",
+        "result": "passed"
+      },
+      "privacyReviewer": "Gallery review",
+      "privacyReview": "passed"
     }
   ],
   "excluded": []
