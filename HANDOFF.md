@@ -2,9 +2,9 @@
 
 ## Gallery candidate, four Bakery appearance captures, 2026-09-30
 
-The source candidate now contains eleven reviewed construction-progress records. Four new original Play-mode images show scene-placed views of the project-built Bakery side wall, roof, chimney, counter, bread, oven, and room signs. Their pixel, filename, metadata, original-byte hash, and rights reviews passed. The records keep `sourcePath` null, bind to source revision `d21238095bc1ead1c54ae4a02136c13c8479d033` and the validated native snapshot, and record camera preparation bounds without presenting them as capture times. Exact capture time, timezone, and display scale remain unavailable. These images document appearance only and do not prove physical entry, room circulation, collision, service operation, persistence, final realism, or whole-facility acceptance.
+The integrated source and hosted manifests contain eleven reviewed construction-progress records. Four new original Play-mode images show scene-placed views of the project-built Bakery side wall, roof, chimney, counter, bread, oven, and room signs. Their pixel, filename, metadata, original-byte hash, and rights reviews passed. The records keep `sourcePath` null, bind to source revision `d21238095bc1ead1c54ae4a02136c13c8479d033` and the validated native snapshot, and record camera preparation bounds without presenting them as capture times. Exact capture time, timezone, and display scale remain unavailable. These images document appearance only and do not prove physical entry, room circulation, collision, service operation, persistence, final realism, or whole-facility acceptance.
 
-The latest hosted proof remains the seven-image `main` revision `fcbb06c86738f3196340435cfe9b8deda8856494` in `docs/evidence/live-publication-007.json`. That receipt is metadata-only and does not render in the gallery. The four new image files and their records are source-only until a reviewed candidate is integrated and the live page, manifest, and each image are verified separately. Four door-visible alternatives remain private because distribution rights for those supplied assets were not established.
+The eleven-image public delivery is verified at `main` revision `ebd6abd4a4e6d403b247c406ef0ad67f2fceacd3` in metadata-only receipt `docs/evidence/live-publication-008.json`. The direct unauthenticated page, manifest, and all image requests returned HTTP 200; each image hash and JPEG dimension matched the manifest. This does not verify browser-rendered rows, accessibility, responsive layout, or visual interaction. Four door-visible alternatives remain private because distribution rights for those supplied assets were not established.
 
 ## Version 99 Bakery pilot and gallery evidence update, 2026-09-29
 
@@ -44,11 +44,11 @@ The approved isolated browser route is unavailable in the current task environme
 
 ## Remaining work
 
-1. Review the candidate and publish the four new Bakery appearance records only after integration is explicitly assigned; verify the live page, manifest, and each image response and hash.
+1. Complete browser-rendered row, accessibility, responsive-layout, and visual interaction checks through the approved isolated route.
 2. Obtain a validated capture receipt for any capture intended to prove a final or runtime state. All eleven current source images remain construction progress only.
 3. Complete the mandatory page feature inventory and built-page verification without upgrading source-only work into evidence.
 4. Complete current browser interaction, accessibility-tree, responsive layout, and visual capture checks through the approved isolated route. Keep the already verified public HTTP delivery distinct from those checks.
 
 ## Limits
 
-No Material Designer creation or export tool was exposed in the available tools. The Status Hub client returned `MISSING_INGEST_TOKEN`, so no session record was written. The local design handoff records the design-tool limitation. The public page and seven reviewed construction images are delivered as recorded in `docs/evidence/live-publication-007.json`; four additional source-candidate images remain undelivered. Current browser runtime and final game-quality evidence remain unavailable.
+No Material Designer creation or export tool was exposed in the available tools. The Status Hub client returned `MISSING_INGEST_TOKEN`, so no session record was written. The local design handoff records the design-tool limitation. The public page and eleven reviewed construction images are delivered as recorded in `docs/evidence/live-publication-008.json`. Current browser runtime and final game-quality evidence remain unavailable.

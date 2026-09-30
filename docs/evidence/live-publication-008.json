@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-09-30T06:17:37Z",
+  "sourceRevision": "ebd6abd4a4e6d403b247c406ef0ad67f2fceacd3",
+  "hosting": {
+    "repositoryVisibility": "public",
+    "pagesStatus": "built",
+    "pagesBuildId": 1249475208,
+    "pagesBuiltAt": "2026-09-30T06:16:47Z",
+    "pagesBuildCreatedAt": "2026-09-30T06:16:11Z",
+    "sourceBranch": "main",
+    "sourcePath": "/docs",
+    "buildType": "legacy",
+    "url": "https://ding-ding-projects.github.io/mountain-climbing-roblox-gallery/"
+  },
+  "http": {
+    "access": "Direct unauthenticated HTTP requests; no credentials or visitor cookies were sent.",
+    "page": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "byteLength": 78996,
+      "sha256": "44d7271db60e99efbf2ef2cdae9d5a4d04b6fc7b6dba271bfcf95058a00bf55b"
+    },
+    "manifest": {
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "byteLength": 26121,
+      "sha256": "5ac6c6d8fdaea3dac1b8550a609e6ee85ea2d725fc73b5fdecf3afd58947d746",
+      "imageRecordCount": 11
+    },
+    "images": [
+      {
+        "captureId": "forest-ascent-overview-001",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 237085,
+        "sha256": "85ca212afb63a2eaa334b58cffec07cb37677aec1acb4ed06985d9e74439fa59",
+        "manifestHashMatched": true,
+        "width": 1264,
+        "height": 830,
+        "manifestDimensionsMatched": true
+      },
+      {
+        "captureId": "summit-aircraft-stairs-001",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 232779,
+        "sha256": "555317609645527743b266845d4fb0e19d3b73fc5447621cec07d4e0195be402",
+        "manifestHashMatched": true,
+        "width": 1264,
+        "height": 830,
+        "manifestDimensionsMatched": true
+      },
+      {
+        "captureId": "summit-approach-eye-005",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 234294,
+        "sha256": "e3df6d1a925093e5e36ba8add1f55f003bdb824670b970b5da88b1c2b6efd205",
+        "manifestHashMatched": true,
+        "width": 1264,
+        "height": 830,
+        "manifestDimensionsMatched": true
+      },
+      {
+        "captureId": "trail-lantern-night-001",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 403121,
+        "sha256": "d82bf43847dc5699ab4511f26c7a68db537e1be08443bfcf913c9bd8eb867032",
+        "manifestHashMatched": true,
+        "width": 1264,
+        "height": 830,
+        "manifestDimensionsMatched": true
+      },
+      {
+        "captureId": "rest-exterior-historic-001",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 251881,
+        "sha256": "25926164ab52236fed4da7b7176073f9f7fdd9de068b1751f4750a55b06f0dc1",
+        "manifestHashMatched": true,
+        "width": 1264,
+        "height": 830,
+        "manifestDimensionsMatched": true
+      },
+      {
+        "captureId": "station-exterior-historic-001",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 303611,
+        "sha256": "ead403c0b6ecd93a8832fb5c4f87678971ce3275b225b50708f877111dd1d4fa",
+        "manifestHashMatched": true,
+        "width": 1264,
+        "height": 830,
+        "manifestDimensionsMatched": true
+      },
+      {
+        "captureId": "station-interior-historic-001",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 172691,
+        "sha256": "8f68fb49e229df547ce527b1f941bb85e568b7bdd3e271c2b362bd45d7989821",
+        "manifestHashMatched": true,
+        "width": 1264,
+        "height": 830,
+        "manifestDimensionsMatched": true
+      },
+      {
+        "captureId": "bakery-side-day-001",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 193082,
+        "sha256": "10cf41f7f993b55ae22859de3c29035a81748369ec64d56f917a5575d67529ef",
+        "manifestHashMatched": true,
+        "width": 624,
+        "height": 712,
+        "manifestDimensionsMatched": true
+      },
+      {
+        "captureId": "bakery-side-night-001",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 128380,
+        "sha256": "a0e86f7ce6ab85d4399f2cefe1475730eb5193d26f28fd787f7c1352c4ce0ad0",
+        "manifestHashMatched": true,
+        "width": 624,
+        "height": 712,
+        "manifestDimensionsMatched": true
+      },
+      {
+        "captureId": "bakery-counter-day-001",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 140668,
+        "sha256": "39cf39e84e2b101a48a4999343a24acab961e4d4f94dcf028bdfa60a320df246",
+        "manifestHashMatched": true,
+        "width": 624,
+        "height": 712,
+        "manifestDimensionsMatched": true
+      },
+      {
+        "captureId": "bakery-counter-night-001",
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 142544,
+        "sha256": "c23923e2fecd53000ceca613ad97493247141afc0f839178213038ec7b808ae4",
+        "manifestHashMatched": true,
+        "width": 624,
+        "height": 712,
+        "manifestDimensionsMatched": true
+      }
+    ]
+  },
+  "limitations": [
+    "This receipt verifies public HTTP delivery, byte hashes, and JPEG dimensions only. It does not verify browser DOM rows, accessibility, responsive layout, or a visual browser capture.",
+    "All eleven images are construction progress. The four new Bakery images document scene appearance only and do not establish physical entry, room circulation, collision, service operation, persistence, final realism, or whole-facility acceptance."
+  ]
+}
