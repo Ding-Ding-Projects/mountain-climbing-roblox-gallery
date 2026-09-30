@@ -14,6 +14,7 @@
 - [ ] Complete the focused negative regression and remaining page verification.
 - [ ] Verify the new settings and command-palette search against the built page. Source behavior and English/Cantonese/bilingual copy are present; focused source checks pass, but isolated browser interaction is unavailable in the current task environment. Browser interaction and responsive checks passed on source `93abe3583cb61cb35438d3ec236835189ebf54d9`; the responsive report records the 929×1004 and 320×800 captures, no overflow, 44-pixel controls, keyboard and touch behavior, accessible-name scan, and resource checks. Screen-reader review and the full page contract remain incomplete.
 - [x] Publish the public gallery from `main` and verify the page, four-record manifest, and all four reviewed images by public HTTP response and image SHA-256. `docs/evidence/live-publication-004.json` binds the evidence to `main` at `08f3effa734a473e6114df847b8a6a17440de055`; current browser interaction and visual review remain separate unfinished work.
+- [ ] Publish the three reviewed historical facility captures already recorded in the seven-image source manifest; verify the hosted page, manifest, and every image response and SHA-256. Until that readback is recorded, the latest verified hosted inventory remains four images. The current progress record is `docs/evidence/progress-version99-20260929.json`.
 
 ## Verification
 

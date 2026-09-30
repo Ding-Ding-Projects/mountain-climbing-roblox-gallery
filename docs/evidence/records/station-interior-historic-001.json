@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "recordType": "gallery-review-record",
+  "captureClass": "construction-progress",
+  "captureId": "station-interior-historic-001",
+  "sourceRevision": "9643e18808f790a0e469f1c6e3fe46eb4c116444",
+  "sourcePath": "evidence/facilities/station-interior-edit.jpg",
+  "state": "Roblox Studio Edit-mode interior entry view of an earlier station facility",
+  "title": "Station interior entry construction",
+  "caption": "An earlier station interior entry showing the supplied doorway and unfinished partition openings. This is construction progress only; it does not establish room privacy, finished interior quality, or facility acceptance.",
+  "alt": "Edit-mode interior entry view with a supplied door centered between unfinished partition openings beneath a low ceiling.",
+  "location": "Mountain station interior",
+  "activity": "Facility construction review",
+  "stage": "Earlier construction",
+  "method": "Roblox Studio MCP",
+  "captureMode": "Edit",
+  "viewport": {
+    "width": 1264,
+    "height": 830
+  },
+  "scale": null,
+  "theme": "not-applicable",
+  "capturedAt": null,
+  "imageSha256": "8f68fb49e229df547ce527b1f941bb85e568b7bdd3e271c2b362bd45d7989821",
+  "privacyReview": {
+    "result": "passed",
+    "reviewer": "Gallery review",
+    "pixelsReviewed": true,
+    "metadataReviewed": true,
+    "filenameReviewed": true,
+    "summary": "Pixels, embedded metadata, and the source filename were reviewed. No private account or desktop content was found."
+  },
+  "rightsReview": {
+    "result": "passed",
+    "basis": "The source manifest marks this exact scene capture for scene-only public reuse. The image shows original facility construction; the supplied door type visible in the frame is owner-permitted."
+  },
+  "metadataReview": {
+    "result": "passed",
+    "summary": "The original JPEG decodes to 1264 by 830 pixels and contains no EXIF entries. Capture time, display scale, and theme are unavailable or not applicable."
+  },
+  "limitations": [
+    "This historical image shows construction progress only and is not final realism evidence.",
+    "This image is an Edit-mode view and is not Play mode proof.",
+    "The unfinished partition openings do not establish room privacy or finished interior quality.",
+    "This image does not establish complete facility operation or acceptance.",
+    "The image predates the current Bakery pilot and does not document its changes."
+  ]
+}

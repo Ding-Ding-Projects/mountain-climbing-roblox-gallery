@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "recordType": "gallery-review-record",
+  "captureClass": "construction-progress",
+  "captureId": "station-exterior-historic-001",
+  "sourceRevision": "9643e18808f790a0e469f1c6e3fe46eb4c116444",
+  "sourcePath": "evidence/facilities/station-edit.jpg",
+  "state": "Roblox Studio Edit-mode exterior view of an earlier station facility",
+  "title": "Station facility exterior construction",
+  "caption": "An earlier station exterior with its covered entry and approach steps. This historical Edit-mode scene documents construction only; it does not establish continuous-grade acceptance or complete facility operation.",
+  "alt": "Edit-mode exterior view of a small station facility with a covered entry, approach steps, nearby trees, and a grassy mountain setting.",
+  "location": "Mountain station",
+  "activity": "Facility construction review",
+  "stage": "Earlier construction",
+  "method": "Roblox Studio MCP",
+  "captureMode": "Edit",
+  "viewport": {
+    "width": 1264,
+    "height": 830
+  },
+  "scale": null,
+  "theme": "not-applicable",
+  "capturedAt": null,
+  "imageSha256": "ead403c0b6ecd93a8832fb5c4f87678971ce3275b225b50708f877111dd1d4fa",
+  "privacyReview": {
+    "result": "passed",
+    "reviewer": "Gallery review",
+    "pixelsReviewed": true,
+    "metadataReviewed": true,
+    "filenameReviewed": true,
+    "summary": "Pixels, embedded metadata, and the source filename were reviewed. No private account or desktop content was found."
+  },
+  "rightsReview": {
+    "result": "passed",
+    "basis": "The source manifest marks this exact scene capture for scene-only public reuse. The image shows original facility construction and the owner-permitted supplied door type."
+  },
+  "metadataReview": {
+    "result": "passed",
+    "summary": "The original JPEG decodes to 1264 by 830 pixels and contains no EXIF entries. Capture time, display scale, and theme are unavailable or not applicable."
+  },
+  "limitations": [
+    "This historical image shows construction progress only and is not final realism evidence.",
+    "This image is an Edit-mode view and is not Play mode proof.",
+    "The approach shown does not prove a continuous accessible grade.",
+    "This image does not establish complete facility operation or acceptance.",
+    "The image predates the current Bakery pilot and does not document its changes."
+  ]
+}

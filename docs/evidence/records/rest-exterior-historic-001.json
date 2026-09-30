@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "recordType": "gallery-review-record",
+  "captureClass": "construction-progress",
+  "captureId": "rest-exterior-historic-001",
+  "sourceRevision": "9643e18808f790a0e469f1c6e3fe46eb4c116444",
+  "sourcePath": "evidence/facilities/rest-edit.jpg",
+  "state": "Roblox Studio Edit-mode exterior view of an earlier rest facility",
+  "title": "Rest facility exterior construction",
+  "caption": "An earlier rest facility exterior with its entry porch, steps, and approach path. This historical Edit-mode scene documents construction only; it does not show the current Bakery pilot or establish facility acceptance.",
+  "alt": "Edit-mode exterior view of a small rest facility with a covered porch, steps, a short stone approach, and a grassy mountain setting.",
+  "location": "Mountain rest facility",
+  "activity": "Facility construction review",
+  "stage": "Earlier construction",
+  "method": "Roblox Studio MCP",
+  "captureMode": "Edit",
+  "viewport": {
+    "width": 1264,
+    "height": 830
+  },
+  "scale": null,
+  "theme": "not-applicable",
+  "capturedAt": null,
+  "imageSha256": "25926164ab52236fed4da7b7176073f9f7fdd9de068b1751f4750a55b06f0dc1",
+  "privacyReview": {
+    "result": "passed",
+    "reviewer": "Gallery review",
+    "pixelsReviewed": true,
+    "metadataReviewed": true,
+    "filenameReviewed": true,
+    "summary": "Pixels, embedded metadata, and the source filename were reviewed. No private account or desktop content was found."
+  },
+  "rightsReview": {
+    "result": "passed",
+    "basis": "The source manifest marks this exact scene capture for scene-only public reuse. The image shows original facility construction and the owner-permitted supplied door type."
+  },
+  "metadataReview": {
+    "result": "passed",
+    "summary": "The original JPEG decodes to 1264 by 830 pixels and contains no EXIF entries. A validated capture-call start is 2026-09-28T17:42:23Z; the exact capture time, display scale, and theme are unavailable or not applicable."
+  },
+  "limitations": [
+    "This historical image shows construction progress only and is not final realism evidence.",
+    "This image is an Edit-mode view and is not Play mode proof.",
+    "This image does not establish room privacy, service behavior, or acceptance of the facility.",
+    "The image predates the current Bakery pilot and does not document its changes."
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "recordType": "public-progress-record",
+  "reportedAtDate": "2026-09-29",
+  "sourceRevision": "8feed879a934190ca5d9be5b4513d4f64bc169bb",
+  "subject": "Mountain Climbing version 99 Bakery pilot and historical facility imagery",
+  "status": {
+    "bakeryPilot": {
+      "state": "Applied in Studio version 99; not accepted.",
+      "replacementParts": 1013,
+      "replacementSuppliedDoors": 7,
+      "replacementMarkers": 20,
+      "originalInteriorPartsPreserved": 538,
+      "earlierPilotPartsPreserved": 986,
+      "suppliedOriginalDescendantsUntouched": 4003,
+      "archivedScripts": 2476,
+      "uniqueArchivedSources": 15
+    },
+    "play": {
+      "startSeconds": 10.066,
+      "binderReadySeconds": 5.520,
+      "binderYieldCount": 35,
+      "maximumBinderSliceMilliseconds": 6.399,
+      "clientSampleSeconds": 6.015,
+      "clientSampleFramesPerSecond": 60.012,
+      "clientSampleP95FrameMilliseconds": 17.898,
+      "clientSampleMaximumFrameMilliseconds": 19.184,
+      "clientFramesOver100Milliseconds": 0,
+      "limitations": [
+        "This is one short client sample, not broad performance acceptance.",
+        "The pilot remains unaccepted; room clearance, individual doors, privacy, service behavior, and save/reopen remain unverified."
+      ]
+    },
+    "studioState": {
+      "mode": "Edit",
+      "version": 99
+    },
+    "recovery": {
+      "state": "Saved readback matched and native deserialization passed.",
+      "bytes": 5068201,
+      "sha256": "81b80612a61a85e180f9b8ec8dede06bf6430343b2104dd769ff42836ff18be9",
+      "interiorRootReferences": 3,
+      "authorizedParentReferences": 7,
+      "scope": "Bounded native recovery of the listed roots; not a complete place backup."
+    },
+    "galleryReview": {
+      "previouslyPublishedImagesRetained": 4,
+      "newHistoricalImagesAccepted": [
+        "rest-exterior-historic-001",
+        "station-exterior-historic-001",
+        "station-interior-historic-001"
+      ],
+      "newBakeryImagesAccepted": 0,
+      "newHistoricalImageLimitations": [
+        "All three images are earlier Edit-mode construction views and do not depict the current Bakery pilot.",
+        "The station interior image shows unfinished partition openings and does not establish privacy or finished interior quality.",
+        "The station exterior approach steps do not establish continuous-grade acceptance.",
+        "Exact capture times are unavailable. A verified call-start time exists for the rest exterior image only."
+      ],
+      "withheldCurrentBakeryCandidates": {
+        "privateDesktopContent": 2,
+        "unchangedExteriorCameraProbe": 2
+      },
+      "sourceInventory": {
+        "imageFilesEnumerated": 180,
+        "manifestRecordsEnumerated": 99,
+        "nativeBatchReuseReviewed": 6,
+        "nativeBatchImagesAccepted": 3,
+        "nativeBatchOlderOrProvisionalViewsWithheld": 3,
+        "ownerReviewRequiredPlayImagesInNativeBatch": 4,
+        "transitionBlurExcluded": 1,
+        "roofCaptureReuseNotReviewedOrAuthorized": 19,
+        "otherImagesNotAdded": "Remaining source images were not added in this task; they lack an explicit per-image public-use review, carry an existing owner-review requirement, or document a different historical, diagnostic, or runtime scope."
+      }
+    }
+  },
+  "localizedStatus": {
+    "en": "The 1,013-part Bakery pilot is applied in Studio version 99. It contains seven supplied doors and 20 markers. The original 538-part interior and earlier 986-part pilot remain preserved, and all 4,003 supplied-original descendants remain untouched. Play started in 10.066 seconds; the runtime binder reached ready in 5.520 seconds with 35 yields and a maximum 6.399 ms slice. One 6.015-second client sample measured 60.012 FPS, with a 17.898 ms p95 frame, a 19.184 ms maximum frame, and no frames above 100 ms. This single sample is not broad performance acceptance. The pilot remains unaccepted: room clearance, individual doors, privacy, service behavior, and save/reopen remain unverified. Studio returned to Edit version 99. Three earlier station and rest construction views are included as historical imagery; none depicts this Bakery pilot.",
+    "yue": "Bakery 1,013 件部件嘅試行已套用到 Studio 版本 99，包含七道已批准嘅供應商門同 20 個標記。原有 538 件部件嘅室內同較早嘅 986 件部件試行都已保留，4,003 件原有供應商模型後代完全未改。Play 用咗 10.066 秒啟動；運行綁定器喺 5.520 秒後就緒，共讓出 35 次，最大切片 6.399 毫秒。一次 6.015 秒嘅用戶端取樣錄得 60.012 FPS，p95 畫格 17.898 毫秒，最長 19.184 毫秒，無畫格超過 100 毫秒。呢次短取樣唔代表整體效能驗收。試行仍未獲驗收：房間通行、各道門、私隱、服務功能同存檔重開都仲未驗。Studio 已返回 Edit 版本 99。新增三張較早嘅車站同休息設施施工相作歷史影像；佢哋都唔係今次 Bakery 試行嘅畫面。"
+  }
+}

@@ -160,6 +160,131 @@
       },
       "privacyReviewer": "Gallery review",
       "privacyReview": "passed"
+    },
+    {
+      "captureClass": "construction-progress",
+      "captureId": "rest-exterior-historic-001",
+      "path": "images/rest-exterior-historic-001.jpg",
+      "sha256": "25926164ab52236fed4da7b7176073f9f7fdd9de068b1751f4750a55b06f0dc1",
+      "sourceRevision": "9643e18808f790a0e469f1c6e3fe46eb4c116444",
+      "state": "Roblox Studio Edit-mode exterior view of an earlier rest facility",
+      "title": "Rest facility exterior construction",
+      "caption": "An earlier rest facility exterior with its entry porch, steps, and approach path. This historical Edit-mode scene documents construction only; it does not show the current Bakery pilot or establish facility acceptance.",
+      "alt": "Edit-mode exterior view of a small rest facility with a covered porch, steps, a short stone approach, and a grassy mountain setting.",
+      "location": "Mountain rest facility",
+      "activity": "Facility construction review",
+      "stage": "Earlier construction",
+      "viewport": {
+        "width": 1264,
+        "height": 830
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP",
+      "captureMode": "Edit",
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This historical image shows construction progress only and is not final realism evidence.",
+        "This image is an Edit-mode view and is not Play mode proof.",
+        "This image does not establish room privacy, service behavior, or acceptance of the facility.",
+        "The image predates the current Bakery pilot and does not document its changes."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "The source manifest marks this exact scene capture for scene-only public reuse. The image shows original facility construction and the owner-permitted supplied door type."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "The original JPEG decodes to 1264 by 830 pixels and contains no EXIF entries. A validated capture-call start is 2026-09-28T17:42:23Z; the exact capture time, display scale, and theme are unavailable or not applicable."
+      },
+      "privacyReviewer": "Gallery review",
+      "privacyReview": "passed"
+    },
+    {
+      "captureClass": "construction-progress",
+      "captureId": "station-exterior-historic-001",
+      "path": "images/station-exterior-historic-001.jpg",
+      "sha256": "ead403c0b6ecd93a8832fb5c4f87678971ce3275b225b50708f877111dd1d4fa",
+      "sourceRevision": "9643e18808f790a0e469f1c6e3fe46eb4c116444",
+      "state": "Roblox Studio Edit-mode exterior view of an earlier station facility",
+      "title": "Station facility exterior construction",
+      "caption": "An earlier station exterior with its covered entry and approach steps. This historical Edit-mode scene documents construction only; it does not establish continuous-grade acceptance or complete facility operation.",
+      "alt": "Edit-mode exterior view of a small station facility with a covered entry, approach steps, nearby trees, and a grassy mountain setting.",
+      "location": "Mountain station",
+      "activity": "Facility construction review",
+      "stage": "Earlier construction",
+      "viewport": {
+        "width": 1264,
+        "height": 830
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP",
+      "captureMode": "Edit",
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This historical image shows construction progress only and is not final realism evidence.",
+        "This image is an Edit-mode view and is not Play mode proof.",
+        "The approach shown does not prove a continuous accessible grade.",
+        "This image does not establish complete facility operation or acceptance.",
+        "The image predates the current Bakery pilot and does not document its changes."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "The source manifest marks this exact scene capture for scene-only public reuse. The image shows original facility construction and the owner-permitted supplied door type."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "The original JPEG decodes to 1264 by 830 pixels and contains no EXIF entries. Capture time, display scale, and theme are unavailable or not applicable."
+      },
+      "privacyReviewer": "Gallery review",
+      "privacyReview": "passed"
+    },
+    {
+      "captureClass": "construction-progress",
+      "captureId": "station-interior-historic-001",
+      "path": "images/station-interior-historic-001.jpg",
+      "sha256": "8f68fb49e229df547ce527b1f941bb85e568b7bdd3e271c2b362bd45d7989821",
+      "sourceRevision": "9643e18808f790a0e469f1c6e3fe46eb4c116444",
+      "state": "Roblox Studio Edit-mode interior entry view of an earlier station facility",
+      "title": "Station interior entry construction",
+      "caption": "An earlier station interior entry showing the supplied doorway and unfinished partition openings. This is construction progress only; it does not establish room privacy, finished interior quality, or facility acceptance.",
+      "alt": "Edit-mode interior entry view with a supplied door centered between unfinished partition openings beneath a low ceiling.",
+      "location": "Mountain station interior",
+      "activity": "Facility construction review",
+      "stage": "Earlier construction",
+      "viewport": {
+        "width": 1264,
+        "height": 830
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP",
+      "captureMode": "Edit",
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This historical image shows construction progress only and is not final realism evidence.",
+        "This image is an Edit-mode view and is not Play mode proof.",
+        "The unfinished partition openings do not establish room privacy or finished interior quality.",
+        "This image does not establish complete facility operation or acceptance.",
+        "The image predates the current Bakery pilot and does not document its changes."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "The source manifest marks this exact scene capture for scene-only public reuse. The image shows original facility construction; the supplied door type visible in the frame is owner-permitted."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "The original JPEG decodes to 1264 by 830 pixels and contains no EXIF entries. Capture time, display scale, and theme are unavailable or not applicable."
+      },
+      "privacyReviewer": "Gallery review",
+      "privacyReview": "passed"
     }
   ],
   "excluded": []
