@@ -14,12 +14,15 @@
 - [ ] Complete the focused negative regression and remaining page verification.
 - [ ] Verify the new settings and command-palette search against the built page. Source behavior and English/Cantonese/bilingual copy are present; focused source checks pass, but isolated browser interaction is unavailable in the current task environment. Browser interaction and responsive checks passed on source `93abe3583cb61cb35438d3ec236835189ebf54d9`; the responsive report records the 929×1004 and 320×800 captures, no overflow, 44-pixel controls, keyboard and touch behavior, accessible-name scan, and resource checks. Screen-reader review and the full page contract remain incomplete.
 - [x] Publish the public gallery from `main` and verify the page, four-record manifest, and all four reviewed images by public HTTP response and image SHA-256. `docs/evidence/live-publication-004.json` binds the evidence to `main` at `08f3effa734a473e6114df847b8a6a17440de055`; current browser interaction and visual review remain separate unfinished work.
-- [ ] Publish the three reviewed historical facility captures already recorded in the seven-image source manifest; verify the hosted page, manifest, and every image response and SHA-256. Until that readback is recorded, the latest verified hosted inventory remains four images. The current progress record is `docs/evidence/progress-version99-20260929.json`.
+- [x] Publish the three reviewed historical facility captures already recorded in the seven-image source manifest; verify the hosted page, manifest, and every image response and SHA-256. `docs/evidence/live-publication-007.json` binds the seven-image delivery to source revision `fcbb06c86738f3196340435cfe9b8deda8856494`. The Bakery progress record remains `docs/evidence/progress-version99-20260929.json`.
+- [x] Review and admit four original, door-free, scene-placed Play-mode Bakery appearance captures. Pixels, original JPEG bytes, rights, metadata, and filenames were reviewed. Records retain exact source revision and native snapshot provenance without local paths; capture time and display scale remain unavailable. The frames do not establish physical entry, circulation, collision, service, persistence, realism, or facility acceptance.
+- [ ] Publish the four new Bakery records and verify their public HTTP image responses and SHA-256 hashes. Current source has eleven records; the latest verified hosted revision remains the seven-image `fcbb06c86738f3196340435cfe9b8deda8856494` recorded in `docs/evidence/live-publication-007.json`.
 
 ## Verification
 
 - [x] Inspect the built page at 929×1004 and 320×800 using the approved capture route; bind the captures and measurements in `docs/evidence/ui/responsive-layout.json`.
 - [ ] Exercise the actual gallery with reviewed capture entries.
-- [x] Verify public access and all four image hashes after publication at the source revision recorded in `docs/evidence/live-publication-004.json`.
+- [x] Verify public access and all seven image hashes after publication at the source revision recorded in `docs/evidence/live-publication-007.json`.
+- [ ] Verify public access and all eleven image hashes after the pending four-image delivery.
 
-Items are checked only when implemented and supported by the stated evidence. All four published images document construction and none proves completed gameplay.
+Items are checked only when implemented and supported by the stated evidence. All eleven source records document construction progress. The four newly admitted Play-mode frames document scene appearance only and do not prove gameplay or facility acceptance; only the first seven records have current public-delivery proof.

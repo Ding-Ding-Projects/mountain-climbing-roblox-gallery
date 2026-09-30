@@ -45,12 +45,31 @@ if (!receipt.privacyReview || receipt.privacyReview.result !== 'passed' || recei
 if (receipt.capturedAt !== null && (typeof receipt.capturedAt !== 'string' || !/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,3})?(?:Z|[+-]\d{2}:\d{2})$/.test(receipt.capturedAt) || Number.isNaN(Date.parse(receipt.capturedAt)))) throw new Error('capturedAt must be null or an ISO timestamp with an explicit timezone.');
 
 const isConstructionRecord = constructionRecordArg !== null;
+let captureContext = null;
 if (isConstructionRecord) {
-  if (receipt.recordType !== 'gallery-review-record' || receipt.captureClass !== 'construction-progress' || receipt.captureMode !== 'Edit') throw new Error('A construction record must identify a reviewed Edit-mode construction-progress capture.');
-  if (typeof receipt.sourcePath !== 'string' || !/^evidence\/(?:world|town|facilities)\/[A-Za-z0-9._/-]+$/.test(receipt.sourcePath) || receipt.sourcePath.split('/').includes('..')) throw new Error('Construction sourcePath must be an approved repository-relative evidence path.');
+  const isPlaySceneRecord = receipt.captureMode === 'Play';
+  if (receipt.recordType !== 'gallery-review-record' || receipt.captureClass !== 'construction-progress' || !['Edit', 'Play'].includes(receipt.captureMode)) throw new Error('A construction record must identify a reviewed Edit- or Play-mode construction-progress capture.');
+  if (isPlaySceneRecord) {
+    const context = receipt.captureContext;
+    const captureContextKeys = ['sourceRevision', 'nativeSnapshotSha256', 'nativeSnapshotByteLength', 'savedEditVersion', 'playVersion', 'cameraPlacement', 'cameraPreparedAt', 'lightingClockTime'];
+    if (!context || Object.getPrototypeOf(context) !== Object.prototype || Object.keys(context).length !== captureContextKeys.length || Object.keys(context).some(key => !captureContextKeys.includes(key))) throw new Error('Play captureContext must contain only the approved provenance fields.');
+    if (receipt.sourcePath !== null || !context || context.sourceRevision !== receipt.sourceRevision || !/^[a-f0-9]{64}$/i.test(context.nativeSnapshotSha256 || '') || !Number.isSafeInteger(context.nativeSnapshotByteLength) || context.nativeSnapshotByteLength < 1 || !Number.isSafeInteger(context.savedEditVersion) || !Number.isSafeInteger(context.playVersion) || context.cameraPlacement !== 'scene-only' || typeof context.cameraPreparedAt !== 'string' || !/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/.test(context.cameraPreparedAt) || Number.isNaN(Date.parse(context.cameraPreparedAt)) || typeof context.lightingClockTime !== 'number' || context.lightingClockTime < 0 || context.lightingClockTime >= 24) throw new Error('Play construction records need validated scene-only capture context and no private source path.');
+    if (receipt.scale !== null || receipt.theme !== 'not-applicable' || receipt.capturedAt !== null) throw new Error('Unavailable Play construction metadata must stay null or not-applicable.');
+    if (!Array.isArray(receipt.limitations) || !receipt.limitations.some(x => /appearance only/i.test(x) && /not proof of physical entry/i.test(x) && /whole-facility acceptance/i.test(x)) || !receipt.limitations.some(x => /not final realism evidence/i.test(x)) || !receipt.limitations.some(x => /preparation time is not the capture time/i.test(x))) throw new Error('Play construction records must bound appearance-only evidence and unavailable capture metadata.');
+    captureContext = {
+      sourceRevision: context.sourceRevision,
+      nativeSnapshotSha256: context.nativeSnapshotSha256,
+      nativeSnapshotByteLength: context.nativeSnapshotByteLength,
+      savedEditVersion: context.savedEditVersion,
+      playVersion: context.playVersion,
+      cameraPlacement: context.cameraPlacement,
+      cameraPreparedAt: context.cameraPreparedAt,
+      lightingClockTime: context.lightingClockTime
+    };
+  } else if (typeof receipt.sourcePath !== 'string' || !/^evidence\/(?:world|town|facilities)\/[A-Za-z0-9._/-]+$/.test(receipt.sourcePath) || receipt.sourcePath.split('/').includes('..')) throw new Error('Construction sourcePath must be an approved repository-relative evidence path.');
   if (receipt.scale !== null || receipt.theme !== 'not-applicable' || receipt.capturedAt !== null) throw new Error('Unavailable construction metadata must stay null or not-applicable.');
   if (!Array.isArray(receipt.limitations) || receipt.limitations.length < 2 || receipt.limitations.some(x => typeof x !== 'string' || !x.trim() || x.length > 512)) throw new Error('Construction records need bounded, explicit limitations.');
-  if (!receipt.limitations.some(x => /not final realism evidence/i.test(x)) || !receipt.limitations.some(x => /not Play mode/i.test(x))) throw new Error('Construction records must disclaim final realism and Play-mode proof.');
+  if (isPlaySceneRecord ? !receipt.limitations.some(x => /physical entry/i.test(x)) : (!receipt.limitations.some(x => /not final realism evidence/i.test(x)) || !receipt.limitations.some(x => /not Play mode/i.test(x)))) throw new Error('Construction records must state their applicable evidence limitations.');
   if (!receipt.rightsReview || receipt.rightsReview.result !== 'passed' || typeof receipt.rightsReview.basis !== 'string' || !receipt.rightsReview.basis.trim() || receipt.rightsReview.basis.length > 1000) throw new Error('Construction records need an explicit passing asset-rights review basis.');
   if (!receipt.metadataReview || receipt.metadataReview.result !== 'passed' || typeof receipt.metadataReview.summary !== 'string' || !receipt.metadataReview.summary.trim() || receipt.metadataReview.summary.length > 1000) throw new Error('Construction records need an explicit metadata review result.');
   if (typeof receipt.privacyReview.reviewer !== 'string' || !receipt.privacyReview.reviewer.trim() || receipt.privacyReview.reviewer.length > 120) throw new Error('Construction records need a bounded reviewer label.');
@@ -86,6 +105,7 @@ manifest.images.push({
   path: `images/${filename}`,
   sha256: digest,
   sourceRevision: receipt.sourceRevision,
+  sourcePath: isConstructionRecord ? receipt.sourcePath : null,
   state: receipt.state,
   title: receipt.title,
   caption: receipt.caption,
@@ -98,6 +118,7 @@ manifest.images.push({
   theme: receipt.theme,
   method: receipt.method,
   captureMode: receipt.captureMode || '',
+  captureContext,
   capturedAt: receipt.capturedAt,
   receiptValidated: !isConstructionRecord,
   reviewRecordValidated: isConstructionRecord,

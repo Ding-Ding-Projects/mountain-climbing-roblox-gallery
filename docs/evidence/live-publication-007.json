@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-09-30T05:45:34Z",
+  "sourceRevision": "fcbb06c86738f3196340435cfe9b8deda8856494",
+  "hosting": {
+    "repositoryVisibility": "public",
+    "pagesStatus": "built",
+    "pagesBuiltAt": "2026-09-30T01:30:26Z",
+    "sourceBranch": "main",
+    "sourcePath": "/docs",
+    "url": "https://ding-ding-projects.github.io/mountain-climbing-roblox-gallery/"
+  },
+  "http": {
+    "access": "Direct unauthenticated HTTP requests; no credentials or visitor cookies were sent.",
+    "page": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "byteLength": 77493,
+      "sha256": "133013c0004bc9af546315d9921db8de13e78a986087d1ee9c5f2e2b597d0a42"
+    },
+    "manifest": {
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "byteLength": 15391,
+      "sha256": "630b296a3d777be53244a86399fcf30524a30667bc7ad053d733561fe56cc68a",
+      "imageRecordCount": 7
+    },
+    "images": [
+      {
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 237085,
+        "manifestHashMatched": true,
+        "sha256": "85ca212afb63a2eaa334b58cffec07cb37677aec1acb4ed06985d9e74439fa59",
+        "captureId": "forest-ascent-overview-001"
+      },
+      {
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 232779,
+        "manifestHashMatched": true,
+        "sha256": "555317609645527743b266845d4fb0e19d3b73fc5447621cec07d4e0195be402",
+        "captureId": "summit-aircraft-stairs-001"
+      },
+      {
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 234294,
+        "manifestHashMatched": true,
+        "sha256": "e3df6d1a925093e5e36ba8add1f55f003bdb824670b970b5da88b1c2b6efd205",
+        "captureId": "summit-approach-eye-005"
+      },
+      {
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 403121,
+        "manifestHashMatched": true,
+        "sha256": "d82bf43847dc5699ab4511f26c7a68db537e1be08443bfcf913c9bd8eb867032",
+        "captureId": "trail-lantern-night-001"
+      },
+      {
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 251881,
+        "manifestHashMatched": true,
+        "sha256": "25926164ab52236fed4da7b7176073f9f7fdd9de068b1751f4750a55b06f0dc1",
+        "captureId": "rest-exterior-historic-001"
+      },
+      {
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 303611,
+        "manifestHashMatched": true,
+        "sha256": "ead403c0b6ecd93a8832fb5c4f87678971ce3275b225b50708f877111dd1d4fa",
+        "captureId": "station-exterior-historic-001"
+      },
+      {
+        "status": 200,
+        "contentType": "image/jpeg",
+        "byteLength": 172691,
+        "manifestHashMatched": true,
+        "sha256": "8f68fb49e229df547ce527b1f941bb85e568b7bdd3e271c2b362bd45d7989821",
+        "captureId": "station-interior-historic-001"
+      }
+    ]
+  },
+  "limitations": [
+    "The direct public page, seven-record manifest, and all seven original image byte streams returned HTTP 200 at the recorded source revision; each image stream matched its manifest SHA-256.",
+    "This receipt verifies public delivery only. Current browser interaction, accessibility-tree review, responsive layout, and current visual browser capture remain unverified.",
+    "All seven images are construction progress. They do not establish completed facilities, full route traversal, final realism, collision, or broader gameplay acceptance."
+  ]
+}
