@@ -2,6 +2,8 @@
 
 This public gallery holds images captured from the real Roblox experience after privacy and rights review. Construction-progress images are labeled as such and never presented as final realism or gameplay acceptance. The public page is live, while its current browser interaction and broader page requirements remain unfinished.
 
+Three additional original forest-roof captures are staged in the local source for individual owner publication review. They show the before appearance plus daylight and night views after the built-in Slate material change. The appearance remains unaccepted, and the forest entrance Terrain and foliage remain unfinished. The hosted gallery stays at eleven images until the owner approves these candidates and a later delivery is verified.
+
 ## Open the gallery
 
 Open the [public gallery](https://ding-ding-projects.github.io/mountain-climbing-roblox-gallery/). The eleven-image public delivery is verified in [live-publication-008](docs/evidence/live-publication-008.json), which binds direct unauthenticated HTTP checks to `main` at `ebd6abd4a4e6d403b247c406ef0ad67f2fceacd3`; every image response matched its manifest SHA-256 and dimensions. The receipt verifies HTTP delivery only, not browser rendering or interaction. Earlier receipts remain available. The page uses no remote scripts, fonts, images, analytics, or runtime services.

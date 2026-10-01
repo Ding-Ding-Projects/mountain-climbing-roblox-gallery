@@ -489,6 +489,138 @@
       },
       "privacyReviewer": "Gallery review",
       "privacyReview": "passed"
+    },
+    {
+      "captureClass": "construction-progress",
+      "captureId": "forest-roof-texture-before-001",
+      "path": "images/forest-roof-texture-before-001.jpg",
+      "sha256": "80aecec90ef44784382bf1d9550f019dcf8bb5c5042b0d9d70107c5ab3a8b21d",
+      "sourceRevision": "b5c0024cad4d83cae7bf6b44b173c85376616714",
+      "sourcePath": null,
+      "state": "Roblox Studio Edit-mode version 119 view of the forest building roof before the appearance follow-up",
+      "title": "Forest roof before texture application",
+      "caption": "An Edit-mode view of the forest building before the roof texture change. This records the prior appearance only; it is not evidence of accepted construction or gameplay. The forest entrance Terrain and foliage remain unfinished.",
+      "alt": "Edit-mode exterior view of a forest building with a dark, smooth roof before the roof texture change.",
+      "location": "Forest building exterior",
+      "activity": "Roof appearance review",
+      "stage": "In progress",
+      "viewport": {
+        "width": 1264,
+        "height": 830
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP",
+      "captureMode": "Edit",
+      "captureContext": null,
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This Edit-mode image documents roof appearance only and is not final realism evidence.",
+        "This image is an Edit-mode view and is not Play mode proof.",
+        "The forest entrance Terrain and foliage remain unfinished; this view does not establish an open entry route.",
+        "This capture does not establish runtime behavior, performance, or whole-place acceptance."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "Pixel review shows the forest building roof and exterior only. The source records Roblox built-in Slate material and no external texture, image, mesh, or asset download. No supplied door or identifiable third-party asset is visible."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "The original JPEG contains JFIF density metadata only, with no EXIF tags, comment, or embedded profile. Capture time, timezone, and display scale are unavailable."
+      },
+      "privacyReviewer": "Gallery review",
+      "privacyReview": "passed",
+      "publicationClearance": "pending-owner-review"
+    },
+    {
+      "captureClass": "construction-progress",
+      "captureId": "forest-roof-texture-day-001",
+      "path": "images/forest-roof-texture-day-001.jpg",
+      "sha256": "9246d91b45db7709100cdd231e10135a9806b503b6cfc19af66b960d9dfd1bb8",
+      "sourceRevision": "b5c0024cad4d83cae7bf6b44b173c85376616714",
+      "sourcePath": null,
+      "state": "Roblox Studio Edit-mode version 119 daylight view of the forest building after the roof appearance follow-up",
+      "title": "Forest roof texture in daylight",
+      "caption": "A daylight Edit-mode view after the built-in Slate roof material was applied. The roof appearance is documented as an unaccepted visual update, not final realism, runtime behavior, performance, or whole-place acceptance. The forest entrance Terrain and foliage remain unfinished.",
+      "alt": "Daylight Edit-mode exterior view of a forest building with a blue-gray textured roof after the material change.",
+      "location": "Forest building exterior",
+      "activity": "Roof appearance review",
+      "stage": "In progress",
+      "viewport": {
+        "width": 1264,
+        "height": 830
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP",
+      "captureMode": "Edit",
+      "captureContext": null,
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This Edit-mode image documents roof appearance only and is not final realism evidence.",
+        "This image is an Edit-mode view and is not Play mode proof.",
+        "The forest entrance Terrain and foliage remain unfinished; this view does not establish an open entry route.",
+        "This capture does not establish runtime behavior, performance, or whole-place acceptance."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "Pixel review shows the forest building roof and exterior only. The source records Roblox built-in Slate material and no external texture, image, mesh, or asset download. No supplied door or identifiable third-party asset is visible."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "The original JPEG contains JFIF density metadata only, with no EXIF tags, comment, or embedded profile. Capture time, timezone, and display scale are unavailable."
+      },
+      "privacyReviewer": "Gallery review",
+      "privacyReview": "passed",
+      "publicationClearance": "pending-owner-review"
+    },
+    {
+      "captureClass": "construction-progress",
+      "captureId": "forest-roof-texture-night-001",
+      "path": "images/forest-roof-texture-night-001.jpg",
+      "sha256": "115ab7c31e759e1d7b55d890ccd843f3b949de41b720efed1d821f3dd5471e95",
+      "sourceRevision": "b5c0024cad4d83cae7bf6b44b173c85376616714",
+      "sourcePath": null,
+      "state": "Roblox Studio Edit-mode version 119 night view of the forest building after the roof appearance follow-up",
+      "title": "Forest roof texture at night",
+      "caption": "A night Edit-mode view after the built-in Slate roof material was applied. This documents appearance only; the roof update remains unaccepted and the image does not establish night-appearance, gameplay, performance, or whole-place acceptance. The forest entrance Terrain and foliage remain unfinished.",
+      "alt": "Nighttime Edit-mode exterior view of a forest building with a blue-gray textured roof after the material change.",
+      "location": "Forest building exterior",
+      "activity": "Roof appearance review",
+      "stage": "In progress",
+      "viewport": {
+        "width": 1264,
+        "height": 830
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP",
+      "captureMode": "Edit",
+      "captureContext": null,
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This Edit-mode image documents roof appearance only and is not final realism evidence.",
+        "This image is an Edit-mode view and is not Play mode proof.",
+        "The forest entrance Terrain and foliage remain unfinished; this view does not establish an open entry route.",
+        "This capture does not establish runtime behavior, performance, or whole-place acceptance."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "Pixel review shows the forest building roof and exterior only. The source records Roblox built-in Slate material and no external texture, image, mesh, or asset download. No supplied door or identifiable third-party asset is visible."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "The original JPEG contains JFIF density metadata only, with no EXIF tags, comment, or embedded profile. Capture time, timezone, and display scale are unavailable."
+      },
+      "privacyReviewer": "Gallery review",
+      "privacyReview": "passed",
+      "publicationClearance": "pending-owner-review"
     }
   ],
   "excluded": []
