@@ -1,5 +1,14 @@
 # Roadmap
 
+## Current nineteen-image revision
+
+- [x] Preserve the previous sixteen images and admit three reviewed original suite images in source commit `eb5790b453b7fac549019189900351f08b71c6c3`.
+- [ ] Verify public delivery of the page, nineteen-image manifest and every image hash. Earlier sixteen-image receipts do not cover the new revision.
+- [ ] Review and import the two pending project-authored staff captures with their failed-probe and endpoint-only limitations.
+- [ ] Complete current browser rendering, interaction, accessibility and page-contract verification.
+
+The separate reception baseline is withheld as a near-duplicate with orientation-gizmo clutter. Six untracked transfer copies remain retained. Existing checked items below describe historical evidence at their stated revisions.
+
 ## Current hotel reception capture
 
 - [x] Review and preserve the original Edit 205 reception PNG and its limited construction provenance, retaining all fifteen earlier records.

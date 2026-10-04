@@ -1,9 +1,20 @@
 # Closeout prompt
 
-Continue the existing public gallery with all fifteen historical images preserved. The current gallery contains sixteen reviewed original captures. The newest addition, `hotel-reception-edit205-001.png`, is the retained stopped Edit 205 reception view: it shows the older reception furniture and fixtures, not the new ensuite geometry or V2 rooms. Its original pixels and metadata were reviewed; exact capture instant and display scale remain unavailable, and the image is construction appearance evidence only.
+Continue the existing public Mountain Climbing Gallery from image-bearing source commit `eb5790b453b7fac549019189900351f08b71c6c3`. Its main branch was pushed and verified with `git ls-remote`. The source manifest now contains nineteen reviewed original images: the previous sixteen plus the suite preview, night suite and close-up reader views.
 
-The existing receipt `docs/evidence/live-publication-010.json` binds image-bearing source `0ffbcf131df9378f67c01dc9eadcd8da23b42dcf` to unauthenticated HTTP 200 for the public page, manifest, and all sixteen images, with matching source hashes and dimensions. A fresh read-only check on 2026-10-04 confirmed HTTP 200 for the page, manifest, and all sixteen image URLs, with all sixteen current public image hashes matching the receipt; the manifest still lists sixteen images and four exclusions. This confirms public delivery, not browser rendering or interaction.
+The three new source assets are:
+- `docs/evidence/images/hotel-door-preview-suite1-20261004.jpg`
+- `docs/evidence/images/hotel-suite-night-20261004.jpg`
+- `docs/evidence/images/hotel-suite-reader-close-20261004.jpg`
 
-Four avatar/interface candidates remain excluded and private. Do not make new captures or perform Studio operations in this closeout. Browser rendering, interaction, accessibility, native hotel services, new-room acceptance, and the wider building acceptance remain incomplete. The documented `node tests/background-admission.mjs docs/evidence/images/hotel-reception-edit205-001.png` check passed all ten cases. The earlier command omitted the required PNG argument, so its rejection was an invalid test invocation, not evidence of a gallery defect. No source or image changes were needed.
+The preview controls remain unbound. The reader close-up documents a readability defect; it is not evidence that the later source repair is rendered or accepted. Exact capture timestamps and display scale remain unavailable. Preserve original pixels and honest per-image limitations.
 
-Fresh receipt `docs/evidence/live-publication-011.json` records independent HTTPS reads at 2026-10-04T20:50:14.979Z: page, manifest and all sixteen image byte counts and SHA-256 values match receipt 010 exactly. The current documentation commit follows `f1a0dddd9a458b1de5d45e3666c90c267eb5235f`; no image-bearing source changed. Preserve this gallery worktree and its main branch. The owner requested an end to this turn after configuration and preservation; this is not a claim that the 108-building goal is complete.
+Public HTTP delivery of the nineteen-image revision is unverified. Historical receipts 010 and 011 establish delivery of the previous sixteen-image revision only. They do not verify the three new images. Browser rendering, interaction, accessibility and the full page contract remain incomplete.
+
+Two project-authored staff captures, the failed initial native probe and repaired endpoint view, remain pending gallery import at the preservation boundary. They are not excluded on privacy grounds. Their appearance is distinct from proof of continuous visible gait or completed hotel service. A separate reception baseline is withheld as a near-duplicate with orientation-gizmo clutter. The four previously withheld avatar/interface candidates remain private.
+
+Six `candidate-*` transfer copies, three JPGs and three JSON review records, remain untracked in this gallery working tree. They are retained, not staged or deleted. No cleanup or additional capture work is authorized by this handoff alone.
+
+Next steps: revalidate the current source and deployment, verify the public page, manifest and each original image hash, record exact delivery evidence, then finish the two pending staff admissions after checking original bytes and review records. Do not infer a successful deployment from the source push.
+
+The private resort implementation remains incomplete across all 108 existing records. Keep that source private. No public place publication, purchase, new district, additional building ID, configuration change or supplier redistribution is part of this gallery continuation.

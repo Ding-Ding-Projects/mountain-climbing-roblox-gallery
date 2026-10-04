@@ -1,5 +1,13 @@
 # Handoff
 
+## Preservation update: nineteen-image source
+
+The source manifest contains **nineteen reviewed original images** at image-bearing commit `eb5790b453b7fac549019189900351f08b71c6c3`. Its remote main reference was verified. The three additions show the unbound suite preview, a night suite view and the reader readability defect. **Public delivery of this revision remains unverified.** Earlier sixteen-image HTTP receipts do not cover the additions.
+
+Two staff captures remain pending import, not privacy exclusions. A separate reception baseline is withheld as a near-duplicate with orientation-gizmo clutter. Six untracked transfer copies are retained. The hotel and all 108 resort records remain incomplete. See [CLOSEOUT_PROMPT.md](CLOSEOUT_PROMPT.md) for exact boundaries and next steps.
+
+**廣東話：** 原始資料現有十九張已審查原圖，main 遠端版本已核對；新增三張圖記錄未連接控制嘅套房預覽、夜景同讀卡器字體問題。新版公開傳送仍未驗證。兩張職員相等候匯入，唔係因為私隱而排除；酒店同全部 108 項記錄仍未完成驗收。
+
 ## Current gallery publication
 
 The current source candidate adds `hotel-reception-edit205-001` for sixteen images total, preserving all fifteen earlier records and image bytes. Its background viewport method is admitted only for construction progress with exact PNG dimensions, hash, six approved provenance fields and an explicit non-acceptance limitation. Ten focused admission cases passed, and an independent read-only review accepted this exact original image and record. Public readback passed for the page, manifest and all sixteen images at `0ffbcf131df9378f67c01dc9eadcd8da23b42dcf`; hashes and dimensions matched, as recorded in `docs/evidence/live-publication-010.json`. The subsequent close-up attempts returned the old frame and remain excluded. No capture time was inferred from filenames or filesystem timestamps.
