@@ -1,5 +1,9 @@
 # Handoff
 
+## Current gallery publication
+
+The source and hosted galleries contain fifteen construction-progress images, verified by [`docs/evidence/live-publication-009.json`](docs/evidence/live-publication-009.json) against published source revision `f03a972ef56e6046edb107f010f4a77165409be6`. The page, manifest, and all fifteen image URLs returned HTTP 200; image hashes and JPEG dimensions matched. Four avatar/interface candidates remain withheld without public identity authorization. Browser rendering and interaction remain unverified.
+
 ## Gallery candidate, four Bakery appearance captures, 2026-09-30
 
 The integrated source and hosted manifests contain eleven reviewed construction-progress records. Four new original Play-mode images show scene-placed views of the project-built Bakery side wall, roof, chimney, counter, bread, oven, and room signs. Their pixel, filename, metadata, original-byte hash, and rights reviews passed. The records keep `sourcePath` null, bind to source revision `d21238095bc1ead1c54ae4a02136c13c8479d033` and the validated native snapshot, and record camera preparation bounds without presenting them as capture times. Exact capture time, timezone, and display scale remain unavailable. These images document appearance only and do not prove physical entry, room circulation, collision, service operation, persistence, final realism, or whole-facility acceptance.
@@ -45,7 +49,7 @@ The approved isolated browser route is unavailable in the current task environme
 ## Remaining work
 
 1. Complete browser-rendered row, accessibility, responsive-layout, and visual interaction checks through the approved isolated route.
-2. Obtain a validated capture receipt for any capture intended to prove a final or runtime state. All eleven current source images remain construction progress only.
+2. Obtain a validated capture receipt for any capture intended to prove a final or runtime state. All fifteen current source images remain construction progress only.
 3. Complete the mandatory page feature inventory and built-page verification without upgrading source-only work into evidence.
 4. Complete current browser interaction, accessibility-tree, responsive layout, and visual capture checks through the approved isolated route. Keep the already verified public HTTP delivery distinct from those checks.
 
@@ -57,4 +61,4 @@ No Material Designer creation or export tool was exposed in the available tools.
 
 The source manifest now contains fifteen construction-progress images. Four additional Edit-mode hotel views show project-authored washroom fixtures and reception seating. Paired receipts match the original JPEG hashes, byte lengths, and 1259×793 dimensions. Pixel review found no avatar, account content, supplied catalogue model, or external imagery. JPEG metadata contains JFIF APP0 only. The public records leave `capturedAt` null because the exact acquisition instant is unavailable. These images document construction appearance only, not facility operation or acceptance.
 
-Four other hotel candidates remain excluded because their pixels show a test avatar and interface, with no public identity authorization. The exclusion records contain no private paths or image bytes. The hosted gallery still has eleven images according to `docs/evidence/live-publication-008.json`; delivery of the four new captures is pending.
+Four other hotel candidates remain excluded because their pixels show a test avatar and interface, with no public identity authorization. The exclusion records contain no private paths or image bytes. The current fifteen-image hosted delivery is verified in `docs/evidence/live-publication-009.json`. The seating caption correction to breakfast display is included in the current source manifest; its post-deployment readback remains pending.

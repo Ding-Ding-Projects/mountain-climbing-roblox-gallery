@@ -25,6 +25,6 @@
 - [x] Verify public access and all seven image hashes after publication at the source revision recorded in `docs/evidence/live-publication-007.json`.
 - [x] Verify public access and all eleven image hashes and dimensions at the deployed revision in `docs/evidence/live-publication-008.json`.
 
-Items are checked only when implemented and supported by the stated evidence. All eleven published images document construction progress. The four newly admitted Play-mode frames document scene appearance only and do not prove gameplay or facility acceptance. HTTP delivery does not prove browser-rendered rows or interaction.
+Items are checked only when implemented and supported by the stated evidence. All fifteen published images document construction progress. The four Bakery Play-mode frames and four hotel Edit-mode views document scene appearance only and do not prove gameplay, facility operation, or acceptance. HTTP delivery does not prove browser-rendered rows or interaction.
 
-- [ ] Publish four reviewed hotel construction-progress captures and verify public delivery for all fifteen images, including hashes and dimensions. Four avatar/interface images remain withheld without public identity authorization.
+- [x] Publish four reviewed hotel construction-progress captures and verify public delivery for all fifteen images, including hashes and dimensions in `docs/evidence/live-publication-009.json`. Four avatar/interface images remain withheld without public identity authorization.

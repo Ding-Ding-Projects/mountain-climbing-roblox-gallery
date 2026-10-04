@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-04T02:21:42.967Z",
+  "method": "Direct unauthenticated HTTPS GET requests",
+  "sourceRevision": "f03a972ef56e6046edb107f010f4a77165409be6",
+  "page": {
+    "url": "https://ding-ding-projects.github.io/mountain-climbing-roblox-gallery/",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 78996,
+    "sha256": "44d7271db60e99efbf2ef2cdae9d5a4d04b6fc7b6dba271bfcf95058a00bf55b"
+  },
+  "manifest": {
+    "url": "https://ding-ding-projects.github.io/mountain-climbing-roblox-gallery/evidence/gallery.json",
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "bytes": 35310,
+    "sha256": "e347b0fb9697626333de4421bcfeb0234963587d583a935a371abbdf2abe82ee",
+    "records": 15,
+    "excluded": 4
+  },
+  "images": [
+    {
+      "captureId": "forest-ascent-overview-001",
+      "path": "images/forest-ascent-overview-001.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 237085,
+      "sha256": "85ca212afb63a2eaa334b58cffec07cb37677aec1acb4ed06985d9e74439fa59",
+      "width": 1264,
+      "height": 830
+    },
+    {
+      "captureId": "summit-aircraft-stairs-001",
+      "path": "images/summit-aircraft-stairs-001.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 232779,
+      "sha256": "555317609645527743b266845d4fb0e19d3b73fc5447621cec07d4e0195be402",
+      "width": 1264,
+      "height": 830
+    },
+    {
+      "captureId": "summit-approach-eye-005",
+      "path": "images/summit-approach-eye-005.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 234294,
+      "sha256": "e3df6d1a925093e5e36ba8add1f55f003bdb824670b970b5da88b1c2b6efd205",
+      "width": 1264,
+      "height": 830
+    },
+    {
+      "captureId": "trail-lantern-night-001",
+      "path": "images/trail-lantern-night-001.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 403121,
+      "sha256": "d82bf43847dc5699ab4511f26c7a68db537e1be08443bfcf913c9bd8eb867032",
+      "width": 1264,
+      "height": 830
+    },
+    {
+      "captureId": "rest-exterior-historic-001",
+      "path": "images/rest-exterior-historic-001.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 251881,
+      "sha256": "25926164ab52236fed4da7b7176073f9f7fdd9de068b1751f4750a55b06f0dc1",
+      "width": 1264,
+      "height": 830
+    },
+    {
+      "captureId": "station-exterior-historic-001",
+      "path": "images/station-exterior-historic-001.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 303611,
+      "sha256": "ead403c0b6ecd93a8832fb5c4f87678971ce3275b225b50708f877111dd1d4fa",
+      "width": 1264,
+      "height": 830
+    },
+    {
+      "captureId": "station-interior-historic-001",
+      "path": "images/station-interior-historic-001.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 172691,
+      "sha256": "8f68fb49e229df547ce527b1f941bb85e568b7bdd3e271c2b362bd45d7989821",
+      "width": 1264,
+      "height": 830
+    },
+    {
+      "captureId": "bakery-side-day-001",
+      "path": "images/bakery-side-day-001.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 193082,
+      "sha256": "10cf41f7f993b55ae22859de3c29035a81748369ec64d56f917a5575d67529ef",
+      "width": 624,
+      "height": 712
+    },
+    {
+      "captureId": "bakery-side-night-001",
+      "path": "images/bakery-side-night-001.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 128380,
+      "sha256": "a0e86f7ce6ab85d4399f2cefe1475730eb5193d26f28fd787f7c1352c4ce0ad0",
+      "width": 624,
+      "height": 712
+    },
+    {
+      "captureId": "bakery-counter-day-001",
+      "path": "images/bakery-counter-day-001.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 140668,
+      "sha256": "39cf39e84e2b101a48a4999343a24acab961e4d4f94dcf028bdfa60a320df246",
+      "width": 624,
+      "height": 712
+    },
+    {
+      "captureId": "bakery-counter-night-001",
+      "path": "images/bakery-counter-night-001.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 142544,
+      "sha256": "c23923e2fecd53000ceca613ad97493247141afc0f839178213038ec7b808ae4",
+      "width": 624,
+      "height": 712
+    },
+    {
+      "captureId": "hotel-washroom-approach-001",
+      "path": "images/hotel-washroom-approach-001.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 189346,
+      "sha256": "cc4dcd7e5dd7b7727b9d4d4bddf1f52fa57ec19528e875ddec8e34c40e0c0c26",
+      "width": 1259,
+      "height": 793
+    },
+    {
+      "captureId": "hotel-washroom-basin-001",
+      "path": "images/hotel-washroom-basin-001.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 193103,
+      "sha256": "3e70218de42d5e0dacefe7ca067f26bb1d97c56b0e75cde9d7a05a74ca9926d8",
+      "width": 1259,
+      "height": 793
+    },
+    {
+      "captureId": "hotel-washroom-toilet-001",
+      "path": "images/hotel-washroom-toilet-001.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 155494,
+      "sha256": "e968c599fe1b19210bc7e595b5aac1317b9164170e2cb51e6c759b40497db018",
+      "width": 1259,
+      "height": 793
+    },
+    {
+      "captureId": "hotel-reception-seating-edit-001",
+      "path": "images/hotel-reception-seating-edit-001.jpg",
+      "status": 200,
+      "contentType": "image/jpeg",
+      "bytes": 185910,
+      "sha256": "e5897a113347b79d3c4e357a3ee19e4cecf1794e1f85792ddb1bca823d6d7a52",
+      "width": 1259,
+      "height": 793
+    }
+  ],
+  "limitations": [
+    "HTTP availability and byte integrity only; browser rendering, interaction, accessibility, and runtime behavior were not verified."
+  ]
+}
