@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "recordType": "gallery-review-record",
+  "captureClass": "construction-progress",
+  "captureId": "hotel-reception-edit205-001",
+  "sourceRevision": "7b8104ee562a009712bfd04b403a890632ad97a9",
+  "sourcePath": "evidence/world/hotel-edit205-reception-viewport.png",
+  "state": "Roblox Studio stopped Edit 205 retained hotel reception preview",
+  "title": "Hotel reception in the reopened place",
+  "caption": "The retained reception in Edit 205, with a bench, armchair, low table, water fixture and breakfast display. Rear labels are unreadable at this framing and dark furniture has weak contrast against the floor. The small Studio orientation gizmo remains visible. This is construction appearance only; new ensuites and service operation are not shown.",
+  "alt": "Dark wooden bench and armchair around a low table, with a water fixture and breakfast cabinet against the hotel wall.",
+  "method": "lowlevel-computer-use-cheap background HWND capture",
+  "imageSha256": "75ad238e50c1657af9f58ace6449c5c86759f781f39b5a0166a2c3cb5b157e4f",
+  "viewport": {
+    "width": 812,
+    "height": 675
+  },
+  "scale": null,
+  "theme": "not-applicable",
+  "captureMode": "Edit",
+  "capturedAt": null,
+  "captureContext": {
+    "nativeSnapshotSha256": "bfa3fcee0b40f9c683ae99e5632f032ad62ee0418549f3cd4c10ec832411b80c",
+    "nativeSnapshotByteLength": 176812,
+    "savedEditVersion": 205,
+    "captureStartUTC": "2026-10-04T19:23:21Z",
+    "captureEndUTC": "2026-10-04T19:23:22Z",
+    "route": "background-window"
+  },
+  "location": "Hotel reception",
+  "activity": "Construction review",
+  "stage": "In progress",
+  "limitations": [
+    "Construction appearance only, not final realism evidence.",
+    "Stopped Edit view, not Play mode proof or service, booking, door, persistence or building acceptance.",
+    "This background HWND capture is not a formal headless UI acceptance receipt.",
+    "Exact acquisition instant and display scale are unavailable. The UTC interval comes from clock readings directly around the capture call.",
+    "New ensuite and stall geometry is absent; clear circulation has not been measured."
+  ],
+  "privacyReview": {
+    "result": "passed",
+    "pixelsReviewed": true,
+    "metadataReviewed": true,
+    "filenameReviewed": true,
+    "reviewer": "Independent building review and parent pixel inspection"
+  },
+  "rightsReview": {
+    "result": "passed",
+    "basis": "The visible reception furniture and fixtures are project-authored native geometry from the retained source preview. Pixel review found no identifiable supplied model or external imagery."
+  },
+  "metadataReview": {
+    "result": "passed",
+    "summary": "Original PNG contains IHDR, IDAT and IEND chunks only. No text, EXIF or other identifying metadata is present. Original 466758 bytes are preserved."
+  }
+}

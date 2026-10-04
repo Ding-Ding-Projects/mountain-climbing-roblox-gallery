@@ -1,5 +1,12 @@
 # Roadmap
 
+## Current hotel reception capture
+
+- [x] Review and preserve the original Edit 205 reception PNG and its limited construction provenance, retaining all fifteen earlier records.
+- [x] Restrict background HWND admission to reviewed construction records; ten focused cases and independent source review passed.
+- [ ] Verify public delivery of all sixteen images, including original hashes and image dimensions.
+- [ ] Obtain fresh close-up views through a rendering capture route. Repeated stale frames remain excluded.
+
 ## Gallery foundation
 
 - [x] Record version 80 preservation and revised Bakery walking routes and structural supports. Bounded Play checks passed on the original Bakery door controller; the interior pilot and full door acceptance remain in progress, with no new reviewed interior imagery added. Detailed evidence is in `docs/evidence/progress-version80-20260929.json`.

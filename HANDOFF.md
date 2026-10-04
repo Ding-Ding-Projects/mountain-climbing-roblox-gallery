@@ -2,6 +2,8 @@
 
 ## Current gallery publication
 
+The current source candidate adds `hotel-reception-edit205-001` for sixteen images total, preserving all fifteen earlier records and image bytes. Its background viewport method is admitted only for construction progress with exact PNG dimensions, hash, six approved provenance fields and an explicit non-acceptance limitation. Ten focused admission cases passed, and an independent read-only review accepted this exact original image and record. Public readback of the new candidate is pending. The subsequent close-up attempts returned the old frame and remain excluded. No capture time was inferred from filenames or filesystem timestamps.
+
 The source and hosted galleries contain fifteen construction-progress images, verified by [`docs/evidence/live-publication-009.json`](docs/evidence/live-publication-009.json) against published source revision `f03a972ef56e6046edb107f010f4a77165409be6`. The page, manifest, and all fifteen image URLs returned HTTP 200; image hashes and JPEG dimensions matched. Four avatar/interface candidates remain withheld without public identity authorization. Browser rendering and interaction remain unverified.
 
 ## Gallery candidate, four Bakery appearance captures, 2026-09-30

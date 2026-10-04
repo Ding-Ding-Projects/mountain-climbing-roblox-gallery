@@ -38,7 +38,9 @@ if (receipt.schemaVersion !== 1) throw new Error('Unsupported record schemaVersi
 if (!/^[a-z0-9][a-z0-9_-]{2,63}$/i.test(receipt.captureId)) throw new Error('captureId must be a short plain identifier.');
 if (!/^[a-f0-9]{40,64}$/i.test(receipt.sourceRevision)) throw new Error('sourceRevision must be a full 40 to 64 character hexadecimal revision.');
 if (!/^[a-f0-9]{64}$/i.test(receipt.imageSha256)) throw new Error('imageSha256 must be a SHA-256 hex digest.');
-if (receipt.method !== 'Roblox Studio MCP') throw new Error('Capture method must identify Roblox Studio MCP.');
+const isBackgroundConstruction = receipt.method === 'lowlevel-computer-use-cheap background HWND capture';
+if (receipt.method !== 'Roblox Studio MCP' && !isBackgroundConstruction) throw new Error('Capture method is not supported.');
+if (isBackgroundConstruction && !constructionRecordArg) throw new Error('Background viewport captures are construction records only.');
 if (!receipt.viewport || !Number.isInteger(receipt.viewport.width) || !Number.isInteger(receipt.viewport.height) || receipt.viewport.width < 1 || receipt.viewport.height < 1) throw new Error('Receipt viewport must include positive integer width and height.');
 if (!['light', 'dark', 'not-applicable'].includes(receipt.theme)) throw new Error('Receipt theme is not supported.');
 if (!receipt.privacyReview || receipt.privacyReview.result !== 'passed' || receipt.privacyReview.pixelsReviewed !== true || receipt.privacyReview.metadataReviewed !== true || receipt.privacyReview.filenameReviewed !== true) throw new Error('Receipt must record passed pixel, metadata, and filename review.');
@@ -47,6 +49,14 @@ if (receipt.capturedAt !== null && (typeof receipt.capturedAt !== 'string' || !/
 const isConstructionRecord = constructionRecordArg !== null;
 let captureContext = null;
 if (isConstructionRecord) {
+  if (isBackgroundConstruction) {
+    const context = receipt.captureContext;
+    const keys = ['nativeSnapshotSha256', 'nativeSnapshotByteLength', 'savedEditVersion', 'captureStartUTC', 'captureEndUTC', 'route'];
+    const utc = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/.test(value) && Number.isFinite(Date.parse(value));
+    if (receipt.captureMode !== 'Edit' || !context || Object.getPrototypeOf(context) !== Object.prototype || Object.keys(context).length !== keys.length || Object.keys(context).some(key => !keys.includes(key)) || !/^[a-f0-9]{64}$/.test(context.nativeSnapshotSha256 || '') || !Number.isSafeInteger(context.nativeSnapshotByteLength) || context.nativeSnapshotByteLength < 1 || !Number.isSafeInteger(context.savedEditVersion) || context.savedEditVersion < 1 || context.route !== 'background-window' || !utc(context.captureStartUTC) || !utc(context.captureEndUTC) || Date.parse(context.captureEndUTC) < Date.parse(context.captureStartUTC) || Date.parse(context.captureEndUTC) - Date.parse(context.captureStartUTC) > 60000) throw new Error('Background construction provenance is incomplete.');
+    if (!receipt.limitations?.some(value => /not a formal headless UI acceptance receipt/i.test(value))) throw new Error('Background capture limitations must remain explicit.');
+    captureContext = { ...context };
+  }
   const isPlaySceneRecord = receipt.captureMode === 'Play';
   if (receipt.recordType !== 'gallery-review-record' || receipt.captureClass !== 'construction-progress' || !['Edit', 'Play'].includes(receipt.captureMode)) throw new Error('A construction record must identify a reviewed Edit- or Play-mode construction-progress capture.');
   if (isPlaySceneRecord) {
@@ -86,6 +96,7 @@ const signatureOk = ext === '.png'
     ? imageBytes.toString('ascii', 0, 4) === 'RIFF' && imageBytes.toString('ascii', 8, 12) === 'WEBP'
     : imageBytes[0] === 0xff && imageBytes[1] === 0xd8 && imageBytes[2] === 0xff;
 if (!signatureOk) throw new Error('Image bytes do not match the file extension.');
+if (isBackgroundConstruction && (ext !== '.png' || imageBytes.length < 33 || imageBytes.toString('ascii', 12, 16) !== 'IHDR' || imageBytes.readUInt32BE(16) !== receipt.viewport.width || imageBytes.readUInt32BE(20) !== receipt.viewport.height)) throw new Error('Background PNG dimensions differ from the review record.');
 const digest = createHash('sha256').update(imageBytes).digest('hex');
 if (digest.toLowerCase() !== receipt.imageSha256.toLowerCase()) throw new Error('Image SHA-256 does not match the validated capture receipt.');
 
