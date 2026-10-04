@@ -489,7 +489,192 @@
       },
       "privacyReviewer": "Gallery review",
       "privacyReview": "passed"
+    },
+    {
+      "captureClass": "construction-progress",
+      "captureId": "hotel-washroom-approach-001",
+      "path": "images/hotel-washroom-approach-001.jpg",
+      "sha256": "cc4dcd7e5dd7b7727b9d4d4bddf1f52fa57ec19528e875ddec8e34c40e0c0c26",
+      "sourceRevision": "2eabe593d9d867570c15a99e51a59302a3f65879",
+      "sourcePath": null,
+      "state": "Roblox Studio Edit-mode geometry view of the hotel washroom approach",
+      "title": "Hotel washroom approach under construction",
+      "caption": "An Edit-mode view of the washroom entrance, privacy partitions, and vanity. This construction view does not establish facility operation or acceptance.",
+      "alt": "Edit-mode hotel washroom interior with two privacy partitions, tiled floor, and a vanity at the far wall.",
+      "location": "Hotel",
+      "activity": "Construction appearance review",
+      "stage": "In progress",
+      "viewport": {
+        "width": 1259,
+        "height": 793
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP screen_capture",
+      "captureMode": "Edit",
+      "captureContext": null,
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This is a construction-progress Edit-mode view, not final realism or facility acceptance.",
+        "The image does not establish operational booking, accessibility, service, or whole-hotel use.",
+        "Exact capture time and timezone are unavailable; display scale is unavailable."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "Pixel and source review found only project-authored native geometry and materials. No supplied catalogue model, external image, or redistributed supplier asset is visible in the capture."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "Original JPEG contains JFIF metadata only, with no EXIF, comment, or ICC profile. Exact capture time and timezone are unavailable."
+      },
+      "privacyReviewer": "Gallery review",
+      "privacyReview": "passed"
+    },
+    {
+      "captureClass": "construction-progress",
+      "captureId": "hotel-washroom-basin-001",
+      "path": "images/hotel-washroom-basin-001.jpg",
+      "sha256": "3e70218de42d5e0dacefe7ca067f26bb1d97c56b0e75cde9d7a05a74ca9926d8",
+      "sourceRevision": "2eabe593d9d867570c15a99e51a59302a3f65879",
+      "sourcePath": null,
+      "state": "Roblox Studio Edit-mode close view of the hotel washroom basin",
+      "title": "Hotel washroom basin under construction",
+      "caption": "A close Edit-mode view of the authored washroom basin and vanity. This construction view documents appearance only.",
+      "alt": "Edit-mode close view of a white washroom basin with a mirror and wooden vanity.",
+      "location": "Hotel",
+      "activity": "Construction appearance review",
+      "stage": "In progress",
+      "viewport": {
+        "width": 1259,
+        "height": 793
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP screen_capture",
+      "captureMode": "Edit",
+      "captureContext": null,
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This is a construction-progress Edit-mode view, not final realism or facility acceptance.",
+        "The image does not establish fixture operation, accessibility, or whole-hotel use.",
+        "Exact capture time and timezone are unavailable; display scale is unavailable."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "Pixel and source review found only project-authored native geometry and materials. No supplied catalogue model, external image, or redistributed supplier asset is visible in the capture."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "Original JPEG contains JFIF metadata only, with no EXIF, comment, or ICC profile. Exact capture time and timezone are unavailable."
+      },
+      "privacyReviewer": "Gallery review",
+      "privacyReview": "passed"
+    },
+    {
+      "captureClass": "construction-progress",
+      "captureId": "hotel-washroom-toilet-001",
+      "path": "images/hotel-washroom-toilet-001.jpg",
+      "sha256": "e968c599fe1b19210bc7e595b5aac1317b9164170e2cb51e6c759b40497db018",
+      "sourceRevision": "2eabe593d9d867570c15a99e51a59302a3f65879",
+      "sourcePath": null,
+      "state": "Roblox Studio Edit-mode close view of hotel washroom fittings",
+      "title": "Hotel washroom fittings under construction",
+      "caption": "A close Edit-mode view of the authored washroom toilet and paper holder. This construction view does not establish fixture operation or facility acceptance.",
+      "alt": "Edit-mode close view of a white toilet and paper holder in a tiled washroom stall.",
+      "location": "Hotel",
+      "activity": "Construction appearance review",
+      "stage": "In progress",
+      "viewport": {
+        "width": 1259,
+        "height": 793
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP screen_capture",
+      "captureMode": "Edit",
+      "captureContext": null,
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This is a construction-progress Edit-mode view, not final realism or facility acceptance.",
+        "The image does not establish fixture operation, accessibility, or whole-hotel use.",
+        "Exact capture time and timezone are unavailable; display scale is unavailable."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "Pixel and source review found only project-authored native geometry and materials. No supplied catalogue model, external image, or redistributed supplier asset is visible in the capture."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "Original JPEG contains JFIF metadata only, with no EXIF, comment, or ICC profile. Exact capture time and timezone are unavailable."
+      },
+      "privacyReviewer": "Gallery review",
+      "privacyReview": "passed"
+    },
+    {
+      "captureClass": "construction-progress",
+      "captureId": "hotel-reception-seating-edit-001",
+      "path": "images/hotel-reception-seating-edit-001.jpg",
+      "sha256": "e5897a113347b79d3c4e357a3ee19e4cecf1794e1f85792ddb1bca823d6d7a52",
+      "sourceRevision": "7b8104ee562a009712bfd04b403a890632ad97a9",
+      "sourcePath": null,
+      "state": "Roblox Studio Edit-mode view of the hotel reception seating",
+      "title": "Hotel reception seating under construction",
+      "caption": "An Edit-mode view of a bench, armchair, table, and reception counter built for the project. The furniture remains stylized; this view documents construction appearance only.",
+      "alt": "Edit-mode hotel reception with a wooden bench, armchair, small table, water stand, and reception counter.",
+      "location": "Hotel",
+      "activity": "Construction appearance review",
+      "stage": "In progress",
+      "viewport": {
+        "width": 1259,
+        "height": 793
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP screen_capture",
+      "captureMode": "Edit",
+      "captureContext": null,
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This is a construction-progress Edit-mode view, not final realism or facility acceptance.",
+        "The furniture is stylized; the image does not establish service, multiplayer, or whole-hotel acceptance.",
+        "Exact capture time and timezone are unavailable; display scale is unavailable."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "Pixel and source review found only project-authored native geometry and materials. No supplied catalogue model, external image, or redistributed supplier asset is visible in the capture."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "Original JPEG contains JFIF metadata only, with no EXIF, comment, or ICC profile. Exact capture time and timezone are unavailable."
+      },
+      "privacyReviewer": "Gallery review",
+      "privacyReview": "passed"
     }
   ],
-  "excluded": []
+  "excluded": [
+    {
+      "captureId": "hotel-washroom-dogleg-play-001",
+      "reason": "Withheld after pixel review showed a test avatar and on-screen interface. No public identity authorization was supplied."
+    },
+    {
+      "captureId": "hotel-washroom-dogleg-return-001",
+      "reason": "Withheld after pixel review showed a test avatar and on-screen interface. No public identity authorization was supplied."
+    },
+    {
+      "captureId": "hotel-reception-armchair-play-001",
+      "reason": "Withheld after pixel review showed a test avatar and on-screen interface. No public identity authorization was supplied."
+    },
+    {
+      "captureId": "hotel-reception-bench-play-001",
+      "reason": "Withheld after pixel review showed a test avatar and on-screen interface. No public identity authorization was supplied."
+    }
+  ]
 }

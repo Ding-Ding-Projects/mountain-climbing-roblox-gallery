@@ -52,3 +52,9 @@ The approved isolated browser route is unavailable in the current task environme
 ## Limits
 
 No Material Designer creation or export tool was exposed in the available tools. The Status Hub client returned `MISSING_INGEST_TOKEN`, so no session record was written. The local design handoff records the design-tool limitation. The public page and eleven reviewed construction images are delivered as recorded in `docs/evidence/live-publication-008.json`. Current browser runtime and final game-quality evidence remain unavailable.
+
+## Hotel construction gallery update, 2026-10-04
+
+The source manifest now contains fifteen construction-progress images. Four additional Edit-mode hotel views show project-authored washroom fixtures and reception seating. Paired receipts match the original JPEG hashes, byte lengths, and 1259×793 dimensions. Pixel review found no avatar, account content, supplied catalogue model, or external imagery. JPEG metadata contains JFIF APP0 only. The public records leave `capturedAt` null because the exact acquisition instant is unavailable. These images document construction appearance only, not facility operation or acceptance.
+
+Four other hotel candidates remain excluded because their pixels show a test avatar and interface, with no public identity authorization. The exclusion records contain no private paths or image bytes. The hosted gallery still has eleven images according to `docs/evidence/live-publication-008.json`; delivery of the four new captures is pending.
