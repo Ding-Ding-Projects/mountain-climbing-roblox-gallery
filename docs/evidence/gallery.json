@@ -708,6 +708,135 @@
       },
       "privacyReviewer": "Independent building review and parent pixel inspection",
       "privacyReview": "passed"
+    },
+    {
+      "captureClass": "construction-progress",
+      "captureId": "hotel-door-preview-suite1-20261004",
+      "path": "images/hotel-door-preview-suite1-20261004.jpg",
+      "sha256": "ea6dd02fa19e9ced0b740117f7fb05ff34e72f002de42d77bcb41c2339f458b9",
+      "sourceRevision": "e5ab3ad45c49dfc8e59ceb4adc1a690280263954",
+      "sourcePath": "evidence/world/hotel-door-preview-suite1-20261004.jpg",
+      "state": "Roblox Studio Edit-mode hotel suite door preview, constructed but unbound",
+      "title": "Hotel suite door preview under construction",
+      "caption": "A project-built hotel suite partition and door preview beside the bedroom area. This is construction appearance only; the door and controls are unbound, and the image does not demonstrate traversal, operation, or facility acceptance.",
+      "alt": "Hotel suite bedroom with a tiled partition, a dark door, and nearby wall controls in a Roblox Studio construction view.",
+      "location": "Hotel suite",
+      "activity": "Construction review",
+      "stage": "In progress",
+      "viewport": {
+        "width": 812,
+        "height": 675
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP",
+      "captureMode": "Edit",
+      "captureContext": null,
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "Construction appearance only; not final realism evidence.",
+        "The preview is unbound; no door interaction, language readability, or facility acceptance is established.",
+        "This Edit-mode image is not Play mode evidence.",
+        "Exact capture time and display scale are unavailable."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "The image shows project-authored hotel suite geometry and in-world controls. Pixel review found no user avatar, account identity, or unrelated desktop content."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "The original JPEG was reviewed; no EXIF, comment, or embedded ICC metadata was present. Capture time remains unavailable."
+      },
+      "privacyReviewer": "Gallery review",
+      "privacyReview": "passed"
+    },
+    {
+      "captureClass": "construction-progress",
+      "captureId": "hotel-suite-night-20261004",
+      "path": "images/hotel-suite-night-20261004.jpg",
+      "sha256": "2dda6177d88299053eafb7cdcc22a97af8cffd4629996e53100eed2ef4c8c3bf",
+      "sourceRevision": "e5ab3ad45c49dfc8e59ceb4adc1a690280263954",
+      "sourcePath": "evidence/world/hotel-suite-night-20261004.jpg",
+      "state": "Roblox Studio Edit-mode suite construction view at ClockTime 20",
+      "title": "Hotel suite at night during construction",
+      "caption": "The hotel suite construction preview at ClockTime 20 shows the room lighting and visible fixture layout. Labels remain unreadable and controls are unbound; this does not establish nighttime operation or facility acceptance.",
+      "alt": "Dark hotel suite construction view with a tiled bathroom partition, bedroom furniture, and dim lighting.",
+      "location": "Hotel suite",
+      "activity": "Night construction review",
+      "stage": "In progress",
+      "viewport": {
+        "width": 812,
+        "height": 675
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP",
+      "captureMode": "Edit",
+      "captureContext": null,
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "Construction appearance only; not final realism evidence.",
+        "Controls are unbound and distant labels are not readable.",
+        "This Edit-mode image is not Play mode evidence or proof of nighttime operation.",
+        "Exact capture time and display scale are unavailable."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "The image shows project-authored hotel suite geometry. Pixel review found no user avatar, account identity, or unrelated desktop content."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "The original JPEG was reviewed; no EXIF, comment, or embedded ICC metadata was present. Capture time remains unavailable."
+      },
+      "privacyReviewer": "Gallery review",
+      "privacyReview": "passed"
+    },
+    {
+      "captureClass": "construction-progress",
+      "captureId": "hotel-suite-reader-close-20261004",
+      "path": "images/hotel-suite-reader-close-20261004.jpg",
+      "sha256": "91dd46928381b1a9ed4413b52ebc97ce065ed0709f03e2bb4fa1e856be628ceb",
+      "sourceRevision": "e5ab3ad45c49dfc8e59ceb4adc1a690280263954",
+      "sourcePath": "evidence/world/hotel-suite-reader-close-20261004.jpg",
+      "state": "Roblox Studio Edit-mode close view of the suite reader readability defect",
+      "title": "Hotel suite reader readability issue",
+      "caption": "A close construction view shows the reader plate's six-row text layout at small scale: the text is unreadable from this framing and three rows are blank. This records a visible construction defect; it does not demonstrate working interaction or acceptance.",
+      "alt": "Close view of a small dark reader plate on a tiled wall, with a larger panel partly visible at the left edge.",
+      "location": "Hotel suite reader",
+      "activity": "Construction defect review",
+      "stage": "In progress",
+      "viewport": {
+        "width": 812,
+        "height": 675
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP",
+      "captureMode": "Edit",
+      "captureContext": null,
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This is defect evidence for unreadable small text, not final realism evidence.",
+        "The reader interaction is unbound and not validated.",
+        "This Edit-mode image is not Play mode evidence or facility acceptance.",
+        "Exact capture time and display scale are unavailable."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "The image shows project-authored reader and wall geometry. Pixel review found no user avatar, account identity, or unrelated desktop content."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "The original JPEG was reviewed; no EXIF, comment, or embedded ICC metadata was present. Capture time remains unavailable."
+      },
+      "privacyReviewer": "Gallery review",
+      "privacyReview": "passed"
     }
   ],
   "excluded": [
