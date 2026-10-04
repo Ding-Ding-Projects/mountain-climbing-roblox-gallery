@@ -4,7 +4,7 @@
 
 - [x] Review and preserve the original Edit 205 reception PNG and its limited construction provenance, retaining all fifteen earlier records.
 - [x] Restrict background HWND admission to reviewed construction records; ten focused cases and independent source review passed.
-- [ ] Verify public delivery of all sixteen images, including original hashes and image dimensions.
+- [x] Verify public delivery of all sixteen images, including original hashes and image dimensions, in `docs/evidence/live-publication-010.json`.
 - [ ] Obtain fresh close-up views through a rendering capture route. Repeated stale frames remain excluded.
 
 ## Gallery foundation

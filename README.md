@@ -4,11 +4,11 @@ This public gallery holds images captured from the real Roblox experience after 
 
 ## Open the gallery
 
-The source now contains sixteen reviewed construction images. The newest is the retained hotel reception in stopped Edit 205, captured through a background viewport HWND. Its original PNG, privacy review, bounded UTC acquisition interval and exact native preview hash are recorded in [its review record](docs/evidence/records/hotel-reception-edit205-001.json). Publication of this sixteenth image is awaiting a fresh public readback. Earlier fifteen-image delivery remains verified below. The new image is not formal headless UI acceptance and does not show the new ensuites or prove service operation.
+The source now contains sixteen reviewed construction images. The newest is the retained hotel reception in stopped Edit 205, captured through a background viewport HWND. Its original PNG, privacy review, bounded UTC acquisition interval and exact native preview hash are recorded in [its review record](docs/evidence/records/hotel-reception-edit205-001.json). All sixteen images are publicly verified in [publication receipt 010](docs/evidence/live-publication-010.json) at source revision `0ffbcf131df9378f67c01dc9eadcd8da23b42dcf`: the page, manifest and each image returned HTTP 200, with matching original hashes and dimensions. Earlier receipts remain below. The new image is not formal headless UI acceptance and does not show the new ensuites or prove service operation.
 
 ![Retained hotel reception in stopped Edit 205](docs/evidence/images/hotel-reception-edit205-001.png)
 
-**廣東話：** 原始資料現有十六張經審查嘅施工相。最新一張係停止運行嘅 Edit 205 酒店接待處，PNG 原件保持不變。第十六張相嘅公開傳送仍待重新核對；相片唔代表正式介面驗收，亦冇展示新套廁或者證明服務已運作。
+**廣東話：** 原始資料現有十六張經審查嘅施工相。最新一張係停止運行嘅 Edit 205 酒店接待處，PNG 原件保持不變。十六張相嘅公開傳送、原件雜湊同尺寸已逐張核對；相片唔代表正式介面驗收，亦冇展示新套廁或者證明服務已運作。
 
 Open the [public gallery](https://ding-ding-projects.github.io/mountain-climbing-roblox-gallery/). The earlier eleven-image delivery is verified in [live-publication-008](docs/evidence/live-publication-008.json), which binds direct unauthenticated HTTP checks to `main` at `ebd6abd4a4e6d403b247c406ef0ad67f2fceacd3`; every image response matched its manifest SHA-256 and dimensions. The receipt verifies HTTP delivery only, not browser rendering or interaction. The current fifteen-image delivery is verified in [live-publication-009](docs/evidence/live-publication-009.json): the public page, manifest, and all image URLs returned HTTP 200 with matching SHA-256 values and JPEG dimensions. Four hotel construction captures were added; four avatar/interface captures remain withheld. Earlier receipts remain available. The page uses no remote scripts, fonts, images, analytics, or runtime services.
 
