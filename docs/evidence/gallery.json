@@ -40838,23 +40838,24 @@
   "excluded": [],
   "inventoryReview": {
     "schemaVersion": 1,
-    "sourceFilesReviewed": 438,
-    "distinctSourceImagesReviewed": 428,
+    "sourceFilesReviewed": 445,
+    "distinctSourceImagesReviewed": 435,
     "duplicateSourceFiles": 10,
-    "approvedDistinctImages": 428,
+    "approvedDistinctImages": 435,
     "excludedDistinctImages": 0,
     "pendingAuthorizationDistinctImages": 0,
     "previouslyPublishedImagesReused": 19,
-    "newOriginalImages": 409,
+    "newOriginalImages": 416,
     "originalPixelsReviewed": true,
     "originalBytesPreserved": true,
     "captureDatesPolicy": "Only validated capture timestamps are known; otherwise null. Names and file timestamps do not establish capture dates.",
-    "publicationState": "424 originals verified at 43655e9; four additional before observations are source-only pending publication.",
+    "publicationState": "424 originals verified at 43655e9; eleven additional observations are source-only pending publication.",
     "initialCompleteReview": {
       "sourceFiles": 434,
       "distinctOriginals": 424,
       "duplicateSourceFiles": 10
     },
-    "additionalBeforeObservations": 4
+    "additionalBeforeObservations": 4,
+    "additionalRebuildObservations": 7
   }
 }
