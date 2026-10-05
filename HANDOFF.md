@@ -23,6 +23,7 @@ The three hotel carry observations are separately named. Their hash-bound source
 | `tests/observation-admission.mjs` | 21 source/admission cases passed, including deliberately broken original review, date, source, context, hash, dimensions and duplicate boundaries |
 | `tests/background-admission.mjs` | Existing 10-case strict background construction admission passed against its retained PNG |
 | `tests/gallery-inventory.mjs` | All 424 unique originals admitted by actual page source function, hashes match, exclusions accounted; every historical observation has missing-review and invented-time negative regression |
+| `tests/progressive-verification.mjs` | 14 async/source-DOM cases passed: first verified image while another request is pending, failed-image exclusion, six-request ceiling, later batching, exact completion counts and retained card/facet/focus/query state |
 | Complete private alias scan | Source scan performed outside this repository with complete current dictionary coverage, including aliases omitted by older prose-only filtering; rerun on final candidate before publication |
 | Current native browser | Unverified for this revision, source checks are not a rendered capture |
 | Expanded public delivery | Unverified until parent deploys and verifies every resource |
@@ -32,7 +33,7 @@ The test commands run locally; no test or lint workflow was added. Existing publ
 ## Remaining work and retained evidence
 
 1. Parent independently approves the exact candidate, images, captions and exclusions, then integrates into main and proves the public reference.
-2. Verify the page, manifest, shared observation module and all 424 image URLs anonymously, with exact hashes and decoded dimensions. Save a new receipt bound to the source revision.
+2. Verify the page, manifest, shared observation module, progressive verification module and all 424 image URLs anonymously, with exact hashes and decoded dimensions. Save a new receipt bound to the source revision.
 3. Drive the actual public gallery through the approved isolated browser route, retain current captures and verify complete displayed count plus representative historical, interface, unknown and carry records. The earlier `docs/evidence/ui/responsive-layout.json` cannot prove this revision.
 4. Keep broader page completeness work open in `docs/feature-inventory.json` and the previous roadmap sections. This capture-publication task does not establish all gallery contracts or game acceptance.
 

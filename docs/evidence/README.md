@@ -29,6 +29,8 @@ The closed `observation-review-record` schema requires review of the actual orig
 
 The browser uses the same `observation-contract.mjs` admission function, verifies image SHA-256 before rendering and shows historical or project-interface badges separately from construction progress. The full-size original is linked in provenance details. Hash verification runs with at most six requests in flight; it retains original manifest ordering.
 
+`progressive-verification.mjs` reports checked, verified, total and unavailable counts and displays the first verified original immediately. Later successes are batched at 100 ms or 24 images, with a final flush at completion. Background rendering inserts only newly verified cards and preserves existing card/facet nodes, active filters, search text and focus. Failed admission, HTTP or hash checks never enter a display batch. A partially loaded gallery can be browsed while the remaining originals are still being checked.
+
 ## Existing strict construction route
 
 The original Edit, scene-placed Play and background HWND admission remains unchanged. Background construction records require exact snapshot/byte/version and bounded UTC acquisition context, PNG dimensions and an explicit limit stating that the record is not a formal headless UI acceptance receipt. Historical admission does not relax these requirements.
@@ -37,6 +39,6 @@ Four retained hotel Edit records now explicitly state that they are not final re
 
 ## Verification boundaries
 
-Run `node tests/observation-admission.mjs`, `node tests/gallery-inventory.mjs` and `node tests/background-admission.mjs docs/evidence/images/hotel-reception-edit205-001.png`. The inventory check evaluates the page's actual source admission function for every image, compares original hashes and tests negative review/time mutations. This verifies source admission and bytes, not a live browser rendering.
+Run `node tests/observation-admission.mjs`, `node tests/gallery-inventory.mjs`, `node tests/progressive-verification.mjs` and `node tests/background-admission.mjs docs/evidence/images/hotel-reception-edit205-001.png`. The inventory check evaluates the page's actual source admission function for every image, compares original hashes and tests negative review/time mutations. Fourteen progressive cases exercise delayed/rejected requests, first-success callbacks, batch/concurrency limits, completion counts and the actual page paint/facet functions through a source DOM model. This verifies source behavior and bytes, not a live browser rendering.
 
 Previous receipts `live-publication-*.json` and `ui/responsive-layout.json` retain the revision and image count they actually measured. A new deployment needs unauthenticated HTTP checks for the page, manifest, shared admission module and every original image, with exact byte hashes and dimensions. HTTP success alone does not prove browser layout or controls. No date or publication claim is inferred from old receipts.

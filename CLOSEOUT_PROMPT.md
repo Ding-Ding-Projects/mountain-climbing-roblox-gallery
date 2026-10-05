@@ -6,6 +6,8 @@ Current candidate: `codex/gallery-captures-20261005`, based on `8fe5bb50617d6933
 
 Implemented: closed historical observation admission, shared browser/importer validator, explicit unavailable provenance, separate interface labels, six-request image verification, full-original links, original-byte image/record imports, and truthful extra limitations for four old hotel records. No current native game feature or gallery-wide backlog was implemented here.
 
+Latest source repair: progressive verification shows the first hash-verified original immediately, batches later success paints at 100 ms or 24 images, and reports checked/verified/total/unavailable counts. Existing card/facet nodes, query/filter choices and focus survive background progress. Fourteen narrow asynchronous/source-DOM cases passed. All 424 original image bytes, approvals and unavailable provenance remain unchanged. The previous candidate before this repair was `3ddeb939aee3276068eeb360eae048d7d2ca222f`.
+
 Verified locally: 21 observation admission cases, 10 existing background admission cases, all current source records through the actual browser admission function and original hashes. Every distinct source original was independently inspected; final private/public wording scan must be rerun on the candidate before publication.
 
 Unfinished: parent candidate review, default-branch integration and remote reference proof, expanded anonymous resource delivery verification and current browser rendering/capture. Existing previous publication receipts do not prove this inventory. Source written or committed does not imply public delivery.

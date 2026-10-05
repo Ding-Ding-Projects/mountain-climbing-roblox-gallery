@@ -6,6 +6,8 @@ The gallery source contains **424 distinct reviewed original images**, totaling 
 
 Open the [public gallery](https://ding-ding-projects.github.io/mountain-climbing-roblox-gallery/). The source inventory is [gallery.json](docs/evidence/gallery.json). 3 images document the project interface; the others document Roblox scenes. Every image has an original-byte SHA-256, dimensions, direct pixel review and public-use review. The page verifies each image hash before display, using at most six concurrent requests. Exact duplicate bytes appear once. Open an original image from its provenance details to inspect its full resolution.
 
+The first verified image appears immediately while later downloads remain pending. Later verified images arrive in batches, with checked, verified, total and unavailable counts shown in English, Cantonese or bilingual mode. Background progress retains existing card and filter nodes, current query/filter choices and focus. Images that fail admission, download or hash verification never appear. The page does not wait for the complete 118 MB inventory before showing a verified original.
+
 ![Hotel luggage station observation](docs/evidence/images/hotel-carry-station-pause-20261005.jpg)
 
 The three current hotel images show an authorized test avatar with luggage in a temporary Play probe. Their source revision applies only to the tested hotel modules, not the entire visible world or avatar assets. They show observed appearance, not full service, building, persistence or production acceptance. The initial diagnostic hold later expired; the close retry and station view belong to the subsequent successful native probe. Exact capture time remains unavailable despite second-precision clock brackets.
@@ -23,6 +25,7 @@ All 424 distinct originals in this reviewed inventory are now admitted, with no 
 - `node tests/observation-admission.mjs`: 21 cases cover original-byte copying, duplicate rejection, malformed or extra fields, unavailable metadata and negative admission boundaries.
 - `node tests/background-admission.mjs docs/evidence/images/hotel-reception-edit205-001.png`: 10 cases preserve the existing strict background construction route.
 - `node tests/gallery-inventory.mjs`: every current image is admitted by the actual browser source function, with matching original hash and unique bytes; every historical record has deliberate missing-review and invented-time rejection cases.
+- `node tests/progressive-verification.mjs`: 14 focused asynchronous/source-DOM cases verify first-success display while a later request is pending, failed-image exclusion, six-request bounds, batched completion, truthful counts and retained card/filter/focus state. These are source tests, not current browser captures.
 
 These are source and inventory checks. Current browser interaction, rendered layout and public delivery of every expanded image remain separate unverified work. Earlier [responsive browser evidence](docs/evidence/ui/responsive-layout.json) and [sixteen-image HTTP receipt](docs/evidence/live-publication-010.json) retain their original scope. Broader page contracts remain recorded in [the feature inventory](docs/feature-inventory.json), [ROADMAP.md](ROADMAP.md) and [HANDOFF.md](HANDOFF.md).
 

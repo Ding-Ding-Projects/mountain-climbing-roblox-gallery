@@ -53,6 +53,7 @@ Items are checked only when implemented and supported by the stated evidence. Th
 - [x] Add closed historical-observation admission with null unknown provenance and distinct project-interface classification.
 - [x] Validate all 424 current source records through the actual browser source admission function and original hashes.
 - [x] Retain existing strict construction admission and repair four old hotel records' explicit evidence limits.
+- [x] Implement and verify progressive source loading with 14 async/source-DOM cases: first accepted image before pending requests settle, failed-image exclusion, bounded/batched verification and retained filter/focus state.
 - [ ] Integrate the reviewed candidate and verify the exact public main reference.
 - [ ] Verify unauthenticated page, manifest, admission module and all 424 original image deliveries.
 - [ ] Drive and capture the current expanded gallery in the approved isolated browser route.

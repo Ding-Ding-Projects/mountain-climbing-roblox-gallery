@@ -9,7 +9,7 @@ const end=source.indexOf('  function galleryImageUrl(item)',start);
 assert(start>=0&&end>start,'Exact admission function boundary must exist');
 const accept=new Function('acceptedObservationItem',source.slice(start,end)+'\nreturn acceptedRecord;')(acceptedObservationItem);
 assert(source.includes("import { acceptedObservationItem } from './evidence/observation-contract.mjs';"),'Browser must use shared observation contract');
-assert(source.includes('length:Math.min(6,images.length)'),'Manifest image verification must use bounded concurrency');
+assert(source.includes('verifyProgressively(images,verifyImage,{concurrency:6'),'Manifest image verification must use bounded concurrency');
 assert.equal(manifest.images.length,manifest.inventoryReview.approvedDistinctImages);
 assert.equal(manifest.excluded.length,manifest.inventoryReview.excludedDistinctImages);
 assert.equal(manifest.inventoryReview.distinctSourceImagesReviewed,manifest.images.length+manifest.excluded.length);
