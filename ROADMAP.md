@@ -71,7 +71,8 @@ Items are checked only when implemented and supported by the stated evidence. Th
 - [x] Keep every preceding original; the next candidate contains 435 unique images and 121821159 original bytes, retaining the 424-image public baseline.
 - [x] Independently inspect and admit seven original Edit-camera observations: the dark initial prototype later rolled back, three intermediate views before final support refinements, and three latest saved appearance views.
 - [x] Record exact image hashes, dimensions and scoped source revisions; leave capture instant, display scale and theme unavailable, and retain explicit non-acceptance limits.
-- [ ] Run exact root build on this 435-image candidate and verify its output and receipt.
+- [x] Run exact root `build.bat /s` on the 435-image candidate at `30246c597675f20685eb33429800b3852d7d7dcd`: 898 static files, 435 originals, 121821159 image bytes and complete copied-file hash readback. Receipt SHA-256 `8c9c15529cb74724b2c13678bc14e74a8d85eef4c55a21ea20617c96e4e0db68`.
+- [ ] Re-run the exact root build after the handoff update and verify its output and receipt.
 - [ ] Integrate the reviewed candidate into main, push main and prove the remote ref.
 - [ ] Verify the page, manifest and all 435 public image deliveries anonymously with exact hashes and decoded dimensions.
 - [ ] Complete current browser interaction, accessibility and page-contract verification; existing bounded 424-image evidence does not cover this revision.
