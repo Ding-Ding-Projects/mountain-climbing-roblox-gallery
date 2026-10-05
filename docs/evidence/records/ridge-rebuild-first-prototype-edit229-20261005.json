@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "recordType": "observation-review-record",
+  "captureClass": "historical-observation",
+  "captureId": "ridge-rebuild-first-prototype-edit229-20261005",
+  "imageSha256": "82cec9f8282a5075cdb1f3507300ed32fbb5efd40a8a58e7340143a0d75ad18d",
+  "imageBytes": 246881,
+  "sourceRevision": "d291bf16e8edd021ef8c1216c1d88781e417cfef",
+  "sourceScope": "Only the newly authored bounded rebuild, not historical surrounding construction.",
+  "state": "Historical initial prototype, later rolled back",
+  "title": "Ridge View Rest initial prototype before rollback",
+  "caption": "The first dark Ridge View Rest interior prototype shows the trail overview sign, Hotel 01 doorway and lounge edge before the prototype was rolled back for lighting and route refinement. It records a genuine earlier appearance only, not a confirmed defect or the later rebuilt result.",
+  "alt": "Dim Ridge View Rest interior prototype with a trail overview sign, Hotel 01 doorway and lounge edge.",
+  "location": "Ridge View Rest",
+  "activity": "Historical Edit-mode scene appearance observation",
+  "stage": "Initial prototype before rollback",
+  "evidenceSubject": "Roblox scene",
+  "viewport": {
+    "width": 1476,
+    "height": 1080
+  },
+  "scale": null,
+  "theme": "not-applicable",
+  "method": "Roblox Studio MCP screen_capture with settled actual Edit camera",
+  "captureMode": "Edit",
+  "capturedAt": null,
+  "receiptValidated": false,
+  "reviewRecordValidated": true,
+  "limitations": [
+    "This still image is not gameplay or whole-place acceptance evidence.",
+    "Exact capture time is unavailable; paired call-clock readings are context only and are not an acquisition timestamp.",
+    "Source revision scope is limited to the bounded work named by the paired capture record, not surrounding historical construction.",
+    "The dark initial prototype was later rolled back for lighting and route refinement. It is included to preserve the requested historical sequence.",
+    "Display scale and interface theme are unavailable.",
+    "Paired capture metadata reports zero embedded EXIF entries; no filename or file timestamp is used as capture provenance."
+  ],
+  "privacyReview": {
+    "result": "passed",
+    "pixelsReviewed": true,
+    "metadataReviewed": true,
+    "filenameReviewed": true,
+    "originalInspected": true,
+    "reviewer": "Independent gallery pixel review"
+  },
+  "rightsReview": {
+    "result": "passed",
+    "basis": "Owner-authorized original scene capture in the requested all-captures publication scope; the reviewed image contains no private identity or unrelated desktop content."
+  },
+  "metadataReview": {
+    "result": "passed",
+    "summary": "The paired record matches the exact original image SHA-256 and dimensions, identifies the settled Edit camera and scoped source revision, and records one-second call clocks only. Exact capture time, display scale and theme remain unavailable."
+  }
+}

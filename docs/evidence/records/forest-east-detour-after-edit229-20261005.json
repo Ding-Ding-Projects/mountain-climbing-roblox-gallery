@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "recordType": "observation-review-record",
+  "captureClass": "historical-observation",
+  "captureId": "forest-east-detour-after-edit229-20261005",
+  "imageSha256": "e4cbd130e315ed7c170df7e2453a7308d6e2e29ae72a2ee694113d1e974c7057",
+  "imageBytes": 534532,
+  "sourceRevision": "f238301342b663741f11265391507b978585a363",
+  "sourceScope": "Only the newly authored bounded rebuild, not historical surrounding construction.",
+  "state": "Historical after-rebuild appearance before final rail-end support refinement",
+  "title": "Forest Camp eastern detour after the footprint cut",
+  "caption": "An elevated Edit-camera view shows the Forest Camp building and eastern route after the bounded footprint cut, before final rail-end support refinement. It records scene appearance only; normal-input traversal, collision behavior and whole-place acceptance remain unverified.",
+  "alt": "Elevated Forest Camp view showing the building and raised eastern approach route.",
+  "location": "Forest Camp eastern approach",
+  "activity": "Historical Edit-mode scene appearance observation",
+  "stage": "Eastern detour before final rail-end support refinement",
+  "evidenceSubject": "Roblox scene",
+  "viewport": {
+    "width": 1476,
+    "height": 1080
+  },
+  "scale": null,
+  "theme": "not-applicable",
+  "method": "Roblox Studio MCP screen_capture with settled actual Edit camera",
+  "captureMode": "Edit",
+  "capturedAt": null,
+  "receiptValidated": false,
+  "reviewRecordValidated": true,
+  "limitations": [
+    "This still image is not gameplay or whole-place acceptance evidence.",
+    "Exact capture time is unavailable; paired call-clock readings are context only and are not an acquisition timestamp.",
+    "Source revision scope is limited to the bounded work named by the paired capture record, not surrounding historical construction.",
+    "This view predates final rail-end support refinement; normal-input traversal remains unverified.",
+    "Display scale and interface theme are unavailable.",
+    "Paired capture metadata reports zero embedded EXIF entries; no filename or file timestamp is used as capture provenance."
+  ],
+  "privacyReview": {
+    "result": "passed",
+    "pixelsReviewed": true,
+    "metadataReviewed": true,
+    "filenameReviewed": true,
+    "originalInspected": true,
+    "reviewer": "Independent gallery pixel review"
+  },
+  "rightsReview": {
+    "result": "passed",
+    "basis": "Owner-authorized original scene capture in the requested all-captures publication scope; the reviewed image contains no private identity or unrelated desktop content."
+  },
+  "metadataReview": {
+    "result": "passed",
+    "summary": "The paired record matches the exact original image SHA-256 and dimensions, identifies the settled Edit camera and scoped source revision, and records one-second call clocks only. Exact capture time, display scale and theme remain unavailable."
+  }
+}

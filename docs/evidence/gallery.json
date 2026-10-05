@@ -40133,6 +40133,706 @@
           "summary": "Original JPEG bytes and dimensions match the paired hash-bound source receipt. JFIF only, no EXIF, comments or embedded profile. Exact acquisition time, scale and native geometry revision remain unavailable."
         }
       }
+    },
+    {
+      "captureClass": "historical-observation",
+      "captureId": "ridge-rebuild-first-prototype-edit229-20261005",
+      "path": "images/ridge-rebuild-first-prototype-edit229-20261005.jpg",
+      "sha256": "82cec9f8282a5075cdb1f3507300ed32fbb5efd40a8a58e7340143a0d75ad18d",
+      "sourceRevision": "d291bf16e8edd021ef8c1216c1d88781e417cfef",
+      "sourcePath": null,
+      "sourceScope": "Only the newly authored bounded rebuild, not historical surrounding construction.",
+      "state": "Historical initial prototype, later rolled back",
+      "title": "Ridge View Rest initial prototype before rollback",
+      "caption": "The first dark Ridge View Rest interior prototype shows the trail overview sign, Hotel 01 doorway and lounge edge before the prototype was rolled back for lighting and route refinement. It records a genuine earlier appearance only, not a confirmed defect or the later rebuilt result.",
+      "alt": "Dim Ridge View Rest interior prototype with a trail overview sign, Hotel 01 doorway and lounge edge.",
+      "location": "Ridge View Rest",
+      "activity": "Historical Edit-mode scene appearance observation",
+      "stage": "Initial prototype before rollback",
+      "evidenceSubject": "Roblox scene",
+      "viewport": {
+        "width": 1476,
+        "height": 1080
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP screen_capture with settled actual Edit camera",
+      "captureMode": "Edit",
+      "captureContext": null,
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This still image is not gameplay or whole-place acceptance evidence.",
+        "Exact capture time is unavailable; paired call-clock readings are context only and are not an acquisition timestamp.",
+        "Source revision scope is limited to the bounded work named by the paired capture record, not surrounding historical construction.",
+        "The dark initial prototype was later rolled back for lighting and route refinement. It is included to preserve the requested historical sequence.",
+        "Display scale and interface theme are unavailable.",
+        "Paired capture metadata reports zero embedded EXIF entries; no filename or file timestamp is used as capture provenance."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "Owner-authorized original scene capture in the requested all-captures publication scope; the reviewed image contains no private identity or unrelated desktop content."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "The paired record matches the exact original image SHA-256 and dimensions, identifies the settled Edit camera and scoped source revision, and records one-second call clocks only. Exact capture time, display scale and theme remain unavailable."
+      },
+      "privacyReviewer": "Independent gallery pixel review",
+      "privacyReview": "passed",
+      "observationReview": {
+        "schemaVersion": 1,
+        "recordType": "observation-review-record",
+        "captureClass": "historical-observation",
+        "captureId": "ridge-rebuild-first-prototype-edit229-20261005",
+        "imageSha256": "82cec9f8282a5075cdb1f3507300ed32fbb5efd40a8a58e7340143a0d75ad18d",
+        "imageBytes": 246881,
+        "sourceRevision": "d291bf16e8edd021ef8c1216c1d88781e417cfef",
+        "sourceScope": "Only the newly authored bounded rebuild, not historical surrounding construction.",
+        "state": "Historical initial prototype, later rolled back",
+        "title": "Ridge View Rest initial prototype before rollback",
+        "caption": "The first dark Ridge View Rest interior prototype shows the trail overview sign, Hotel 01 doorway and lounge edge before the prototype was rolled back for lighting and route refinement. It records a genuine earlier appearance only, not a confirmed defect or the later rebuilt result.",
+        "alt": "Dim Ridge View Rest interior prototype with a trail overview sign, Hotel 01 doorway and lounge edge.",
+        "location": "Ridge View Rest",
+        "activity": "Historical Edit-mode scene appearance observation",
+        "stage": "Initial prototype before rollback",
+        "evidenceSubject": "Roblox scene",
+        "viewport": {
+          "width": 1476,
+          "height": 1080
+        },
+        "scale": null,
+        "theme": "not-applicable",
+        "method": "Roblox Studio MCP screen_capture with settled actual Edit camera",
+        "captureMode": "Edit",
+        "capturedAt": null,
+        "receiptValidated": false,
+        "reviewRecordValidated": true,
+        "limitations": [
+          "This still image is not gameplay or whole-place acceptance evidence.",
+          "Exact capture time is unavailable; paired call-clock readings are context only and are not an acquisition timestamp.",
+          "Source revision scope is limited to the bounded work named by the paired capture record, not surrounding historical construction.",
+          "The dark initial prototype was later rolled back for lighting and route refinement. It is included to preserve the requested historical sequence.",
+          "Display scale and interface theme are unavailable.",
+          "Paired capture metadata reports zero embedded EXIF entries; no filename or file timestamp is used as capture provenance."
+        ],
+        "privacyReview": {
+          "result": "passed",
+          "pixelsReviewed": true,
+          "metadataReviewed": true,
+          "filenameReviewed": true,
+          "originalInspected": true,
+          "reviewer": "Independent gallery pixel review"
+        },
+        "rightsReview": {
+          "result": "passed",
+          "basis": "Owner-authorized original scene capture in the requested all-captures publication scope; the reviewed image contains no private identity or unrelated desktop content."
+        },
+        "metadataReview": {
+          "result": "passed",
+          "summary": "The paired record matches the exact original image SHA-256 and dimensions, identifies the settled Edit camera and scoped source revision, and records one-second call clocks only. Exact capture time, display scale and theme remain unavailable."
+        }
+      }
+    },
+    {
+      "captureClass": "historical-observation",
+      "captureId": "ridge-rebuild-lit-after-edit229-20261005",
+      "path": "images/ridge-rebuild-lit-after-edit229-20261005.jpg",
+      "sha256": "925a8b0cf73bf4911704da88f634fdf15ca6204b1d095f5fd76f8eb82a99389a",
+      "sourceRevision": "c2b9914597abb759508dba3dfa6e3a9cbeadaa4a",
+      "sourcePath": null,
+      "sourceScope": "Only the newly authored bounded rebuild, not historical surrounding construction.",
+      "state": "Historical after-rebuild appearance before final sign-support refinement",
+      "title": "Ridge View Rest after lighting rebuild",
+      "caption": "The rebuilt Ridge View Rest hall shows brighter ceiling lighting and rendered bilingual signs before the final sign-support refinement. This Edit-camera view records bounded scene appearance; it does not establish normal-input traversal, service operation or whole-place acceptance.",
+      "alt": "Ridge View Rest hall with ceiling lights, a bilingual trail overview sign and Hotel 01 entrance.",
+      "location": "Ridge View Rest",
+      "activity": "Historical Edit-mode scene appearance observation",
+      "stage": "After lighting rebuild, before final sign-support refinement",
+      "evidenceSubject": "Roblox scene",
+      "viewport": {
+        "width": 1476,
+        "height": 1080
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP screen_capture with settled actual Edit camera",
+      "captureMode": "Edit",
+      "captureContext": null,
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This still image is not gameplay or whole-place acceptance evidence.",
+        "Exact capture time is unavailable; paired call-clock readings are context only and are not an acquisition timestamp.",
+        "Source revision scope is limited to the bounded work named by the paired capture record, not surrounding historical construction.",
+        "This view predates the final sign-support refinement and records Edit-mode appearance only.",
+        "Display scale and interface theme are unavailable.",
+        "Paired capture metadata reports zero embedded EXIF entries; no filename or file timestamp is used as capture provenance."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "Owner-authorized original scene capture in the requested all-captures publication scope; the reviewed image contains no private identity or unrelated desktop content."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "The paired record matches the exact original image SHA-256 and dimensions, identifies the settled Edit camera and scoped source revision, and records one-second call clocks only. Exact capture time, display scale and theme remain unavailable."
+      },
+      "privacyReviewer": "Independent gallery pixel review",
+      "privacyReview": "passed",
+      "observationReview": {
+        "schemaVersion": 1,
+        "recordType": "observation-review-record",
+        "captureClass": "historical-observation",
+        "captureId": "ridge-rebuild-lit-after-edit229-20261005",
+        "imageSha256": "925a8b0cf73bf4911704da88f634fdf15ca6204b1d095f5fd76f8eb82a99389a",
+        "imageBytes": 286447,
+        "sourceRevision": "c2b9914597abb759508dba3dfa6e3a9cbeadaa4a",
+        "sourceScope": "Only the newly authored bounded rebuild, not historical surrounding construction.",
+        "state": "Historical after-rebuild appearance before final sign-support refinement",
+        "title": "Ridge View Rest after lighting rebuild",
+        "caption": "The rebuilt Ridge View Rest hall shows brighter ceiling lighting and rendered bilingual signs before the final sign-support refinement. This Edit-camera view records bounded scene appearance; it does not establish normal-input traversal, service operation or whole-place acceptance.",
+        "alt": "Ridge View Rest hall with ceiling lights, a bilingual trail overview sign and Hotel 01 entrance.",
+        "location": "Ridge View Rest",
+        "activity": "Historical Edit-mode scene appearance observation",
+        "stage": "After lighting rebuild, before final sign-support refinement",
+        "evidenceSubject": "Roblox scene",
+        "viewport": {
+          "width": 1476,
+          "height": 1080
+        },
+        "scale": null,
+        "theme": "not-applicable",
+        "method": "Roblox Studio MCP screen_capture with settled actual Edit camera",
+        "captureMode": "Edit",
+        "capturedAt": null,
+        "receiptValidated": false,
+        "reviewRecordValidated": true,
+        "limitations": [
+          "This still image is not gameplay or whole-place acceptance evidence.",
+          "Exact capture time is unavailable; paired call-clock readings are context only and are not an acquisition timestamp.",
+          "Source revision scope is limited to the bounded work named by the paired capture record, not surrounding historical construction.",
+          "This view predates the final sign-support refinement and records Edit-mode appearance only.",
+          "Display scale and interface theme are unavailable.",
+          "Paired capture metadata reports zero embedded EXIF entries; no filename or file timestamp is used as capture provenance."
+        ],
+        "privacyReview": {
+          "result": "passed",
+          "pixelsReviewed": true,
+          "metadataReviewed": true,
+          "filenameReviewed": true,
+          "originalInspected": true,
+          "reviewer": "Independent gallery pixel review"
+        },
+        "rightsReview": {
+          "result": "passed",
+          "basis": "Owner-authorized original scene capture in the requested all-captures publication scope; the reviewed image contains no private identity or unrelated desktop content."
+        },
+        "metadataReview": {
+          "result": "passed",
+          "summary": "The paired record matches the exact original image SHA-256 and dimensions, identifies the settled Edit camera and scoped source revision, and records one-second call clocks only. Exact capture time, display scale and theme remain unavailable."
+        }
+      }
+    },
+    {
+      "captureClass": "historical-observation",
+      "captureId": "ridge-reception-lounge-after-edit229-20261005",
+      "path": "images/ridge-reception-lounge-after-edit229-20261005.jpg",
+      "sha256": "3a23afd1707ebbd6536e8913bdfe8245c4beb62ac8e577bea72d5d863c532510",
+      "sourceRevision": "c2b9914597abb759508dba3dfa6e3a9cbeadaa4a",
+      "sourcePath": null,
+      "sourceScope": "Only the newly authored bounded rebuild, not historical surrounding construction.",
+      "state": "Historical after-rebuild appearance before final sign-support refinement",
+      "title": "Ridge View reception, refill alcove and lounge before final support refinement",
+      "caption": "This Edit-camera view shows the rebuilt reception counter, refill alcove, lounge seating and bilingual signs before the final sign-support refinement. It records appearance only; it does not establish room bookings, refill operation, route traversal or whole-place acceptance.",
+      "alt": "Ridge View reception counter and lounge seating beside water and oxygen refill signs.",
+      "location": "Ridge View reception",
+      "activity": "Historical Edit-mode scene appearance observation",
+      "stage": "Reception and lounge before final support refinement",
+      "evidenceSubject": "Roblox scene",
+      "viewport": {
+        "width": 1476,
+        "height": 1080
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP screen_capture with settled actual Edit camera",
+      "captureMode": "Edit",
+      "captureContext": null,
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This still image is not gameplay or whole-place acceptance evidence.",
+        "Exact capture time is unavailable; paired call-clock readings are context only and are not an acquisition timestamp.",
+        "Source revision scope is limited to the bounded work named by the paired capture record, not surrounding historical construction.",
+        "This view predates the final sign-support refinement and records Edit-mode appearance only.",
+        "Display scale and interface theme are unavailable.",
+        "Paired capture metadata reports zero embedded EXIF entries; no filename or file timestamp is used as capture provenance."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "Owner-authorized original scene capture in the requested all-captures publication scope; the reviewed image contains no private identity or unrelated desktop content."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "The paired record matches the exact original image SHA-256 and dimensions, identifies the settled Edit camera and scoped source revision, and records one-second call clocks only. Exact capture time, display scale and theme remain unavailable."
+      },
+      "privacyReviewer": "Independent gallery pixel review",
+      "privacyReview": "passed",
+      "observationReview": {
+        "schemaVersion": 1,
+        "recordType": "observation-review-record",
+        "captureClass": "historical-observation",
+        "captureId": "ridge-reception-lounge-after-edit229-20261005",
+        "imageSha256": "3a23afd1707ebbd6536e8913bdfe8245c4beb62ac8e577bea72d5d863c532510",
+        "imageBytes": 331463,
+        "sourceRevision": "c2b9914597abb759508dba3dfa6e3a9cbeadaa4a",
+        "sourceScope": "Only the newly authored bounded rebuild, not historical surrounding construction.",
+        "state": "Historical after-rebuild appearance before final sign-support refinement",
+        "title": "Ridge View reception, refill alcove and lounge before final support refinement",
+        "caption": "This Edit-camera view shows the rebuilt reception counter, refill alcove, lounge seating and bilingual signs before the final sign-support refinement. It records appearance only; it does not establish room bookings, refill operation, route traversal or whole-place acceptance.",
+        "alt": "Ridge View reception counter and lounge seating beside water and oxygen refill signs.",
+        "location": "Ridge View reception",
+        "activity": "Historical Edit-mode scene appearance observation",
+        "stage": "Reception and lounge before final support refinement",
+        "evidenceSubject": "Roblox scene",
+        "viewport": {
+          "width": 1476,
+          "height": 1080
+        },
+        "scale": null,
+        "theme": "not-applicable",
+        "method": "Roblox Studio MCP screen_capture with settled actual Edit camera",
+        "captureMode": "Edit",
+        "capturedAt": null,
+        "receiptValidated": false,
+        "reviewRecordValidated": true,
+        "limitations": [
+          "This still image is not gameplay or whole-place acceptance evidence.",
+          "Exact capture time is unavailable; paired call-clock readings are context only and are not an acquisition timestamp.",
+          "Source revision scope is limited to the bounded work named by the paired capture record, not surrounding historical construction.",
+          "This view predates the final sign-support refinement and records Edit-mode appearance only.",
+          "Display scale and interface theme are unavailable.",
+          "Paired capture metadata reports zero embedded EXIF entries; no filename or file timestamp is used as capture provenance."
+        ],
+        "privacyReview": {
+          "result": "passed",
+          "pixelsReviewed": true,
+          "metadataReviewed": true,
+          "filenameReviewed": true,
+          "originalInspected": true,
+          "reviewer": "Independent gallery pixel review"
+        },
+        "rightsReview": {
+          "result": "passed",
+          "basis": "Owner-authorized original scene capture in the requested all-captures publication scope; the reviewed image contains no private identity or unrelated desktop content."
+        },
+        "metadataReview": {
+          "result": "passed",
+          "summary": "The paired record matches the exact original image SHA-256 and dimensions, identifies the settled Edit camera and scoped source revision, and records one-second call clocks only. Exact capture time, display scale and theme remain unavailable."
+        }
+      }
+    },
+    {
+      "captureClass": "historical-observation",
+      "captureId": "forest-east-detour-after-edit229-20261005",
+      "path": "images/forest-east-detour-after-edit229-20261005.jpg",
+      "sha256": "e4cbd130e315ed7c170df7e2453a7308d6e2e29ae72a2ee694113d1e974c7057",
+      "sourceRevision": "f238301342b663741f11265391507b978585a363",
+      "sourcePath": null,
+      "sourceScope": "Only the newly authored bounded rebuild, not historical surrounding construction.",
+      "state": "Historical after-rebuild appearance before final rail-end support refinement",
+      "title": "Forest Camp eastern detour after the footprint cut",
+      "caption": "An elevated Edit-camera view shows the Forest Camp building and eastern route after the bounded footprint cut, before final rail-end support refinement. It records scene appearance only; normal-input traversal, collision behavior and whole-place acceptance remain unverified.",
+      "alt": "Elevated Forest Camp view showing the building and raised eastern approach route.",
+      "location": "Forest Camp eastern approach",
+      "activity": "Historical Edit-mode scene appearance observation",
+      "stage": "Eastern detour before final rail-end support refinement",
+      "evidenceSubject": "Roblox scene",
+      "viewport": {
+        "width": 1476,
+        "height": 1080
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP screen_capture with settled actual Edit camera",
+      "captureMode": "Edit",
+      "captureContext": null,
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This still image is not gameplay or whole-place acceptance evidence.",
+        "Exact capture time is unavailable; paired call-clock readings are context only and are not an acquisition timestamp.",
+        "Source revision scope is limited to the bounded work named by the paired capture record, not surrounding historical construction.",
+        "This view predates final rail-end support refinement; normal-input traversal remains unverified.",
+        "Display scale and interface theme are unavailable.",
+        "Paired capture metadata reports zero embedded EXIF entries; no filename or file timestamp is used as capture provenance."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "Owner-authorized original scene capture in the requested all-captures publication scope; the reviewed image contains no private identity or unrelated desktop content."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "The paired record matches the exact original image SHA-256 and dimensions, identifies the settled Edit camera and scoped source revision, and records one-second call clocks only. Exact capture time, display scale and theme remain unavailable."
+      },
+      "privacyReviewer": "Independent gallery pixel review",
+      "privacyReview": "passed",
+      "observationReview": {
+        "schemaVersion": 1,
+        "recordType": "observation-review-record",
+        "captureClass": "historical-observation",
+        "captureId": "forest-east-detour-after-edit229-20261005",
+        "imageSha256": "e4cbd130e315ed7c170df7e2453a7308d6e2e29ae72a2ee694113d1e974c7057",
+        "imageBytes": 534532,
+        "sourceRevision": "f238301342b663741f11265391507b978585a363",
+        "sourceScope": "Only the newly authored bounded rebuild, not historical surrounding construction.",
+        "state": "Historical after-rebuild appearance before final rail-end support refinement",
+        "title": "Forest Camp eastern detour after the footprint cut",
+        "caption": "An elevated Edit-camera view shows the Forest Camp building and eastern route after the bounded footprint cut, before final rail-end support refinement. It records scene appearance only; normal-input traversal, collision behavior and whole-place acceptance remain unverified.",
+        "alt": "Elevated Forest Camp view showing the building and raised eastern approach route.",
+        "location": "Forest Camp eastern approach",
+        "activity": "Historical Edit-mode scene appearance observation",
+        "stage": "Eastern detour before final rail-end support refinement",
+        "evidenceSubject": "Roblox scene",
+        "viewport": {
+          "width": 1476,
+          "height": 1080
+        },
+        "scale": null,
+        "theme": "not-applicable",
+        "method": "Roblox Studio MCP screen_capture with settled actual Edit camera",
+        "captureMode": "Edit",
+        "capturedAt": null,
+        "receiptValidated": false,
+        "reviewRecordValidated": true,
+        "limitations": [
+          "This still image is not gameplay or whole-place acceptance evidence.",
+          "Exact capture time is unavailable; paired call-clock readings are context only and are not an acquisition timestamp.",
+          "Source revision scope is limited to the bounded work named by the paired capture record, not surrounding historical construction.",
+          "This view predates final rail-end support refinement; normal-input traversal remains unverified.",
+          "Display scale and interface theme are unavailable.",
+          "Paired capture metadata reports zero embedded EXIF entries; no filename or file timestamp is used as capture provenance."
+        ],
+        "privacyReview": {
+          "result": "passed",
+          "pixelsReviewed": true,
+          "metadataReviewed": true,
+          "filenameReviewed": true,
+          "originalInspected": true,
+          "reviewer": "Independent gallery pixel review"
+        },
+        "rightsReview": {
+          "result": "passed",
+          "basis": "Owner-authorized original scene capture in the requested all-captures publication scope; the reviewed image contains no private identity or unrelated desktop content."
+        },
+        "metadataReview": {
+          "result": "passed",
+          "summary": "The paired record matches the exact original image SHA-256 and dimensions, identifies the settled Edit camera and scoped source revision, and records one-second call clocks only. Exact capture time, display scale and theme remain unavailable."
+        }
+      }
+    },
+    {
+      "captureClass": "historical-observation",
+      "captureId": "ridge-reception-final-edit229-20261005",
+      "path": "images/ridge-reception-final-edit229-20261005.jpg",
+      "sha256": "6c1449a10e1a4671e18842b2bae3f45c5c98169c8efde9d28f4a2c8bacac0f5d",
+      "sourceRevision": "ddd8ae3ed0c28abbb0c283a840ad10b91b665746",
+      "sourcePath": null,
+      "sourceScope": "Bounded rebuild only; surrounding historical construction has separate provenance.",
+      "state": "Latest saved Edit-mode appearance after bounded rebuild",
+      "title": "Ridge View reception with final sign supports",
+      "caption": "The latest saved Edit-mode view shows the Ridge View reception counter, refill alcove, lounge seating, bilingual signs and their visible support stems. It records bounded appearance only and does not establish booking or refill operation, normal-input traversal or whole-place acceptance.",
+      "alt": "Ridge View reception and lounge with bilingual signs and two visible support stems.",
+      "location": "Ridge View reception",
+      "activity": "Historical Edit-mode scene appearance observation",
+      "stage": "Latest reception view after support refinement",
+      "evidenceSubject": "Roblox scene",
+      "viewport": {
+        "width": 1476,
+        "height": 1080
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP screen_capture with settled actual Edit camera",
+      "captureMode": "Edit",
+      "captureContext": null,
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This still image is not gameplay or whole-place acceptance evidence.",
+        "Exact capture time is unavailable; paired call-clock readings are context only and are not an acquisition timestamp.",
+        "Source revision scope is limited to the bounded work named by the paired capture record, not surrounding historical construction.",
+        "The image is an Edit-mode observation; native appearance does not establish service operation or traversal.",
+        "Display scale and interface theme are unavailable.",
+        "Paired capture metadata reports zero embedded EXIF entries; no filename or file timestamp is used as capture provenance."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "Owner-authorized original scene capture in the requested all-captures publication scope; the reviewed image contains no private identity or unrelated desktop content."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "The paired record matches the exact original image SHA-256 and dimensions, identifies the settled Edit camera and scoped source revision, and records one-second call clocks only. Exact capture time, display scale and theme remain unavailable."
+      },
+      "privacyReviewer": "Independent gallery pixel review",
+      "privacyReview": "passed",
+      "observationReview": {
+        "schemaVersion": 1,
+        "recordType": "observation-review-record",
+        "captureClass": "historical-observation",
+        "captureId": "ridge-reception-final-edit229-20261005",
+        "imageSha256": "6c1449a10e1a4671e18842b2bae3f45c5c98169c8efde9d28f4a2c8bacac0f5d",
+        "imageBytes": 336629,
+        "sourceRevision": "ddd8ae3ed0c28abbb0c283a840ad10b91b665746",
+        "sourceScope": "Bounded rebuild only; surrounding historical construction has separate provenance.",
+        "state": "Latest saved Edit-mode appearance after bounded rebuild",
+        "title": "Ridge View reception with final sign supports",
+        "caption": "The latest saved Edit-mode view shows the Ridge View reception counter, refill alcove, lounge seating, bilingual signs and their visible support stems. It records bounded appearance only and does not establish booking or refill operation, normal-input traversal or whole-place acceptance.",
+        "alt": "Ridge View reception and lounge with bilingual signs and two visible support stems.",
+        "location": "Ridge View reception",
+        "activity": "Historical Edit-mode scene appearance observation",
+        "stage": "Latest reception view after support refinement",
+        "evidenceSubject": "Roblox scene",
+        "viewport": {
+          "width": 1476,
+          "height": 1080
+        },
+        "scale": null,
+        "theme": "not-applicable",
+        "method": "Roblox Studio MCP screen_capture with settled actual Edit camera",
+        "captureMode": "Edit",
+        "capturedAt": null,
+        "receiptValidated": false,
+        "reviewRecordValidated": true,
+        "limitations": [
+          "This still image is not gameplay or whole-place acceptance evidence.",
+          "Exact capture time is unavailable; paired call-clock readings are context only and are not an acquisition timestamp.",
+          "Source revision scope is limited to the bounded work named by the paired capture record, not surrounding historical construction.",
+          "The image is an Edit-mode observation; native appearance does not establish service operation or traversal.",
+          "Display scale and interface theme are unavailable.",
+          "Paired capture metadata reports zero embedded EXIF entries; no filename or file timestamp is used as capture provenance."
+        ],
+        "privacyReview": {
+          "result": "passed",
+          "pixelsReviewed": true,
+          "metadataReviewed": true,
+          "filenameReviewed": true,
+          "originalInspected": true,
+          "reviewer": "Independent gallery pixel review"
+        },
+        "rightsReview": {
+          "result": "passed",
+          "basis": "Owner-authorized original scene capture in the requested all-captures publication scope; the reviewed image contains no private identity or unrelated desktop content."
+        },
+        "metadataReview": {
+          "result": "passed",
+          "summary": "The paired record matches the exact original image SHA-256 and dimensions, identifies the settled Edit camera and scoped source revision, and records one-second call clocks only. Exact capture time, display scale and theme remain unavailable."
+        }
+      }
+    },
+    {
+      "captureClass": "historical-observation",
+      "captureId": "ridge-hall-final-edit229-20261005",
+      "path": "images/ridge-hall-final-edit229-20261005.jpg",
+      "sha256": "2f2ed968b7d7e5cf1b9a3bf83fa40810dac39f8c320b050d6832c84deba7acba",
+      "sourceRevision": "ddd8ae3ed0c28abbb0c283a840ad10b91b665746",
+      "sourcePath": null,
+      "sourceScope": "Bounded rebuild only; surrounding historical construction has separate provenance.",
+      "state": "Latest saved Edit-mode appearance after bounded rebuild",
+      "title": "Ridge View Rest hall after support refinement",
+      "caption": "The latest saved Edit-mode hall view shows the rebuilt Ridge View Rest interior, ceiling lighting, lounge edge, rendered bilingual signage and Hotel 01 entrance. It records bounded appearance only, not normal-input traversal, gameplay behavior or whole-place acceptance.",
+      "alt": "Ridge View Rest hall with ceiling lights, lounge edge, bilingual trail overview sign and Hotel 01 entrance.",
+      "location": "Ridge View Rest",
+      "activity": "Historical Edit-mode scene appearance observation",
+      "stage": "Latest hall view after support refinement",
+      "evidenceSubject": "Roblox scene",
+      "viewport": {
+        "width": 1476,
+        "height": 1080
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP screen_capture with settled actual Edit camera",
+      "captureMode": "Edit",
+      "captureContext": null,
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This still image is not gameplay or whole-place acceptance evidence.",
+        "Exact capture time is unavailable; paired call-clock readings are context only and are not an acquisition timestamp.",
+        "Source revision scope is limited to the bounded work named by the paired capture record, not surrounding historical construction.",
+        "The image is an Edit-mode observation; it does not prove normal-input traversal or gameplay behavior.",
+        "Display scale and interface theme are unavailable.",
+        "Paired capture metadata reports zero embedded EXIF entries; no filename or file timestamp is used as capture provenance."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "Owner-authorized original scene capture in the requested all-captures publication scope; the reviewed image contains no private identity or unrelated desktop content."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "The paired record matches the exact original image SHA-256 and dimensions, identifies the settled Edit camera and scoped source revision, and records one-second call clocks only. Exact capture time, display scale and theme remain unavailable."
+      },
+      "privacyReviewer": "Independent gallery pixel review",
+      "privacyReview": "passed",
+      "observationReview": {
+        "schemaVersion": 1,
+        "recordType": "observation-review-record",
+        "captureClass": "historical-observation",
+        "captureId": "ridge-hall-final-edit229-20261005",
+        "imageSha256": "2f2ed968b7d7e5cf1b9a3bf83fa40810dac39f8c320b050d6832c84deba7acba",
+        "imageBytes": 285620,
+        "sourceRevision": "ddd8ae3ed0c28abbb0c283a840ad10b91b665746",
+        "sourceScope": "Bounded rebuild only; surrounding historical construction has separate provenance.",
+        "state": "Latest saved Edit-mode appearance after bounded rebuild",
+        "title": "Ridge View Rest hall after support refinement",
+        "caption": "The latest saved Edit-mode hall view shows the rebuilt Ridge View Rest interior, ceiling lighting, lounge edge, rendered bilingual signage and Hotel 01 entrance. It records bounded appearance only, not normal-input traversal, gameplay behavior or whole-place acceptance.",
+        "alt": "Ridge View Rest hall with ceiling lights, lounge edge, bilingual trail overview sign and Hotel 01 entrance.",
+        "location": "Ridge View Rest",
+        "activity": "Historical Edit-mode scene appearance observation",
+        "stage": "Latest hall view after support refinement",
+        "evidenceSubject": "Roblox scene",
+        "viewport": {
+          "width": 1476,
+          "height": 1080
+        },
+        "scale": null,
+        "theme": "not-applicable",
+        "method": "Roblox Studio MCP screen_capture with settled actual Edit camera",
+        "captureMode": "Edit",
+        "capturedAt": null,
+        "receiptValidated": false,
+        "reviewRecordValidated": true,
+        "limitations": [
+          "This still image is not gameplay or whole-place acceptance evidence.",
+          "Exact capture time is unavailable; paired call-clock readings are context only and are not an acquisition timestamp.",
+          "Source revision scope is limited to the bounded work named by the paired capture record, not surrounding historical construction.",
+          "The image is an Edit-mode observation; it does not prove normal-input traversal or gameplay behavior.",
+          "Display scale and interface theme are unavailable.",
+          "Paired capture metadata reports zero embedded EXIF entries; no filename or file timestamp is used as capture provenance."
+        ],
+        "privacyReview": {
+          "result": "passed",
+          "pixelsReviewed": true,
+          "metadataReviewed": true,
+          "filenameReviewed": true,
+          "originalInspected": true,
+          "reviewer": "Independent gallery pixel review"
+        },
+        "rightsReview": {
+          "result": "passed",
+          "basis": "Owner-authorized original scene capture in the requested all-captures publication scope; the reviewed image contains no private identity or unrelated desktop content."
+        },
+        "metadataReview": {
+          "result": "passed",
+          "summary": "The paired record matches the exact original image SHA-256 and dimensions, identifies the settled Edit camera and scoped source revision, and records one-second call clocks only. Exact capture time, display scale and theme remain unavailable."
+        }
+      }
+    },
+    {
+      "captureClass": "historical-observation",
+      "captureId": "forest-east-approach-final-edit229-20261005",
+      "path": "images/forest-east-approach-final-edit229-20261005.jpg",
+      "sha256": "981a289ad578e430c8afcd12ac850f5dc1ef5116cf7cd0faccebb195954f1fab",
+      "sourceRevision": "d62ed6fd3c6b4f2466372f72240477f88607d1f2",
+      "sourcePath": null,
+      "sourceScope": "Bounded rebuild only; surrounding historical construction has separate provenance.",
+      "state": "Latest saved Edit-mode appearance after bounded rebuild",
+      "title": "Forest Camp eastern approach after rail support refinement",
+      "caption": "The latest saved Edit-mode view shows the Forest Camp building, elevated approach and eastern detour after bounded rail-end support refinement. It records appearance only; normal-input traversal, collision behavior and whole-place acceptance remain unverified.",
+      "alt": "Elevated Forest Camp view of the building, eastern approach and surrounding terrain.",
+      "location": "Forest Camp eastern approach",
+      "activity": "Historical Edit-mode scene appearance observation",
+      "stage": "Latest eastern approach view after rail support refinement",
+      "evidenceSubject": "Roblox scene",
+      "viewport": {
+        "width": 1476,
+        "height": 1080
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP screen_capture with settled actual Edit camera",
+      "captureMode": "Edit",
+      "captureContext": null,
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "This still image is not gameplay or whole-place acceptance evidence.",
+        "Exact capture time is unavailable; paired call-clock readings are context only and are not an acquisition timestamp.",
+        "Source revision scope is limited to the bounded work named by the paired capture record, not surrounding historical construction.",
+        "The image is an Edit-mode observation; normal-input traversal and collision behavior remain unverified.",
+        "Display scale and interface theme are unavailable.",
+        "Paired capture metadata reports zero embedded EXIF entries; no filename or file timestamp is used as capture provenance."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "Owner-authorized original scene capture in the requested all-captures publication scope; the reviewed image contains no private identity or unrelated desktop content."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "The paired record matches the exact original image SHA-256 and dimensions, identifies the settled Edit camera and scoped source revision, and records one-second call clocks only. Exact capture time, display scale and theme remain unavailable."
+      },
+      "privacyReviewer": "Independent gallery pixel review",
+      "privacyReview": "passed",
+      "observationReview": {
+        "schemaVersion": 1,
+        "recordType": "observation-review-record",
+        "captureClass": "historical-observation",
+        "captureId": "forest-east-approach-final-edit229-20261005",
+        "imageSha256": "981a289ad578e430c8afcd12ac850f5dc1ef5116cf7cd0faccebb195954f1fab",
+        "imageBytes": 534563,
+        "sourceRevision": "d62ed6fd3c6b4f2466372f72240477f88607d1f2",
+        "sourceScope": "Bounded rebuild only; surrounding historical construction has separate provenance.",
+        "state": "Latest saved Edit-mode appearance after bounded rebuild",
+        "title": "Forest Camp eastern approach after rail support refinement",
+        "caption": "The latest saved Edit-mode view shows the Forest Camp building, elevated approach and eastern detour after bounded rail-end support refinement. It records appearance only; normal-input traversal, collision behavior and whole-place acceptance remain unverified.",
+        "alt": "Elevated Forest Camp view of the building, eastern approach and surrounding terrain.",
+        "location": "Forest Camp eastern approach",
+        "activity": "Historical Edit-mode scene appearance observation",
+        "stage": "Latest eastern approach view after rail support refinement",
+        "evidenceSubject": "Roblox scene",
+        "viewport": {
+          "width": 1476,
+          "height": 1080
+        },
+        "scale": null,
+        "theme": "not-applicable",
+        "method": "Roblox Studio MCP screen_capture with settled actual Edit camera",
+        "captureMode": "Edit",
+        "capturedAt": null,
+        "receiptValidated": false,
+        "reviewRecordValidated": true,
+        "limitations": [
+          "This still image is not gameplay or whole-place acceptance evidence.",
+          "Exact capture time is unavailable; paired call-clock readings are context only and are not an acquisition timestamp.",
+          "Source revision scope is limited to the bounded work named by the paired capture record, not surrounding historical construction.",
+          "The image is an Edit-mode observation; normal-input traversal and collision behavior remain unverified.",
+          "Display scale and interface theme are unavailable.",
+          "Paired capture metadata reports zero embedded EXIF entries; no filename or file timestamp is used as capture provenance."
+        ],
+        "privacyReview": {
+          "result": "passed",
+          "pixelsReviewed": true,
+          "metadataReviewed": true,
+          "filenameReviewed": true,
+          "originalInspected": true,
+          "reviewer": "Independent gallery pixel review"
+        },
+        "rightsReview": {
+          "result": "passed",
+          "basis": "Owner-authorized original scene capture in the requested all-captures publication scope; the reviewed image contains no private identity or unrelated desktop content."
+        },
+        "metadataReview": {
+          "result": "passed",
+          "summary": "The paired record matches the exact original image SHA-256 and dimensions, identifies the settled Edit camera and scoped source revision, and records one-second call clocks only. Exact capture time, display scale and theme remain unavailable."
+        }
+      }
     }
   ],
   "excluded": [],

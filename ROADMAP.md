@@ -65,10 +65,13 @@ Items are checked only when implemented and supported by the stated evidence. Th
 - [ ] Prove a genuine fresh-host run and explicit preview launch separately; source/current-host checks do not establish them.
 - [ ] Complete strict browser-profile cleanup and stronger capture promotion receipts. Bounded runtime observations passed; no full-audit claim is made.
 
-## Four additional before observations
+## Before and rebuild observations
 
 - [x] Independently inspect and preserve four original scene-only before frames with paired hashes and honest unsettled-camera limits.
-- [x] Keep every preceding original; candidate 428 images/119265024 bytes, with 424 already publicly verified.
-- [ ] Run exact root build on the new clean candidate and verify its output/receipt.
-- [ ] Publish and verify all four additions with parent-coordinated main proof and hosted readback.
-- [ ] Capture after views only after actual native terrain/interior changes, with their own provenance and review.
+- [x] Keep every preceding original; the next candidate contains 435 unique images and 121821159 original bytes, retaining the 424-image public baseline.
+- [x] Independently inspect and admit seven original Edit-camera observations: the dark initial prototype later rolled back, three intermediate views before final support refinements, and three latest saved appearance views.
+- [x] Record exact image hashes, dimensions and scoped source revisions; leave capture instant, display scale and theme unavailable, and retain explicit non-acceptance limits.
+- [ ] Run exact root build on this 435-image candidate and verify its output and receipt.
+- [ ] Integrate the reviewed candidate into main, push main and prove the remote ref.
+- [ ] Verify the page, manifest and all 435 public image deliveries anonymously with exact hashes and decoded dimensions.
+- [ ] Complete current browser interaction, accessibility and page-contract verification; existing bounded 424-image evidence does not cover this revision.

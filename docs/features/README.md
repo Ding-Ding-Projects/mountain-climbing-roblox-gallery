@@ -13,3 +13,4 @@ Verification statements are bound to their named source revisions. Earlier captu
 - [Static export entrypoints](static-export.md): operating-system-only build, exact hash readback, preview limits and honest installer non-applicability.
 
 - [Before-rebuild scene observations](before-observations.md): unsettled and held-camera before views, unknown geometry provenance and exact-clock limits.
+- [Ridge View Rest and Forest Camp rebuild observations](rebuild-observations.md): seven original Edit-camera stages with bounded source revisions, preserved bytes, and explicit limits on acceptance claims.

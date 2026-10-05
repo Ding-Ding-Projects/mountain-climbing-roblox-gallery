@@ -1,48 +1,36 @@
 # Gallery handoff
 
-## Current candidate
+## Current source candidate
 
-The completed published baseline contains 424 distinct original images (118,029,333 bytes), retaining 19 previous construction records and adding 405 historical observations. Of these, 3 are project-interface observations. All 434 source files and 424 distinct originals were inventoried; ten source files were exact duplicates. No original remains pending or excluded. The formerly pending full Studio/account-interface original has specific current owner approval recorded against its exact hash; this is not blanket approval for other or future account-interface captures. Private path mappings and independent review files remain outside this public repository.
+The candidate contains **435 distinct original images totaling 121,821,159 bytes**. It preserves all 424 originals in the verified public baseline at `43655e9a5dc66ca6731cfb965d00c405d0877c65`, plus four earlier before-rebuild observations and seven new Ridge View Rest / Forest Camp rebuild observations. All 435 image hashes are unique in the source manifest, and no image is excluded.
 
-The parent integrated and published revision `43655e9a5dc66ca6731cfb965d00c405d0877c65`; hosting run 37367865389 succeeded and the public main reference was verified. The current HTTP receipt verifies all 424 originals and 118,029,333 image bytes. The current bounded desktop/emulated-touch observations are separately summarized; strict audit completion and capture promotion remain incomplete because guest-profile removal was rejected and the stronger capture tuple is unavailable. This lane performs no publication.
+The seven new images were independently inspected as complete originals. Their paired closed review records match the original JPEG hashes and 1476 × 1080 dimensions. They are Edit-camera scene observations only:
 
-## Changed behavior and files
+- `ridge-rebuild-first-prototype-edit229-20261005` records a dark first prototype that was later rolled back for lighting and route refinement.
+- `ridge-rebuild-lit-after-edit229-20261005` and `ridge-reception-lounge-after-edit229-20261005` show intermediate appearances before final sign-support refinement.
+- `forest-east-detour-after-edit229-20261005` shows the bounded eastern route before final rail-end support refinement.
+- `ridge-reception-final-edit229-20261005`, `ridge-hall-final-edit229-20261005`, and `forest-east-approach-final-edit229-20261005` show the latest saved Edit appearance after the bounded support refinements.
 
-- `scripts/add-reviewed-observation.mjs` validates hash, byte count, dimensions and a closed public-safe historical record, copies unchanged originals and updates the manifest atomically.
-- `docs/evidence/observation-contract.mjs` provides shared importer/browser admission. Unknown source revision is null, mode is Unknown when unproved, and capture time/scale remain null. Original review and explicit non-acceptance limits are mandatory.
-- `docs/index.html` shows historical and project-interface badges, unavailable source scope, full original links and bounded six-request hash verification. Four retained hotel records have truthful admission limits added; strict construction requirements remain intact.
-- `docs/evidence/gallery.json`, `docs/evidence/images/` and `docs/evidence/records/` hold the byte-preserved approved inventory, scoped provenance and public-safe exclusions.
-- `README.md`, `ROADMAP.md`, evidence policy, categorized historical documentation and `CLOSEOUT_PROMPT.md` state this candidate's current boundaries.
+The source revisions are recorded per image in `docs/evidence/records/` and summarized in `docs/features/rebuild-observations.md`. Exact acquisition time, display scale, and theme remain unavailable. Paired one-second clock readings are context only. These images do not prove normal-input traversal, collision behavior, service operation, complete gameplay, or whole-place acceptance. Owner authorization covers these seven genuine scene-only captures and their reviewed content.
 
-The three hotel carry observations are separately named. Their hash-bound source revision refers only to tested hotel modules; the images do not prove the whole world or avatar's source identity. They show a temporary native probe, not permanent production installation or full service acceptance. Second-precision clock brackets do not establish an exact capture instant.
+## Public state
 
-## Verification inventory
+The last verified public baseline remains 424 images / 118,029,333 image bytes at `43655e9a5dc66ca6731cfb965d00c405d0877c65`. Its receipt is `docs/evidence/live-publication-424-20261005.json`; hosting run `37367865389` succeeded. Workflow `37374105568` also succeeded for gallery source `4fdc7f9506969b1012ea08bcad7f1e4a8e8221ea`, which contains 428 images, not the current 435-image candidate. Neither run proves delivery of the seven new images.
 
-| File/command | Result and scope |
-|---|---|
-| `tests/observation-admission.mjs` | 21 source/admission cases passed, including deliberately broken original review, date, source, context, hash, dimensions and duplicate boundaries |
-| `tests/background-admission.mjs` | Existing 10-case strict background construction admission passed against its retained PNG |
-| `tests/gallery-inventory.mjs` | All 424 unique originals admitted by actual page source function, hashes match, exclusions accounted; every historical observation has missing-review and invented-time negative regression |
-| `tests/progressive-verification.mjs` | 14 async/source-DOM cases passed: first verified image while another request is pending, failed-image exclusion, six-request ceiling, later batching, exact completion counts and retained card/facet/focus/query state |
-| Complete private alias scan | Source scan performed outside this repository with complete current dictionary coverage, including aliases omitted by older prose-only filtering; rerun on final candidate before publication |
-| Current native browser | Unverified for this revision, source checks are not a rendered capture |
-| Expanded public delivery | Unverified until parent deploys and verifies every resource |
+The current candidate has not yet been rebuilt, integrated into main, published, or anonymously verified. No receipt exists for 435-image delivery. The broader browser audit remains incomplete: earlier bounded desktop and emulated-touch observations cover the 424-image revision only; strict audit completion and stronger capture promotion remain unavailable because the exact browser profile was retained.
 
-The test commands run locally; no test or lint workflow was added. Existing publication uses the established GitHub Pages source route. No Sites migration, raw source/model publication or image reconstruction occurred.
+## Changed files
 
-## Remaining work and retained evidence
+- `docs/evidence/gallery.json` admits seven new closed historical-observation records while preserving the preceding 428 records.
+- `docs/evidence/images/` contains the seven byte-preserved JPEG originals; `docs/evidence/records/` contains their seven public-safe review records.
+- `docs/features/rebuild-observations.md` describes each scene, source revision, SHA-256, phase and limitation.
+- `README.md`, `docs/features/README.md`, `docs/evidence/README.md`, and `ROADMAP.md` report the 435-image candidate and distinguish local admission from public verification.
+- `HANDOFF.md` and `CLOSEOUT_PROMPT.md` carry the current handoff state.
 
-1. Parent independently approves the exact candidate, images, captions and exclusions, then integrates into main and proves the public reference.
-2. Verify the page, manifest, shared observation module, progressive verification module and all 424 image URLs anonymously, with exact hashes and decoded dimensions. Save a new receipt bound to the source revision.
-3. Drive the actual public gallery through the approved isolated browser route, retain current captures and verify complete displayed count plus representative historical, interface, unknown and carry records. The earlier `docs/evidence/ui/responsive-layout.json` cannot prove this revision.
-4. Keep broader page completeness work open in `docs/feature-inventory.json` and the previous roadmap sections. This capture-publication task does not establish all gallery contracts or game acceptance.
+## Verification and next work
 
-Existing gallery issue #1 remains the publication handoff record. Parent owns its update after integration and hosted proof. Earlier `live-publication-*.json` receipts and responsive captures remain preserved, with their original scopes unchanged.
+The existing importer accepted each of the seven review records and checked each source file's exact SHA-256, byte count and dimensions before copying original bytes. All seven new hashes are distinct from each other and from the prior manifest hashes. The source candidate has 435 image files totaling 121,821,159 bytes. No test suite was run in this publication lane.
 
-## Required static entrypoints
+Next steps are to run the exact root `build.bat /s` on clean source, integrate the completed candidate into main, push main and prove the remote ref with `git ls-remote`, then verify anonymously that the live page and manifest deliver all 435 originals with exact hashes and decoded dimensions. A new delivery receipt and final public update must bind to the exact published source revision. Keep the gallery issue #1 and rolling progress Discussion #2 current. Do not claim browser, gameplay or whole-place acceptance from HTTP delivery.
 
-Root `build.bat` and `build-installer.bat` use an OS-only PowerShell route and shared manifest. The real output is ignored `dist/gallery` with exact file/image hash readback and a source/content receipt. A Git checkout must remain clean and CLI-verifiable; an archive records unavailable source history. Installer exit 2 is explicit non-applicability, not a successful installer. Exact `build.bat /s` passed on clean 15007ead: 873 exported files, 424 original images, 118029333 image bytes and independent full readback. Installer wrapper returned 2, NOT_APPLICABLE. Eight bounded fixture cases passed. Current-host receipt SHA-256 is a207a4c760add84a3107554173a1fb7309c6c1e4f5116b66039f9c9b3fc6ff06. Final source will be built again after this evidence checkpoint; no fresh-host or preview-launch evidence is claimed. Parent owns integration and deployment of this helper/documentation follow-up.
-
-## Four-frame before batch
-
-The isolated lane adds four genuine original before observations after entrypoint candidate f1589be19f28be4da53d87a70d32eb91c88d18ee. The preceding f158 build receipt is preserved byte-identical at ignored `dist/verified-f158/gallery-build.json` (SHA-256 ad6695a02569832361eb3deda215da39f8bf74abc4af76393bfec0020c151af3); its original export remains retained by the normal owned-output rotation. The candidate now has 428 originals/119265024 bytes, retaining all previous 424 and their approvals. Added images are historical before appearance only; geometry source/exact acquisition/scale stay unavailable. Temporary streaming is not a confirmed permanent-label or overlap defect. No after or native change occurs in this lane. Parent owns publication and actual rebuilding; the additions require a new exact-root build and hosted readback.
+The public Status Hub route is unavailable in this session; its authenticated tools are not exposed. Status Hub delivery remains unperformed. The exact private source mapping and raw capture storage remain outside this repository. Existing strict capture limits and the pending broader page-contract work remain open.
