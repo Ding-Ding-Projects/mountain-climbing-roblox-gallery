@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "recordType": "observation-review-record",
+  "captureClass": "historical-observation",
+  "captureId": "forest-cave-overlap-before-edit229-20261005",
+  "imageSha256": "09e0fab2fb14c5dd851cdf81b42e2ea7320d7f0b0529591605bd6ff740bba6a6",
+  "imageBytes": 358087,
+  "sourceRevision": null,
+  "sourceScope": "Native geometry source revision unavailable; repository context alone is not geometry provenance.",
+  "state": "Forest Camp side route before terrain rebuild",
+  "title": "Forest Camp side route before terrain rebuild",
+  "caption": "An elevated temporary-camera view shows the Forest Camp roof, nearby lights, tree and hillside before planned terrain work. Streaming may remain unsettled. This records observed scene appearance, not confirmed overlap, collision, service or facility acceptance.",
+  "alt": "Elevated view of a camp building roof with nearby lights and trees on green hillside terrain.",
+  "location": "Forest Camp side route",
+  "activity": "Before rebuild observation",
+  "stage": "Before rebuild",
+  "evidenceSubject": "Roblox scene",
+  "viewport": {
+    "width": 1476,
+    "height": 1080
+  },
+  "scale": null,
+  "theme": "not-applicable",
+  "method": "Roblox Studio MCP screen_capture",
+  "captureMode": "Unknown",
+  "capturedAt": null,
+  "receiptValidated": false,
+  "reviewRecordValidated": true,
+  "limitations": [
+    "Historical before appearance observation, not final realism or gameplay acceptance evidence.",
+    "Exact capture time and display scale are unavailable; before/after clock readings have one-second precision and are not an exact acquisition timestamp.",
+    "Native geometry source revision is unavailable; a repository context revision does not establish the geometry source.",
+    "A still image does not establish interaction, collision, saving, service operation or whole-facility acceptance.",
+    "Recorded call clock readings: before 2026-10-05 20:26:13 UTC; after 2026-10-05 20:26:14 UTC. No timestamp is inferred from filenames or file times.",
+    "Temporary-camera rendering may be unsettled; this frame is not confirmed defect evidence and does not show an after rebuild."
+  ],
+  "privacyReview": {
+    "result": "passed",
+    "pixelsReviewed": true,
+    "metadataReviewed": true,
+    "filenameReviewed": true,
+    "originalInspected": true,
+    "reviewer": "Independent scene review"
+  },
+  "rightsReview": {
+    "result": "passed",
+    "basis": "The owner requested publication of genuine project scene observations and explicitly approved these four before captures. No raw model or supplier/source file is published."
+  },
+  "metadataReview": {
+    "result": "passed",
+    "summary": "Original JPEG bytes and dimensions match the paired hash-bound source receipt. JFIF only, no EXIF, comments or embedded profile. Exact acquisition time, scale and native geometry revision remain unavailable."
+  }
+}

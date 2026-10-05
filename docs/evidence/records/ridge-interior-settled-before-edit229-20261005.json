@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "recordType": "observation-review-record",
+  "captureClass": "historical-observation",
+  "captureId": "ridge-interior-settled-before-edit229-20261005",
+  "imageSha256": "4c157c148aa01e1eb391f2e5b6bbf5c0c7edbe86ad193c48e826769286004035",
+  "imageBytes": 265879,
+  "sourceRevision": null,
+  "sourceScope": "Native geometry source revision unavailable; repository context alone is not geometry provenance.",
+  "state": "Ridge View Rest settled before observation",
+  "title": "Ridge View Rest settled before observation",
+  "caption": "A later held Edit-camera view shows rendered Ridge View Rest signage and wooden benches before planned interior changes. The camera was allowed to settle. This is a before observation; it does not show an after rebuild, prove a fix or establish service acceptance.",
+  "alt": "Rest-facility benches beneath ceiling lights, facing rendered Ridge View Rest and Hotel 02 signs.",
+  "location": "Ridge View Rest",
+  "activity": "Before rebuild observation",
+  "stage": "Before rebuild",
+  "evidenceSubject": "Roblox scene",
+  "viewport": {
+    "width": 1476,
+    "height": 1080
+  },
+  "scale": null,
+  "theme": "not-applicable",
+  "method": "Roblox Studio MCP screen_capture",
+  "captureMode": "Edit",
+  "capturedAt": null,
+  "receiptValidated": false,
+  "reviewRecordValidated": true,
+  "limitations": [
+    "Historical before appearance observation, not final realism or gameplay acceptance evidence.",
+    "Exact capture time and display scale are unavailable; before/after clock readings have one-second precision and are not an exact acquisition timestamp.",
+    "Native geometry source revision is unavailable; a repository context revision does not establish the geometry source.",
+    "A still image does not establish interaction, collision, saving, service operation or whole-facility acceptance.",
+    "Recorded call clock readings: before 2026-10-05 20:33:12 UTC; after 2026-10-05 20:33:13 UTC. No timestamp is inferred from filenames or file times.",
+    "Held-camera settled appearance before rebuilding; it is not an after view, proof of a fix or completed interior acceptance."
+  ],
+  "privacyReview": {
+    "result": "passed",
+    "pixelsReviewed": true,
+    "metadataReviewed": true,
+    "filenameReviewed": true,
+    "originalInspected": true,
+    "reviewer": "Independent scene review"
+  },
+  "rightsReview": {
+    "result": "passed",
+    "basis": "The owner requested publication of genuine project scene observations and explicitly approved these four before captures. No raw model or supplier/source file is published."
+  },
+  "metadataReview": {
+    "result": "passed",
+    "summary": "Original JPEG bytes and dimensions match the paired hash-bound source receipt. JFIF only, no EXIF, comments or embedded profile. Exact acquisition time, scale and native geometry revision remain unavailable."
+  }
+}

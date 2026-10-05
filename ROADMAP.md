@@ -64,3 +64,11 @@ Items are checked only when implemented and supported by the stated evidence. Th
 - [x] Verify exact installer wrapper returns exit 2, NOT_APPLICABLE, with no installer; eight bounded wrapper fixtures passed.
 - [ ] Prove a genuine fresh-host run and explicit preview launch separately; source/current-host checks do not establish them.
 - [ ] Complete strict browser-profile cleanup and stronger capture promotion receipts. Bounded runtime observations passed; no full-audit claim is made.
+
+## Four additional before observations
+
+- [x] Independently inspect and preserve four original scene-only before frames with paired hashes and honest unsettled-camera limits.
+- [x] Keep every preceding original; candidate 428 images/119265024 bytes, with 424 already publicly verified.
+- [ ] Run exact root build on the new clean candidate and verify its output/receipt.
+- [ ] Publish and verify all four additions with parent-coordinated main proof and hosted readback.
+- [ ] Capture after views only after actual native terrain/interior changes, with their own provenance and review.

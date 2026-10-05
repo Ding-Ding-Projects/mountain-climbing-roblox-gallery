@@ -39733,22 +39733,428 @@
           "summary": "The original image decoded successfully. No EXIF, comment, private text or embedded profile metadata was present; original bytes were retained. Capture time remains unavailable."
         }
       }
+    },
+    {
+      "captureClass": "historical-observation",
+      "captureId": "forest-terrain-rebuild-before-edit229-20261005",
+      "path": "images/forest-terrain-rebuild-before-edit229-20261005.jpg",
+      "sha256": "67708ddc0ce4e75ad23d7a23903911ca8a87cb15e6748477a4dc2f416ed2ef8d",
+      "sourceRevision": null,
+      "sourcePath": null,
+      "sourceScope": "Native geometry source revision unavailable; repository context alone is not geometry provenance.",
+      "state": "Forest Camp exterior before terrain rebuild",
+      "title": "Forest Camp exterior before terrain rebuild",
+      "caption": "An initial temporary-camera view shows the Forest Camp exterior, timber approach and adjacent grass and rock face before planned terrain work. Rendering and material streaming were not fully settled. This original records before appearance only, not final terrain or confirmed component-defect proof.",
+      "alt": "Forest Camp gabled building with timber steps and a curved raised approach beside grass, a tree and a rock face.",
+      "location": "Forest Camp",
+      "activity": "Before rebuild observation",
+      "stage": "Before rebuild",
+      "evidenceSubject": "Roblox scene",
+      "viewport": {
+        "width": 1476,
+        "height": 1080
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP screen_capture",
+      "captureMode": "Unknown",
+      "captureContext": null,
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "Historical before appearance observation, not final realism or gameplay acceptance evidence.",
+        "Exact capture time and display scale are unavailable; before/after clock readings have one-second precision and are not an exact acquisition timestamp.",
+        "Native geometry source revision is unavailable; a repository context revision does not establish the geometry source.",
+        "A still image does not establish interaction, collision, saving, service operation or whole-facility acceptance.",
+        "Recorded call clock readings: before 2026-10-05 20:08:24 UTC; after 2026-10-05 20:08:25 UTC. No timestamp is inferred from filenames or file times.",
+        "Temporary-camera rendering may be unsettled; this frame is not confirmed defect evidence and does not show an after rebuild."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "The owner requested publication of genuine project scene observations and explicitly approved these four before captures. No raw model or supplier/source file is published."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "Original JPEG bytes and dimensions match the paired hash-bound source receipt. JFIF only, no EXIF, comments or embedded profile. Exact acquisition time, scale and native geometry revision remain unavailable."
+      },
+      "privacyReviewer": "Independent scene review",
+      "privacyReview": "passed",
+      "observationReview": {
+        "schemaVersion": 1,
+        "recordType": "observation-review-record",
+        "captureClass": "historical-observation",
+        "captureId": "forest-terrain-rebuild-before-edit229-20261005",
+        "imageSha256": "67708ddc0ce4e75ad23d7a23903911ca8a87cb15e6748477a4dc2f416ed2ef8d",
+        "imageBytes": 377605,
+        "sourceRevision": null,
+        "sourceScope": "Native geometry source revision unavailable; repository context alone is not geometry provenance.",
+        "state": "Forest Camp exterior before terrain rebuild",
+        "title": "Forest Camp exterior before terrain rebuild",
+        "caption": "An initial temporary-camera view shows the Forest Camp exterior, timber approach and adjacent grass and rock face before planned terrain work. Rendering and material streaming were not fully settled. This original records before appearance only, not final terrain or confirmed component-defect proof.",
+        "alt": "Forest Camp gabled building with timber steps and a curved raised approach beside grass, a tree and a rock face.",
+        "location": "Forest Camp",
+        "activity": "Before rebuild observation",
+        "stage": "Before rebuild",
+        "evidenceSubject": "Roblox scene",
+        "viewport": {
+          "width": 1476,
+          "height": 1080
+        },
+        "scale": null,
+        "theme": "not-applicable",
+        "method": "Roblox Studio MCP screen_capture",
+        "captureMode": "Unknown",
+        "capturedAt": null,
+        "receiptValidated": false,
+        "reviewRecordValidated": true,
+        "limitations": [
+          "Historical before appearance observation, not final realism or gameplay acceptance evidence.",
+          "Exact capture time and display scale are unavailable; before/after clock readings have one-second precision and are not an exact acquisition timestamp.",
+          "Native geometry source revision is unavailable; a repository context revision does not establish the geometry source.",
+          "A still image does not establish interaction, collision, saving, service operation or whole-facility acceptance.",
+          "Recorded call clock readings: before 2026-10-05 20:08:24 UTC; after 2026-10-05 20:08:25 UTC. No timestamp is inferred from filenames or file times.",
+          "Temporary-camera rendering may be unsettled; this frame is not confirmed defect evidence and does not show an after rebuild."
+        ],
+        "privacyReview": {
+          "result": "passed",
+          "pixelsReviewed": true,
+          "metadataReviewed": true,
+          "filenameReviewed": true,
+          "originalInspected": true,
+          "reviewer": "Independent scene review"
+        },
+        "rightsReview": {
+          "result": "passed",
+          "basis": "The owner requested publication of genuine project scene observations and explicitly approved these four before captures. No raw model or supplier/source file is published."
+        },
+        "metadataReview": {
+          "result": "passed",
+          "summary": "Original JPEG bytes and dimensions match the paired hash-bound source receipt. JFIF only, no EXIF, comments or embedded profile. Exact acquisition time, scale and native geometry revision remain unavailable."
+        }
+      }
+    },
+    {
+      "captureClass": "historical-observation",
+      "captureId": "forest-cave-overlap-before-edit229-20261005",
+      "path": "images/forest-cave-overlap-before-edit229-20261005.jpg",
+      "sha256": "09e0fab2fb14c5dd851cdf81b42e2ea7320d7f0b0529591605bd6ff740bba6a6",
+      "sourceRevision": null,
+      "sourcePath": null,
+      "sourceScope": "Native geometry source revision unavailable; repository context alone is not geometry provenance.",
+      "state": "Forest Camp side route before terrain rebuild",
+      "title": "Forest Camp side route before terrain rebuild",
+      "caption": "An elevated temporary-camera view shows the Forest Camp roof, nearby lights, tree and hillside before planned terrain work. Streaming may remain unsettled. This records observed scene appearance, not confirmed overlap, collision, service or facility acceptance.",
+      "alt": "Elevated view of a camp building roof with nearby lights and trees on green hillside terrain.",
+      "location": "Forest Camp side route",
+      "activity": "Before rebuild observation",
+      "stage": "Before rebuild",
+      "evidenceSubject": "Roblox scene",
+      "viewport": {
+        "width": 1476,
+        "height": 1080
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP screen_capture",
+      "captureMode": "Unknown",
+      "captureContext": null,
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "Historical before appearance observation, not final realism or gameplay acceptance evidence.",
+        "Exact capture time and display scale are unavailable; before/after clock readings have one-second precision and are not an exact acquisition timestamp.",
+        "Native geometry source revision is unavailable; a repository context revision does not establish the geometry source.",
+        "A still image does not establish interaction, collision, saving, service operation or whole-facility acceptance.",
+        "Recorded call clock readings: before 2026-10-05 20:26:13 UTC; after 2026-10-05 20:26:14 UTC. No timestamp is inferred from filenames or file times.",
+        "Temporary-camera rendering may be unsettled; this frame is not confirmed defect evidence and does not show an after rebuild."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "The owner requested publication of genuine project scene observations and explicitly approved these four before captures. No raw model or supplier/source file is published."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "Original JPEG bytes and dimensions match the paired hash-bound source receipt. JFIF only, no EXIF, comments or embedded profile. Exact acquisition time, scale and native geometry revision remain unavailable."
+      },
+      "privacyReviewer": "Independent scene review",
+      "privacyReview": "passed",
+      "observationReview": {
+        "schemaVersion": 1,
+        "recordType": "observation-review-record",
+        "captureClass": "historical-observation",
+        "captureId": "forest-cave-overlap-before-edit229-20261005",
+        "imageSha256": "09e0fab2fb14c5dd851cdf81b42e2ea7320d7f0b0529591605bd6ff740bba6a6",
+        "imageBytes": 358087,
+        "sourceRevision": null,
+        "sourceScope": "Native geometry source revision unavailable; repository context alone is not geometry provenance.",
+        "state": "Forest Camp side route before terrain rebuild",
+        "title": "Forest Camp side route before terrain rebuild",
+        "caption": "An elevated temporary-camera view shows the Forest Camp roof, nearby lights, tree and hillside before planned terrain work. Streaming may remain unsettled. This records observed scene appearance, not confirmed overlap, collision, service or facility acceptance.",
+        "alt": "Elevated view of a camp building roof with nearby lights and trees on green hillside terrain.",
+        "location": "Forest Camp side route",
+        "activity": "Before rebuild observation",
+        "stage": "Before rebuild",
+        "evidenceSubject": "Roblox scene",
+        "viewport": {
+          "width": 1476,
+          "height": 1080
+        },
+        "scale": null,
+        "theme": "not-applicable",
+        "method": "Roblox Studio MCP screen_capture",
+        "captureMode": "Unknown",
+        "capturedAt": null,
+        "receiptValidated": false,
+        "reviewRecordValidated": true,
+        "limitations": [
+          "Historical before appearance observation, not final realism or gameplay acceptance evidence.",
+          "Exact capture time and display scale are unavailable; before/after clock readings have one-second precision and are not an exact acquisition timestamp.",
+          "Native geometry source revision is unavailable; a repository context revision does not establish the geometry source.",
+          "A still image does not establish interaction, collision, saving, service operation or whole-facility acceptance.",
+          "Recorded call clock readings: before 2026-10-05 20:26:13 UTC; after 2026-10-05 20:26:14 UTC. No timestamp is inferred from filenames or file times.",
+          "Temporary-camera rendering may be unsettled; this frame is not confirmed defect evidence and does not show an after rebuild."
+        ],
+        "privacyReview": {
+          "result": "passed",
+          "pixelsReviewed": true,
+          "metadataReviewed": true,
+          "filenameReviewed": true,
+          "originalInspected": true,
+          "reviewer": "Independent scene review"
+        },
+        "rightsReview": {
+          "result": "passed",
+          "basis": "The owner requested publication of genuine project scene observations and explicitly approved these four before captures. No raw model or supplier/source file is published."
+        },
+        "metadataReview": {
+          "result": "passed",
+          "summary": "Original JPEG bytes and dimensions match the paired hash-bound source receipt. JFIF only, no EXIF, comments or embedded profile. Exact acquisition time, scale and native geometry revision remain unavailable."
+        }
+      }
+    },
+    {
+      "captureClass": "historical-observation",
+      "captureId": "ridge-interior-rebuild-before-edit229-20261005",
+      "path": "images/ridge-interior-rebuild-before-edit229-20261005.jpg",
+      "sha256": "a1014e0a36ed9cb5b64920a3078efbc1361dd657abf21cac5c31c093529cca9f",
+      "sourceRevision": null,
+      "sourcePath": null,
+      "sourceScope": "Native geometry source revision unavailable; repository context alone is not geometry provenance.",
+      "state": "Ridge View Rest initial camera observation",
+      "title": "Ridge View Rest initial camera observation",
+      "caption": "An initial temporary-camera view shows rest-facility benches, a doorway and overhead lights before interior rebuilding. Text and material streaming were incomplete in this frame. This is an unsettled rendering observation, not proof of permanently blank labels or a completed rebuild.",
+      "alt": "Initial view of wooden benches and ceiling lights facing a rest-facility doorway and dark sign panels.",
+      "location": "Ridge View Rest",
+      "activity": "Before rebuild observation",
+      "stage": "Before rebuild",
+      "evidenceSubject": "Roblox scene",
+      "viewport": {
+        "width": 1476,
+        "height": 1080
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP screen_capture",
+      "captureMode": "Unknown",
+      "captureContext": null,
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "Historical before appearance observation, not final realism or gameplay acceptance evidence.",
+        "Exact capture time and display scale are unavailable; before/after clock readings have one-second precision and are not an exact acquisition timestamp.",
+        "Native geometry source revision is unavailable; a repository context revision does not establish the geometry source.",
+        "A still image does not establish interaction, collision, saving, service operation or whole-facility acceptance.",
+        "Recorded call clock readings: before 2026-10-05 20:08:25 UTC; after 2026-10-05 20:08:26 UTC. No timestamp is inferred from filenames or file times.",
+        "Temporary-camera rendering may be unsettled; this frame is not confirmed defect evidence and does not show an after rebuild."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "The owner requested publication of genuine project scene observations and explicitly approved these four before captures. No raw model or supplier/source file is published."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "Original JPEG bytes and dimensions match the paired hash-bound source receipt. JFIF only, no EXIF, comments or embedded profile. Exact acquisition time, scale and native geometry revision remain unavailable."
+      },
+      "privacyReviewer": "Independent scene review",
+      "privacyReview": "passed",
+      "observationReview": {
+        "schemaVersion": 1,
+        "recordType": "observation-review-record",
+        "captureClass": "historical-observation",
+        "captureId": "ridge-interior-rebuild-before-edit229-20261005",
+        "imageSha256": "a1014e0a36ed9cb5b64920a3078efbc1361dd657abf21cac5c31c093529cca9f",
+        "imageBytes": 234120,
+        "sourceRevision": null,
+        "sourceScope": "Native geometry source revision unavailable; repository context alone is not geometry provenance.",
+        "state": "Ridge View Rest initial camera observation",
+        "title": "Ridge View Rest initial camera observation",
+        "caption": "An initial temporary-camera view shows rest-facility benches, a doorway and overhead lights before interior rebuilding. Text and material streaming were incomplete in this frame. This is an unsettled rendering observation, not proof of permanently blank labels or a completed rebuild.",
+        "alt": "Initial view of wooden benches and ceiling lights facing a rest-facility doorway and dark sign panels.",
+        "location": "Ridge View Rest",
+        "activity": "Before rebuild observation",
+        "stage": "Before rebuild",
+        "evidenceSubject": "Roblox scene",
+        "viewport": {
+          "width": 1476,
+          "height": 1080
+        },
+        "scale": null,
+        "theme": "not-applicable",
+        "method": "Roblox Studio MCP screen_capture",
+        "captureMode": "Unknown",
+        "capturedAt": null,
+        "receiptValidated": false,
+        "reviewRecordValidated": true,
+        "limitations": [
+          "Historical before appearance observation, not final realism or gameplay acceptance evidence.",
+          "Exact capture time and display scale are unavailable; before/after clock readings have one-second precision and are not an exact acquisition timestamp.",
+          "Native geometry source revision is unavailable; a repository context revision does not establish the geometry source.",
+          "A still image does not establish interaction, collision, saving, service operation or whole-facility acceptance.",
+          "Recorded call clock readings: before 2026-10-05 20:08:25 UTC; after 2026-10-05 20:08:26 UTC. No timestamp is inferred from filenames or file times.",
+          "Temporary-camera rendering may be unsettled; this frame is not confirmed defect evidence and does not show an after rebuild."
+        ],
+        "privacyReview": {
+          "result": "passed",
+          "pixelsReviewed": true,
+          "metadataReviewed": true,
+          "filenameReviewed": true,
+          "originalInspected": true,
+          "reviewer": "Independent scene review"
+        },
+        "rightsReview": {
+          "result": "passed",
+          "basis": "The owner requested publication of genuine project scene observations and explicitly approved these four before captures. No raw model or supplier/source file is published."
+        },
+        "metadataReview": {
+          "result": "passed",
+          "summary": "Original JPEG bytes and dimensions match the paired hash-bound source receipt. JFIF only, no EXIF, comments or embedded profile. Exact acquisition time, scale and native geometry revision remain unavailable."
+        }
+      }
+    },
+    {
+      "captureClass": "historical-observation",
+      "captureId": "ridge-interior-settled-before-edit229-20261005",
+      "path": "images/ridge-interior-settled-before-edit229-20261005.jpg",
+      "sha256": "4c157c148aa01e1eb391f2e5b6bbf5c0c7edbe86ad193c48e826769286004035",
+      "sourceRevision": null,
+      "sourcePath": null,
+      "sourceScope": "Native geometry source revision unavailable; repository context alone is not geometry provenance.",
+      "state": "Ridge View Rest settled before observation",
+      "title": "Ridge View Rest settled before observation",
+      "caption": "A later held Edit-camera view shows rendered Ridge View Rest signage and wooden benches before planned interior changes. The camera was allowed to settle. This is a before observation; it does not show an after rebuild, prove a fix or establish service acceptance.",
+      "alt": "Rest-facility benches beneath ceiling lights, facing rendered Ridge View Rest and Hotel 02 signs.",
+      "location": "Ridge View Rest",
+      "activity": "Before rebuild observation",
+      "stage": "Before rebuild",
+      "evidenceSubject": "Roblox scene",
+      "viewport": {
+        "width": 1476,
+        "height": 1080
+      },
+      "scale": null,
+      "theme": "not-applicable",
+      "method": "Roblox Studio MCP screen_capture",
+      "captureMode": "Edit",
+      "captureContext": null,
+      "capturedAt": null,
+      "receiptValidated": false,
+      "reviewRecordValidated": true,
+      "limitations": [
+        "Historical before appearance observation, not final realism or gameplay acceptance evidence.",
+        "Exact capture time and display scale are unavailable; before/after clock readings have one-second precision and are not an exact acquisition timestamp.",
+        "Native geometry source revision is unavailable; a repository context revision does not establish the geometry source.",
+        "A still image does not establish interaction, collision, saving, service operation or whole-facility acceptance.",
+        "Recorded call clock readings: before 2026-10-05 20:33:12 UTC; after 2026-10-05 20:33:13 UTC. No timestamp is inferred from filenames or file times.",
+        "Held-camera settled appearance before rebuilding; it is not an after view, proof of a fix or completed interior acceptance."
+      ],
+      "rightsReview": {
+        "result": "passed",
+        "basis": "The owner requested publication of genuine project scene observations and explicitly approved these four before captures. No raw model or supplier/source file is published."
+      },
+      "metadataReview": {
+        "result": "passed",
+        "summary": "Original JPEG bytes and dimensions match the paired hash-bound source receipt. JFIF only, no EXIF, comments or embedded profile. Exact acquisition time, scale and native geometry revision remain unavailable."
+      },
+      "privacyReviewer": "Independent scene review",
+      "privacyReview": "passed",
+      "observationReview": {
+        "schemaVersion": 1,
+        "recordType": "observation-review-record",
+        "captureClass": "historical-observation",
+        "captureId": "ridge-interior-settled-before-edit229-20261005",
+        "imageSha256": "4c157c148aa01e1eb391f2e5b6bbf5c0c7edbe86ad193c48e826769286004035",
+        "imageBytes": 265879,
+        "sourceRevision": null,
+        "sourceScope": "Native geometry source revision unavailable; repository context alone is not geometry provenance.",
+        "state": "Ridge View Rest settled before observation",
+        "title": "Ridge View Rest settled before observation",
+        "caption": "A later held Edit-camera view shows rendered Ridge View Rest signage and wooden benches before planned interior changes. The camera was allowed to settle. This is a before observation; it does not show an after rebuild, prove a fix or establish service acceptance.",
+        "alt": "Rest-facility benches beneath ceiling lights, facing rendered Ridge View Rest and Hotel 02 signs.",
+        "location": "Ridge View Rest",
+        "activity": "Before rebuild observation",
+        "stage": "Before rebuild",
+        "evidenceSubject": "Roblox scene",
+        "viewport": {
+          "width": 1476,
+          "height": 1080
+        },
+        "scale": null,
+        "theme": "not-applicable",
+        "method": "Roblox Studio MCP screen_capture",
+        "captureMode": "Edit",
+        "capturedAt": null,
+        "receiptValidated": false,
+        "reviewRecordValidated": true,
+        "limitations": [
+          "Historical before appearance observation, not final realism or gameplay acceptance evidence.",
+          "Exact capture time and display scale are unavailable; before/after clock readings have one-second precision and are not an exact acquisition timestamp.",
+          "Native geometry source revision is unavailable; a repository context revision does not establish the geometry source.",
+          "A still image does not establish interaction, collision, saving, service operation or whole-facility acceptance.",
+          "Recorded call clock readings: before 2026-10-05 20:33:12 UTC; after 2026-10-05 20:33:13 UTC. No timestamp is inferred from filenames or file times.",
+          "Held-camera settled appearance before rebuilding; it is not an after view, proof of a fix or completed interior acceptance."
+        ],
+        "privacyReview": {
+          "result": "passed",
+          "pixelsReviewed": true,
+          "metadataReviewed": true,
+          "filenameReviewed": true,
+          "originalInspected": true,
+          "reviewer": "Independent scene review"
+        },
+        "rightsReview": {
+          "result": "passed",
+          "basis": "The owner requested publication of genuine project scene observations and explicitly approved these four before captures. No raw model or supplier/source file is published."
+        },
+        "metadataReview": {
+          "result": "passed",
+          "summary": "Original JPEG bytes and dimensions match the paired hash-bound source receipt. JFIF only, no EXIF, comments or embedded profile. Exact acquisition time, scale and native geometry revision remain unavailable."
+        }
+      }
     }
   ],
   "excluded": [],
   "inventoryReview": {
     "schemaVersion": 1,
-    "sourceFilesReviewed": 434,
-    "distinctSourceImagesReviewed": 424,
+    "sourceFilesReviewed": 438,
+    "distinctSourceImagesReviewed": 428,
     "duplicateSourceFiles": 10,
-    "approvedDistinctImages": 424,
+    "approvedDistinctImages": 428,
     "excludedDistinctImages": 0,
     "pendingAuthorizationDistinctImages": 0,
     "previouslyPublishedImagesReused": 19,
-    "newOriginalImages": 405,
+    "newOriginalImages": 409,
     "originalPixelsReviewed": true,
     "originalBytesPreserved": true,
     "captureDatesPolicy": "Only validated capture timestamps are known; otherwise null. Names and file timestamps do not establish capture dates.",
-    "publicationState": "Source candidate; public delivery of this expanded inventory unverified."
+    "publicationState": "424 originals verified at 43655e9; four additional before observations are source-only pending publication.",
+    "initialCompleteReview": {
+      "sourceFiles": 434,
+      "distinctOriginals": 424,
+      "duplicateSourceFiles": 10
+    },
+    "additionalBeforeObservations": 4
   }
 }

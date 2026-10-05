@@ -9,7 +9,7 @@
       "implementation": "docs/index.html; docs/evidence/observation-contract.mjs; docs/evidence/progressive-verification.mjs",
       "documentation": "docs/evidence/README.md; docs/features/historical-observations.md",
       "evidence": "docs/evidence/gallery.json; docs/evidence/live-publication-424-20261005.json; docs/evidence/ui/live-424-observations-20261005.json",
-      "limitation": "All 424 original images are admitted and publicly HTTP-verified at revision 43655e9a5dc66ca6731cfb965d00c405d0877c65, with unchanged hashes and dimensions. Desktop and emulated-touch observations show 424 records and recorded search/filter, focus, resource and overflow results. Strict audit remains incomplete because task profile cleanup was rejected and retained; six raw browser captures await a stronger promotion receipt. Unknown capture provenance remains unavailable and no historical image establishes game or facility acceptance."
+      "limitation": "The preceding 424-original revision is publicly HTTP-verified at 43655e9 and has bounded desktop/emulated-touch runtime observations. Four new before observations raise the source candidate to 428 originals, with public delivery still unverified for the additions. Initial temporary-camera rendering is unsettled; no false permanent-label or confirmed-overlap defect claim is made. Geometry source, exact acquisition instant and scale remain unavailable. Strict browser cleanup/capture promotion and game/facility acceptance remain incomplete."
     },
     {
       "id": "truthful-empty-state",
@@ -57,7 +57,7 @@
       "implementation": "docs/index.html",
       "documentation": "design/README.md",
       "evidence": "docs/evidence/ui/responsive-layout.json",
-      "limitation": "Responsive search and facet layout was verified at 929Ã—1004 and 320Ã—800 on source 93abe3583cb61cb35438d3ec236835189ebf54d9. Both viewports had no horizontal overflow and controls met the 44-pixel minimum. Broader theme, display-scale, large-text, and full-page layout coverage remains incomplete."
+      "limitation": "Responsive search and facet layout was verified at 929\u00c3\u20141004 and 320\u00c3\u2014800 on source 93abe3583cb61cb35438d3ec236835189ebf54d9. Both viewports had no horizontal overflow and controls met the 44-pixel minimum. Broader theme, display-scale, large-text, and full-page layout coverage remains incomplete."
     },
     {
       "id": "narration",
