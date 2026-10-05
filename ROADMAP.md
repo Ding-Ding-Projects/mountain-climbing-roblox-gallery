@@ -60,7 +60,7 @@ Items are checked only when implemented and supported by the stated evidence. Th
 
 ## Static export entrypoints
 
-- [ ] Run exact `build.bat /s` on the clean candidate and independently verify the produced static export/receipt.
-- [ ] Verify installer entrypoint returns explicit exit-2 non-applicability without a fake installer.
+- [x] Run exact `build.bat /s` on clean source 15007ead and independently verify all 873 exported files, 424 originals and receipt.
+- [x] Verify exact installer wrapper returns exit 2, NOT_APPLICABLE, with no installer; eight bounded wrapper fixtures passed.
 - [ ] Prove a genuine fresh-host run and explicit preview launch separately; source/current-host checks do not establish them.
 - [ ] Complete strict browser-profile cleanup and stronger capture promotion receipts. Bounded runtime observations passed; no full-audit claim is made.

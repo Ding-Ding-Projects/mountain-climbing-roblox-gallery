@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "scope": "exact-root-static-export-current-host",
+  "entrypoint": "build.bat /s",
+  "sourceRevision": "15007ead331033b735f7b4a8d4478795e4d29e73",
+  "sourceTree": "0c96dce0136defbd131223c72033e08611a82752",
+  "runtime": "Windows PowerShell 5.1.26100.8521",
+  "exitCode": 0,
+  "stdoutSummary": "PASS static export: 873 files, 424 original images, 118029333 image bytes; every copied file hash read back.",
+  "elapsedSeconds": 31.851,
+  "outputDirectory": "dist/gallery",
+  "receiptPath": "dist/gallery-build.json",
+  "receiptSha256": "a207a4c760add84a3107554173a1fb7309c6c1e4f5116b66039f9c9b3fc6ff06",
+  "manifestSha256": "7c372a9f3483857ae1b80219bda8eaca6880ae0c8f1e803221c02cddbaba403b",
+  "independentExportedFileReadback": {
+    "verified": true,
+    "files": 873
+  },
+  "installer": {
+    "entrypoint": "build-installer.bat /s",
+    "exitCode": 2,
+    "result": "NOT_APPLICABLE",
+    "installerProduced": false
+  },
+  "focusedFixtureCases": 8,
+  "fixtureScope": [
+    "Exact root wrappers only",
+    "Archive null revision/unverified history",
+    "Copied-file hash readback",
+    "Deliberate original-byte mutation rejected, restoration accepted",
+    "Silent flag and environment aliases",
+    "Installer non-applicability exit2",
+    "Unowned output preserved",
+    "Checkout with unavailable Git cannot become archive",
+    "Manifest path escape rejected"
+  ],
+  "freshHostVerified": false,
+  "previewLaunchVerified": false,
+  "limits": [
+    "This proves the named current-host root-entrypoint run only, not a fresh operating system or public deployment.",
+    "The fixtures use the current operating system and are not a fresh-host claim.",
+    "Preview source exists but no browser was launched by this task.",
+    "Later documentation/test changes require a new clean source build before final handoff."
+  ]
+}
