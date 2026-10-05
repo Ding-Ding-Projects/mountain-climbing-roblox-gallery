@@ -54,6 +54,13 @@ Items are checked only when implemented and supported by the stated evidence. Th
 - [x] Validate all 424 current source records through the actual browser source admission function and original hashes.
 - [x] Retain existing strict construction admission and repair four old hotel records' explicit evidence limits.
 - [x] Implement and verify progressive source loading with 14 async/source-DOM cases: first accepted image before pending requests settle, failed-image exclusion, bounded/batched verification and retained filter/focus state.
-- [ ] Integrate the reviewed candidate and verify the exact public main reference.
-- [ ] Verify unauthenticated page, manifest, admission module and all 424 original image deliveries.
+- [x] Integrate and verify public main `43655e9a5dc66ca6731cfb965d00c405d0877c65` for the 424-original candidate.
+- [x] Verify anonymous page, manifest, both modules and all 424 original image deliveries, including hashes/dimensions in `docs/evidence/live-publication-424-20261005.json`.
 - [ ] Drive and capture the current expanded gallery in the approved isolated browser route.
+
+## Static export entrypoints
+
+- [ ] Run exact `build.bat /s` on the clean candidate and independently verify the produced static export/receipt.
+- [ ] Verify installer entrypoint returns explicit exit-2 non-applicability without a fake installer.
+- [ ] Prove a genuine fresh-host run and explicit preview launch separately; source/current-host checks do not establish them.
+- [ ] Complete strict browser-profile cleanup and stronger capture promotion receipts. Bounded runtime observations passed; no full-audit claim is made.

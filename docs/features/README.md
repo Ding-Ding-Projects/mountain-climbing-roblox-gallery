@@ -9,3 +9,5 @@ Each article describes one feature's current behavior, local configuration, fail
 - [Page contract coverage](site-contract-coverage.md): the hand-written feature inventory, required page-wide behaviors, and verification gaps.
 
 Verification statements are bound to their named source revisions. Earlier captures do not prove later source changes or public availability.
+
+- [Static export entrypoints](static-export.md): operating-system-only build, exact hash readback, preview limits and honest installer non-applicability.

@@ -4,7 +4,7 @@
 
 The current task prepares the complete reviewed capture inventory for the existing public gallery. It contains 424 distinct original images (118,029,333 bytes), retaining 19 previous construction records and adding 405 historical observations. Of these, 3 are project-interface observations. All 434 source files and 424 distinct originals were inventoried; ten source files were exact duplicates. No original remains pending or excluded. The formerly pending full Studio/account-interface original has specific current owner approval recorded against its exact hash; this is not blanket approval for other or future account-interface captures. Private path mappings and independent review files remain outside this public repository.
 
-The candidate is on `codex/gallery-captures-20261005`. It has not been published by this lane. Parent coordination owns integration, main publication, public hash verification and any required current-browser evidence. Earlier HTTP receipts prove only their exact previous revision and image counts.
+The parent integrated and published revision `43655e9a5dc66ca6731cfb965d00c405d0877c65`; hosting run 37367865389 succeeded and the public main reference was verified. The current HTTP receipt verifies all 424 originals and 118,029,333 image bytes. The current bounded desktop/emulated-touch observations are separately summarized; strict audit completion and capture promotion remain incomplete because guest-profile removal was rejected and the stronger capture tuple is unavailable. This lane performs no publication.
 
 ## Changed behavior and files
 
@@ -38,3 +38,7 @@ The test commands run locally; no test or lint workflow was added. Existing publ
 4. Keep broader page completeness work open in `docs/feature-inventory.json` and the previous roadmap sections. This capture-publication task does not establish all gallery contracts or game acceptance.
 
 Existing gallery issue #1 remains the publication handoff record. Parent owns its update after integration and hosted proof. Earlier `live-publication-*.json` receipts and responsive captures remain preserved, with their original scopes unchanged.
+
+## Required static entrypoints
+
+Root `build.bat` and `build-installer.bat` use an OS-only PowerShell route and shared manifest. The real output is ignored `dist/gallery` with exact file/image hash readback and a source/content receipt. A Git checkout must remain clean and CLI-verifiable; an archive records unavailable source history. Installer exit 2 is explicit non-applicability, not a successful installer. Exact-root execution is pending the clean candidate checkpoint; no fresh-host or preview-launch evidence is claimed. Parent owns integration and deployment of this helper/documentation follow-up.

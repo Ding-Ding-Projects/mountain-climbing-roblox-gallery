@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "scope": "bounded-live-browser-observations",
+  "sourceRevision": "43655e9a5dc66ca6731cfb965d00c405d0877c65",
+  "deploymentRun": "https://github.com/Ding-Ding-Projects/mountain-climbing-roblox-gallery/actions/runs/37367865389",
+  "deploymentConclusion": "success",
+  "tuples": [
+    {
+      "tuple": {
+        "width": 1440,
+        "height": 1000,
+        "scale": 1,
+        "mobile": false,
+        "touchEmulated": false,
+        "evidenceKind": "desktop"
+      },
+      "language": "English",
+      "theme": "dark",
+      "observedDevicePixelRatio": 1.0000000298023224,
+      "route": "cheap-lowlevel-headless",
+      "verifiedCards": 424,
+      "lastOriginalLoaded": true,
+      "filteredCards": 25,
+      "console": {
+        "errorCount": 0,
+        "exceptionCount": 0
+      },
+      "network": {
+        "unexpectedThirdPartyCount": 0,
+        "analyticsCount": 0,
+        "badStatusCount": 0,
+        "resourceFailureCount": 0
+      },
+      "accessibility": {
+        "rootFound": true,
+        "unnamedInteractiveCount": 0,
+        "interactiveCount": 67,
+        "keyboardPathVerified": true,
+        "visibleFocusVerified": true
+      },
+      "overflow": {
+        "bodyOverflow": false,
+        "offenderCount": 0
+      },
+      "privacy": {
+        "rawDiagnosticsReviewed": true,
+        "sensitiveDataAbsent": true,
+        "visibleDesktopUntouched": true
+      },
+      "visualInspection": {
+        "completed": true,
+        "firstImageCorrect": true,
+        "lastImageCorrect": true,
+        "progressFilterStateVisible": true,
+        "originalTargetsMatchedCandidate": true,
+        "onlyPublicGalleryPixels": true
+      },
+      "captureTimes": null,
+      "rawCapturesPendingPromotion": [
+        {
+          "sha256": "145f81e27d6f3b5f847f81111286e9f77300fe3d253ff5f41bfc246f353025d4",
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "sha256": "153305b309f15dd13ee6d4018c7c5cf768f9141591a5b2e6488571a7bee80d49",
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "sha256": "df7ba8908b5e6ac3129bc399a36e5c047204e14fadfa3f20b20f6c4d39d8f798",
+          "width": 1440,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "tuple": {
+        "width": 390,
+        "height": 844,
+        "scale": 1,
+        "mobile": true,
+        "touchEmulated": true,
+        "evidenceKind": "emulated-mobile"
+      },
+      "language": "English",
+      "theme": "dark",
+      "observedDevicePixelRatio": 1.0000000298023224,
+      "route": "cheap-lowlevel-headless",
+      "verifiedCards": 424,
+      "lastOriginalLoaded": true,
+      "filteredCards": 25,
+      "console": {
+        "errorCount": 0,
+        "exceptionCount": 0
+      },
+      "network": {
+        "unexpectedThirdPartyCount": 0,
+        "analyticsCount": 0,
+        "badStatusCount": 0,
+        "resourceFailureCount": 0
+      },
+      "accessibility": {
+        "rootFound": true,
+        "unnamedInteractiveCount": 0,
+        "interactiveCount": 67,
+        "keyboardPathVerified": true,
+        "visibleFocusVerified": true
+      },
+      "overflow": {
+        "bodyOverflow": false,
+        "offenderCount": 0
+      },
+      "privacy": {
+        "rawDiagnosticsReviewed": true,
+        "sensitiveDataAbsent": true,
+        "visibleDesktopUntouched": true
+      },
+      "visualInspection": {
+        "completed": true,
+        "firstImageCorrect": true,
+        "lastImageCorrect": true,
+        "progressFilterStateVisible": true,
+        "originalTargetsMatchedCandidate": true,
+        "onlyPublicGalleryPixels": true
+      },
+      "captureTimes": null,
+      "rawCapturesPendingPromotion": [
+        {
+          "sha256": "b3b36307e60f6074450fb236cb34a91372912ee52db1adf9276bc590c43803fc",
+          "width": 390,
+          "height": 844
+        },
+        {
+          "sha256": "6709cdf279c3ca8b59677c854a3719a97d26a681266fbef37fcac80a33531fb8",
+          "width": 390,
+          "height": 844
+        },
+        {
+          "sha256": "57a27eb07a7bbe13ba242de1a24b9fafaf7aef36956cd270d0c8473aae9424a6",
+          "width": 390,
+          "height": 844
+        }
+      ]
+    }
+  ],
+  "cleanup": {
+    "desktopClosed": true,
+    "processesGone": true,
+    "portsGone": true,
+    "ownedOnly": true,
+    "profileGone": false,
+    "completed": false,
+    "limitation": "Automatic approval review rejected task guest-profile removal; the profile and private evidence root were retained."
+  },
+  "strictAuditComplete": false,
+  "capturePromotionComplete": false,
+  "capturePromotionLimitation": "Raw genuine captures are retained privately. Their stronger promotion receipt lacks the exact build/capture-time tuple and completed cleanup; no values were inferred from filenames or file times.",
+  "limits": [
+    "This summary reports the named live browser observations only, not full page-contract, security, real-device or game acceptance.",
+    "The 390 by 844 view is touch emulation, not a physical-device test.",
+    "Later source documentation changes do not alter the tested UI bytes, but this receipt remains bound to the named deployment revision."
+  ]
+}

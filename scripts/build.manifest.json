@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "projectType": "static-gallery",
+  "sourceDirectory": "docs",
+  "outputDirectory": "dist/gallery",
+  "receiptPath": "dist/gallery-build.json",
+  "requiredPaths": ["index.html", "evidence/gallery.json", "evidence/observation-contract.mjs", "evidence/progressive-verification.mjs"],
+  "allowedExtensions": [".html", ".json", ".md", ".jpg", ".jpeg", ".png", ".webp", ".svg", ".mjs", ".js", ".css", ".txt", ".woff", ".woff2"],
+  "runtime": {"kind": "operating-system-component", "name": "Windows PowerShell", "minimumVersion": "5.1", "downloadRequired": false},
+  "gitPolicy": "Require Git CLI proof and a clean tracked source when .git exists; genuine source archives use content hashes with unavailable revision/history.",
+  "preview": {"kind": "loopback-http", "entryPoint": "index.html", "lifetimeSeconds": 1800, "publicHosting": false},
+  "installer": {"applicable": false, "exitCode": 2, "reason": "This static website has no installable application target or Squirrel payload. A static export is not an installer."}
+}
