@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "recordType": "observation-review-record",
+  "captureClass": "historical-observation",
+  "captureId": "interface-7be81cad51b20442c62d",
+  "imageSha256": "7be81cad51b20442c62d4f8f7b8fc77b51225118f830be2c56648fdd7506d6ab",
+  "imageBytes": 85133,
+  "sourceRevision": null,
+  "sourceScope": "Source revision unavailable; image appearance only, with no claim about the current source.",
+  "state": "Desktop route guide",
+  "title": "Desktop route guide",
+  "caption": "A desktop route-guide interface describes planned routes and construction progress. Historical observation only; final acceptance, capture date, timezone and source commit are unverified.",
+  "alt": "A desktop route-guide interface describes planned routes and construction progress.",
+  "location": "Route guide interface",
+  "activity": "Historical observation",
+  "stage": "Historical",
+  "evidenceSubject": "Project interface",
+  "viewport": {
+    "width": 1424,
+    "height": 992
+  },
+  "scale": null,
+  "theme": "not-applicable",
+  "method": "Historical project capture; acquisition route unavailable",
+  "captureMode": "Unknown",
+  "capturedAt": null,
+  "receiptValidated": false,
+  "reviewRecordValidated": true,
+  "limitations": [
+    "Historical appearance observation, not final realism or gameplay acceptance evidence.",
+    "Capture time, timezone and display scale are unavailable; filenames and file timestamps are not capture provenance.",
+    "Source revision is unavailable for this historical image.",
+    "A still image does not establish interaction, collision, movement, saving, service operation or whole-facility acceptance.",
+    "Project documentation/interface evidence only; not a native Roblox scene capture."
+  ],
+  "privacyReview": {
+    "result": "passed",
+    "pixelsReviewed": true,
+    "metadataReviewed": true,
+    "filenameReviewed": true,
+    "originalInspected": true,
+    "reviewer": "Independent image review"
+  },
+  "rightsReview": {
+    "result": "passed",
+    "basis": "The project owner authorized publication of genuine project captures, including ordinary test-avatar and in-scene display pixels. No source model or supplier file is published."
+  },
+  "metadataReview": {
+    "result": "passed",
+    "summary": "The original image decoded successfully. No EXIF, comment, private text or embedded profile metadata was present; original bytes were retained. Capture time remains unavailable."
+  }
+}

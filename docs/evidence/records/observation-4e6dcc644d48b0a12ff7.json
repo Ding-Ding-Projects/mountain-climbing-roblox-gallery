@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "recordType": "observation-review-record",
+  "captureClass": "historical-observation",
+  "captureId": "observation-4e6dcc644d48b0a12ff7",
+  "imageSha256": "4e6dcc644d48b0a12ff7847261156dd0993a645172766131b89fc2b5b50e7337",
+  "imageBytes": 299285,
+  "sourceRevision": null,
+  "sourceScope": "Source revision unavailable; image appearance only, with no claim about the current source.",
+  "state": "Staff character on test platform",
+  "title": "Staff character on test platform",
+  "caption": "Staff character on test platform. Historical construction or runtime observation only; this still image does not establish final visual acceptance, continuous motion, successful interaction, persistence, or multiplayer behavior. Capture date and source revision are unavailable without separately validated provenance.",
+  "alt": "Staff character on test platform in a Roblox project scene.",
+  "location": "Hotel",
+  "activity": "Historical observation",
+  "stage": "Historical",
+  "evidenceSubject": "Roblox scene",
+  "viewport": {
+    "width": 1476,
+    "height": 1080
+  },
+  "scale": null,
+  "theme": "not-applicable",
+  "method": "Historical project capture; acquisition route unavailable",
+  "captureMode": "Play",
+  "capturedAt": null,
+  "receiptValidated": false,
+  "reviewRecordValidated": true,
+  "limitations": [
+    "Historical appearance observation, not final realism or gameplay acceptance evidence.",
+    "Capture time, timezone and display scale are unavailable; filenames and file timestamps are not capture provenance.",
+    "Source revision is unavailable for this historical image.",
+    "A still image does not establish interaction, collision, movement, saving, service operation or whole-facility acceptance."
+  ],
+  "privacyReview": {
+    "result": "passed",
+    "pixelsReviewed": true,
+    "metadataReviewed": true,
+    "filenameReviewed": true,
+    "originalInspected": true,
+    "reviewer": "Independent image review"
+  },
+  "rightsReview": {
+    "result": "passed",
+    "basis": "The project owner authorized publication of genuine project captures, including ordinary test-avatar and in-scene display pixels. No source model or supplier file is published."
+  },
+  "metadataReview": {
+    "result": "passed",
+    "summary": "The original image decoded successfully. No EXIF, comment, private text or embedded profile metadata was present; original bytes were retained. Capture time remains unavailable."
+  }
+}

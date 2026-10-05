@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "recordType": "observation-review-record",
+  "captureClass": "historical-observation",
+  "captureId": "observation-af814751365e5c6dab4e",
+  "imageSha256": "af814751365e5c6dab4e32e90990af40b68b521e355a3fd050eee950e110cbca",
+  "imageBytes": 95923,
+  "sourceRevision": null,
+  "sourceScope": "Source revision unavailable; image appearance only, with no claim about the current source.",
+  "state": "Dim guest bedroom with test avatar",
+  "title": "Dim guest bedroom with test avatar",
+  "caption": "Dim guest bedroom with test avatar. Historical project observation only; final acceptance is not established. Capture date and source commit are unavailable.",
+  "alt": "Dim guest bedroom with test avatar.",
+  "location": "Guest rooms",
+  "activity": "Historical observation",
+  "stage": "Historical",
+  "evidenceSubject": "Roblox scene",
+  "viewport": {
+    "width": 624,
+    "height": 712
+  },
+  "scale": null,
+  "theme": "not-applicable",
+  "method": "Historical project capture; acquisition route unavailable",
+  "captureMode": "Play",
+  "capturedAt": null,
+  "receiptValidated": false,
+  "reviewRecordValidated": true,
+  "limitations": [
+    "Historical appearance observation, not final realism or gameplay acceptance evidence.",
+    "Capture time, timezone and display scale are unavailable; filenames and file timestamps are not capture provenance.",
+    "Source revision is unavailable for this historical image.",
+    "A still image does not establish interaction, collision, movement, saving, service operation or whole-facility acceptance."
+  ],
+  "privacyReview": {
+    "result": "passed",
+    "pixelsReviewed": true,
+    "metadataReviewed": true,
+    "filenameReviewed": true,
+    "originalInspected": true,
+    "reviewer": "Independent image review"
+  },
+  "rightsReview": {
+    "result": "passed",
+    "basis": "The project owner authorized publication of genuine project captures, including ordinary test-avatar and in-scene display pixels. No source model or supplier file is published."
+  },
+  "metadataReview": {
+    "result": "passed",
+    "summary": "The original image decoded successfully. No EXIF, comment, private text or embedded profile metadata was present; original bytes were retained. Capture time remains unavailable."
+  }
+}

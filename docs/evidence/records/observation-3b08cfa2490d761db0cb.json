@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "recordType": "observation-review-record",
+  "captureClass": "historical-observation",
+  "captureId": "observation-3b08cfa2490d761db0cb",
+  "imageSha256": "3b08cfa2490d761db0cbbe67b3b58d242dbd0ec67d71294f37bd2ee6e45d0542",
+  "imageBytes": 212943,
+  "sourceRevision": null,
+  "sourceScope": "Source revision unavailable; image appearance only, with no claim about the current source.",
+  "state": "Bakery street entrance",
+  "title": "Bakery street entrance",
+  "caption": "A test avatar stands near an open doorway in the brick bakery exterior. Historical observation only; final acceptance, capture date, timezone and source commit are unverified.",
+  "alt": "A test avatar stands near an open doorway in the brick bakery exterior.",
+  "location": "Bakery exterior",
+  "activity": "Historical observation",
+  "stage": "Historical",
+  "evidenceSubject": "Roblox scene",
+  "viewport": {
+    "width": 624,
+    "height": 712
+  },
+  "scale": null,
+  "theme": "not-applicable",
+  "method": "Historical project capture; acquisition route unavailable",
+  "captureMode": "Play",
+  "capturedAt": null,
+  "receiptValidated": false,
+  "reviewRecordValidated": true,
+  "limitations": [
+    "Historical appearance observation, not final realism or gameplay acceptance evidence.",
+    "Capture time, timezone and display scale are unavailable; filenames and file timestamps are not capture provenance.",
+    "Source revision is unavailable for this historical image.",
+    "A still image does not establish interaction, collision, movement, saving, service operation or whole-facility acceptance."
+  ],
+  "privacyReview": {
+    "result": "passed",
+    "pixelsReviewed": true,
+    "metadataReviewed": true,
+    "filenameReviewed": true,
+    "originalInspected": true,
+    "reviewer": "Independent image review"
+  },
+  "rightsReview": {
+    "result": "passed",
+    "basis": "The project owner authorized publication of genuine project captures, including ordinary test-avatar and in-scene display pixels. No source model or supplier file is published."
+  },
+  "metadataReview": {
+    "result": "passed",
+    "summary": "The original image decoded successfully. No EXIF, comment, private text or embedded profile metadata was present; original bytes were retained. Capture time remains unavailable."
+  }
+}

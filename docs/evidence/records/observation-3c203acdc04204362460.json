@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "recordType": "observation-review-record",
+  "captureClass": "historical-observation",
+  "captureId": "observation-3c203acdc04204362460",
+  "imageSha256": "3c203acdc04204362460def0109688b7b629694fb6dbd7196ed07d65fb5b50b3",
+  "imageBytes": 235225,
+  "sourceRevision": null,
+  "sourceScope": "Source revision unavailable; image appearance only, with no claim about the current source.",
+  "state": "Open camp doorway and status message",
+  "title": "Open camp doorway and status message",
+  "caption": "Open camp doorway and status message. Historical project observation, not final acceptance evidence. Capture date and source revision are unverified.",
+  "alt": "Open camp doorway and status message",
+  "location": "Camp and rest facilities",
+  "activity": "Historical observation",
+  "stage": "Historical",
+  "evidenceSubject": "Roblox scene",
+  "viewport": {
+    "width": 1259,
+    "height": 793
+  },
+  "scale": null,
+  "theme": "not-applicable",
+  "method": "Historical project capture; acquisition route unavailable",
+  "captureMode": "Play",
+  "capturedAt": null,
+  "receiptValidated": false,
+  "reviewRecordValidated": true,
+  "limitations": [
+    "Historical appearance observation, not final realism or gameplay acceptance evidence.",
+    "Capture time, timezone and display scale are unavailable; filenames and file timestamps are not capture provenance.",
+    "Source revision is unavailable for this historical image.",
+    "A still image does not establish interaction, collision, movement, saving, service operation or whole-facility acceptance."
+  ],
+  "privacyReview": {
+    "result": "passed",
+    "pixelsReviewed": true,
+    "metadataReviewed": true,
+    "filenameReviewed": true,
+    "originalInspected": true,
+    "reviewer": "Independent image review"
+  },
+  "rightsReview": {
+    "result": "passed",
+    "basis": "The project owner authorized publication of genuine project captures, including ordinary test-avatar and in-scene display pixels. No source model or supplier file is published."
+  },
+  "metadataReview": {
+    "result": "passed",
+    "summary": "The original image decoded successfully. No EXIF, comment, private text or embedded profile metadata was present; original bytes were retained. Capture time remains unavailable."
+  }
+}

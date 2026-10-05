@@ -1,74 +1,39 @@
-# Handoff
+# Gallery handoff
 
-## Preservation update: nineteen-image source
+## Current candidate
 
-The source manifest contains **nineteen reviewed original images** at image-bearing commit `eb5790b453b7fac549019189900351f08b71c6c3`. Its remote main reference was verified. The three additions show the unbound suite preview, a night suite view and the reader readability defect. **Public delivery of this revision remains unverified.** Earlier sixteen-image HTTP receipts do not cover the additions.
+The current task prepares the complete reviewed capture inventory for the existing public gallery. It contains 423 distinct original images (117,016,058 bytes), retaining 19 previous construction records and adding 404 historical observations. Of these, 2 are project-interface observations. All 434 source files and 424 distinct originals were inventoried; ten source files were exact duplicates. 1 originals remain withheld with safe public reasons in `docs/evidence/gallery.json`. Private path mappings and independent review files remain outside this public repository.
 
-Two staff captures remain pending import, not privacy exclusions. A separate reception baseline is withheld as a near-duplicate with orientation-gizmo clutter. Six untracked transfer copies are retained. The hotel and all 108 resort records remain incomplete. See [CLOSEOUT_PROMPT.md](CLOSEOUT_PROMPT.md) for exact boundaries and next steps.
+The candidate is on `codex/gallery-captures-20261005`. It has not been published by this lane. Parent coordination owns integration, main publication, public hash verification and any required current-browser evidence. Earlier HTTP receipts prove only their exact previous revision and image counts.
 
-**廣東話：** 原始資料現有十九張已審查原圖，main 遠端版本已核對；新增三張圖記錄未連接控制嘅套房預覽、夜景同讀卡器字體問題。新版公開傳送仍未驗證。兩張職員相等候匯入，唔係因為私隱而排除；酒店同全部 108 項記錄仍未完成驗收。
+## Changed behavior and files
 
-## Current gallery publication
+- `scripts/add-reviewed-observation.mjs` validates hash, byte count, dimensions and a closed public-safe historical record, copies unchanged originals and updates the manifest atomically.
+- `docs/evidence/observation-contract.mjs` provides shared importer/browser admission. Unknown source revision is null, mode is Unknown when unproved, and capture time/scale remain null. Original review and explicit non-acceptance limits are mandatory.
+- `docs/index.html` shows historical and project-interface badges, unavailable source scope, full original links and bounded six-request hash verification. Four retained hotel records have truthful admission limits added; strict construction requirements remain intact.
+- `docs/evidence/gallery.json`, `docs/evidence/images/` and `docs/evidence/records/` hold the byte-preserved approved inventory, scoped provenance and public-safe exclusions.
+- `README.md`, `ROADMAP.md`, evidence policy, categorized historical documentation and `CLOSEOUT_PROMPT.md` state this candidate's current boundaries.
 
-The current source candidate adds `hotel-reception-edit205-001` for sixteen images total, preserving all fifteen earlier records and image bytes. Its background viewport method is admitted only for construction progress with exact PNG dimensions, hash, six approved provenance fields and an explicit non-acceptance limitation. Ten focused admission cases passed, and an independent read-only review accepted this exact original image and record. Public readback passed for the page, manifest and all sixteen images at `0ffbcf131df9378f67c01dc9eadcd8da23b42dcf`; hashes and dimensions matched, as recorded in `docs/evidence/live-publication-010.json`. The subsequent close-up attempts returned the old frame and remain excluded. No capture time was inferred from filenames or filesystem timestamps.
+The three hotel carry observations are separately named. Their hash-bound source revision refers only to tested hotel modules; the images do not prove the whole world or avatar's source identity. They show a temporary native probe, not permanent production installation or full service acceptance. Second-precision clock brackets do not establish an exact capture instant.
 
-The source and hosted galleries contain fifteen construction-progress images, verified by [`docs/evidence/live-publication-009.json`](docs/evidence/live-publication-009.json) against published source revision `f03a972ef56e6046edb107f010f4a77165409be6`. The page, manifest, and all fifteen image URLs returned HTTP 200; image hashes and JPEG dimensions matched. Four avatar/interface candidates remain withheld without public identity authorization. Browser rendering and interaction remain unverified.
+## Verification inventory
 
-## Gallery candidate, four Bakery appearance captures, 2026-09-30
+| File/command | Result and scope |
+|---|---|
+| `tests/observation-admission.mjs` | 21 source/admission cases passed, including deliberately broken original review, date, source, context, hash, dimensions and duplicate boundaries |
+| `tests/background-admission.mjs` | Existing 10-case strict background construction admission passed against its retained PNG |
+| `tests/gallery-inventory.mjs` | All 423 unique originals admitted by actual page source function, hashes match, exclusions accounted; every historical observation has missing-review and invented-time negative regression |
+| Complete private alias scan | Source scan performed outside this repository with complete current dictionary coverage, including aliases omitted by older prose-only filtering; rerun on final candidate before publication |
+| Current native browser | Unverified for this revision, source checks are not a rendered capture |
+| Expanded public delivery | Unverified until parent deploys and verifies every resource |
 
-The integrated source and hosted manifests contain eleven reviewed construction-progress records. Four new original Play-mode images show scene-placed views of the project-built Bakery side wall, roof, chimney, counter, bread, oven, and room signs. Their pixel, filename, metadata, original-byte hash, and rights reviews passed. The records keep `sourcePath` null, bind to source revision `d21238095bc1ead1c54ae4a02136c13c8479d033` and the validated native snapshot, and record camera preparation bounds without presenting them as capture times. Exact capture time, timezone, and display scale remain unavailable. These images document appearance only and do not prove physical entry, room circulation, collision, service operation, persistence, final realism, or whole-facility acceptance.
+The test commands run locally; no test or lint workflow was added. Existing publication uses the established GitHub Pages source route. No Sites migration, raw source/model publication or image reconstruction occurred.
 
-The eleven-image public delivery is verified at `main` revision `ebd6abd4a4e6d403b247c406ef0ad67f2fceacd3` in metadata-only receipt `docs/evidence/live-publication-008.json`. The direct unauthenticated page, manifest, and all image requests returned HTTP 200; each image hash and JPEG dimension matched the manifest. This does not verify browser-rendered rows, accessibility, responsive layout, or visual interaction. Four door-visible alternatives remain private because distribution rights for those supplied assets were not established.
+## Remaining work and retained evidence
 
-## Version 99 Bakery pilot and gallery evidence update, 2026-09-29
+1. Parent independently approves the exact candidate, images, captions and exclusions, then integrates into main and proves the public reference.
+2. Verify the page, manifest, shared observation module and all 423 image URLs anonymously, with exact hashes and decoded dimensions. Save a new receipt bound to the source revision.
+3. Drive the actual public gallery through the approved isolated browser route, retain current captures and verify complete displayed count plus representative historical, interface, unknown and carry records. The earlier `docs/evidence/ui/responsive-layout.json` cannot prove this revision.
+4. Keep broader page completeness work open in `docs/feature-inventory.json` and the previous roadmap sections. This capture-publication task does not establish all gallery contracts or game acceptance.
 
-Mountain source `8feed879a934190ca5d9be5b4513d4f64bc169bb` records the applied, unaccepted 1,013-part Bakery pilot in Studio version 99. It has seven supplied doors and 20 markers. The 538-part original, the earlier 986-part pilot, and 4,003 supplied-original descendants remain preserved. Play started in 10.066 seconds; the binder reached ready in 5.520 seconds with 35 yields and a maximum 6.399 ms slice. One 6.015-second client sample measured 60.012 FPS, p95 17.898 ms, maximum frame 19.184 ms, and zero frames over 100 ms. This is one short sample, not broad performance acceptance. Room clearance, individual doors, privacy, service behavior, and save/reopen remain unverified; Studio returned to Edit version 99. Recovery readback and native deserialization passed for 5,068,201 bytes at SHA-256 `81b80612a61a85e180f9b8ec8dede06bf6430343b2104dd769ff42836ff18be9`, scoped to the listed roots rather than a complete place backup.
-
-Three already-reviewed, original Edit-mode captures were admitted as historical facility imagery: `rest-exterior-historic-001`, `station-exterior-historic-001`, and `station-interior-historic-001`. Their original byte hashes, pixel and metadata review, rights basis, and limitations are recorded in `docs/evidence/records/`; the source manifest now contains seven images. The three images do not depict the current Bakery pilot. The station interior shows unfinished partition openings and does not establish privacy or finished quality; the station approach does not establish continuous-grade acceptance. The rest capture's validated call-start time is not treated as its capture time; exact capture times remain unavailable.
-
-The two Bakery camera-probe frames were withheld because they show the unchanged exterior viewport. Two current Play frames remain private due desktop account/status material. The earlier pre-repair roof views are excluded as obsolete or provisional, four avatar-bearing Play images still require owner review, and one return-transition image is excluded for blur. Nineteen roof-capture images remain withheld because their manifest explicitly says public reuse was not reviewed or authorized. The remaining source images were not admitted without per-image public-use qualification. At the earlier `live-publication-004.json` milestone, the hosted page and four images were verified at source `08f3effa734a473e6114df847b8a6a17440de055`. A later unauthenticated read verified the seven-image source and every hosted image at `fcbb06c86738f3196340435cfe9b8deda8856494`; see `docs/evidence/live-publication-007.json`.
-
-## Version 80 and Bakery progress, 2026-09-29
-
-Version 80 preservation is recorded, and Bakery walking routes and structural supports have been revised in source. Bounded Play checks passed on the original Bakery door controller, including entry, return, and a hold-open case. Studio is back in Edit mode. The interior pilot and full door acceptance remain in progress. No new reviewed interior imagery has been added. Detailed test observations and the rejected interior transaction are recorded in the [progress evidence](docs/evidence/progress-version80-20260929.json). The four existing reviewed gallery images are unchanged.
-
-**廣東話：** Version 80 保留工作已有記錄，Bakery 步行路線同結構支撐已在源碼修訂。原有 Bakery 門口控制器的有限 Play 檢查已完成，涵蓋進入、返回同暫時保持門開啟。Studio 已返回 Edit 模式。室內試行同完整門口驗收仍在進行。暫無新增已審核的室內圖片。詳細測試觀察同新室內更新被拒的原因記錄於[進度證據](docs/evidence/progress-version80-20260929.json)。現有四張已審核畫廊圖片保持不變。
-
-## Current state
-
-### Additional route captures, 2026-09-28
-
-Two original Roblox Studio MCP Edit-mode JPEGs were reviewed and added to the gallery source: `summit-approach-eye-005` and `trail-lantern-night-001`. Both are 1264×830 and retain their original bytes. Their source revisions are `c279302487145c124fff1c7cb98f192a902f4e8c` and `2e8c494fc82240625bcea843786dd7a1501c0712`; SHA-256 values are `e3df6d1a925093e5e36ba8add1f55f003bdb824670b970b5da88b1c2b6efd205` and `d82bf43847dc5699ab4511f26c7a68db537e1be08443bfcf913c9bd8eb867032`. Capture time, timezone, scale, and theme are unavailable or not applicable. Pixel and source review found no avatar, interface, private data, or identifiable supplied model. The captions limit the first image to a partial measured route section and the second to the first short night-lit segment; the second also discloses the foreground tree obstruction. Neither proves full traversal, complete night continuity, final realism, or Play behavior. Review records are in `docs/evidence/records/`; the images are in `docs/evidence/images/` and the manifest is `docs/evidence/gallery.json`.
-
-Other inspected candidates were excluded: `summit-terrain-overview-001.jpg`, `summit-terrain-overview-002.jpg`, and `summit-terrain-west-003.jpg`, where broad coarse rock bands dominate; `summit-terrain-settled-009.jpg`, which shows a documented unresolved terrain defect; `summit-approach-night-006.jpg` and `summit-approach-night-007.jpg`, which are too dark and show obstructed route geometry; older lake views with a large rectangular water mass or visible generated rock assemblies; the forest camp view, which predates roof and foundation corrections; the summit lantern image with most of the right side blocked by nearby tree geometry; and Play captures that show an avatar, HUD, supplied door, or unresolved lighting. Trailhead captures with supplied doors or the previously rejected text-block sign were also excluded. These exclusions remain review records for this selection and are not gallery cards.
-
-The earlier `live-publication-004.json` receipt records a four-image delivery at source `08f3effa734a473e6114df847b8a6a17440de055`. The current seven-image delivery was verified separately and is recorded in `docs/evidence/live-publication-007.json` at source `fcbb06c86738f3196340435cfe9b8deda8856494`. Browser interaction, accessibility-tree review, responsive verification, and visual browser capture remain unverified.
-
-The public gallery repository was empty at task start. A static gallery surface, design reference, evidence rules, and a hand-written completeness inventory have been added. Four images, forest ascent, supported summit aircraft stairs, partial summit approach, and a short night-lit trail segment, have been reviewed as Edit-mode construction progress with source revision and image SHA-256 provenance. None is final realism evidence or Play proof. A cave construction image remains withheld pending direct review of its pixels, metadata, caption, and distribution terms. The owner authorized both supplied door types, but that permission alone does not establish that this specific capture is ready for publication.
-
-An earlier two-image public delivery was verified on 2026-09-28 at 18:58 UTC and is recorded in `docs/evidence/live-publication-002.json`; `docs/evidence/live-publication.json` retains the earlier one-image proof. That historical four-image verification is recorded separately in `docs/evidence/live-publication-004.json`; the later seven-image public verification is in `docs/evidence/live-publication-007.json`. Public HTTP delivery does not complete the page contract or verify current browser interaction.
-
-Gallery search source includes verified-record facets for capture type, location, and stage; plain-text-first filtering; an adjacent anchored JavaScript regex builder; invalid-pattern refusal; synchronized search and pattern input; and sample plus current-record match previews. Search controls and statuses have English, Cantonese, and bilingual copy. Focused interaction checks passed on source revision `9afe0b77b628eb04bab0dc17f43bdf6776cac6c4`. The responsive repair was then verified on `93abe3583cb61cb35438d3ec236835189ebf54d9` at 929×1004 and an emulated 320×800 touch viewport. The measured search widths were 560.92 CSS pixels and 292.81 CSS pixels respectively; facet widths were 261.91 pixels at desktop and 288.81 pixels at 320. Both viewports had no horizontal overflow, visible controls met the 44-pixel minimum, keyboard open/close restored focus, a touch filter worked, the accessibility tree had no unnamed interactive controls, and browser resource checks reported no exceptions, console errors, failed requests, or non-success responses. Original captures, hashes, and build identities are recorded in `docs/evidence/ui/responsive-layout.json`. The focused negative regression, screen-reader review, full page contract, and current hosted-browser interaction verification remain pending.
-
-## Settings and command-palette search update
-
-Settings and command-palette search are implemented in source revision `a79d053535cd10b0e679521395ee9e399f26639c` and delivered in the public HTML. That revision has not been rebuilt in the approved isolated browser route or recaptured.
-
-The approved isolated browser route is unavailable in the current task environment. Current settings/palette interaction, accessibility tree, 320-pixel layout, and capture proof remain unverified. `docs/features/settings-search.md` describes the feature and its limits.
-
-## Remaining work
-
-1. Complete browser-rendered row, accessibility, responsive-layout, and visual interaction checks through the approved isolated route.
-2. Obtain a validated capture receipt for any capture intended to prove a final or runtime state. All fifteen current source images remain construction progress only.
-3. Complete the mandatory page feature inventory and built-page verification without upgrading source-only work into evidence.
-4. Complete current browser interaction, accessibility-tree, responsive layout, and visual capture checks through the approved isolated route. Keep the already verified public HTTP delivery distinct from those checks.
-
-## Limits
-
-No Material Designer creation or export tool was exposed in the available tools. The Status Hub client returned `MISSING_INGEST_TOKEN`, so no session record was written. The local design handoff records the design-tool limitation. The public page and eleven reviewed construction images are delivered as recorded in `docs/evidence/live-publication-008.json`. Current browser runtime and final game-quality evidence remain unavailable.
-
-## Hotel construction gallery update, 2026-10-04
-
-The source manifest now contains fifteen construction-progress images. Four additional Edit-mode hotel views show project-authored washroom fixtures and reception seating. Paired receipts match the original JPEG hashes, byte lengths, and 1259×793 dimensions. Pixel review found no avatar, account content, supplied catalogue model, or external imagery. JPEG metadata contains JFIF APP0 only. The public records leave `capturedAt` null because the exact acquisition instant is unavailable. These images document construction appearance only, not facility operation or acceptance.
-
-Four other hotel candidates remain excluded because their pixels show a test avatar and interface, with no public identity authorization. The exclusion records contain no private paths or image bytes. The current fifteen-image hosted delivery is verified in `docs/evidence/live-publication-009.json`. The seating caption correction to breakfast display is included in the current source manifest; its post-deployment readback remains pending.
+Existing gallery issue #1 remains the publication handoff record. Parent owns its update after integration and hosted proof. Earlier `live-publication-*.json` receipts and responsive captures remain preserved, with their original scopes unchanged.

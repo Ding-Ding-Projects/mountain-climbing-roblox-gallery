@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "recordType": "observation-review-record",
+  "captureClass": "historical-observation",
+  "captureId": "observation-1f6d13504c54eb0757dd",
+  "imageSha256": "1f6d13504c54eb0757ddbd067ae97e5f23e0e0292d24b59772e0a5a2af599797",
+  "imageBytes": 255112,
+  "sourceRevision": null,
+  "sourceScope": "Source revision unavailable; image appearance only, with no claim about the current source.",
+  "state": "Test avatar at the Forest Camp exit doorway with expedition status HUD",
+  "title": "Test avatar at the Forest Camp exit doorway with expedition status HUD",
+  "caption": "Test avatar at the Forest Camp exit doorway with expedition status HUD. Historical development observation, not final acceptance evidence. Capture date and source commit are unknown without validated provenance.",
+  "alt": "Test avatar at the Forest Camp exit doorway with expedition status HUD.",
+  "location": "Forest Camp",
+  "activity": "Historical observation",
+  "stage": "Historical",
+  "evidenceSubject": "Roblox scene",
+  "viewport": {
+    "width": 1264,
+    "height": 830
+  },
+  "scale": null,
+  "theme": "not-applicable",
+  "method": "Historical project capture; acquisition route unavailable",
+  "captureMode": "Play",
+  "capturedAt": null,
+  "receiptValidated": false,
+  "reviewRecordValidated": true,
+  "limitations": [
+    "Historical appearance observation, not final realism or gameplay acceptance evidence.",
+    "Capture time, timezone and display scale are unavailable; filenames and file timestamps are not capture provenance.",
+    "Source revision is unavailable for this historical image.",
+    "A still image does not establish interaction, collision, movement, saving, service operation or whole-facility acceptance."
+  ],
+  "privacyReview": {
+    "result": "passed",
+    "pixelsReviewed": true,
+    "metadataReviewed": true,
+    "filenameReviewed": true,
+    "originalInspected": true,
+    "reviewer": "Independent image review"
+  },
+  "rightsReview": {
+    "result": "passed",
+    "basis": "The project owner authorized publication of genuine project captures, including ordinary test-avatar and in-scene display pixels. No source model or supplier file is published."
+  },
+  "metadataReview": {
+    "result": "passed",
+    "summary": "The original image decoded successfully. No EXIF, comment, private text or embedded profile metadata was present; original bytes were retained. Capture time remains unavailable."
+  }
+}

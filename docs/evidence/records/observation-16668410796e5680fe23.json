@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "recordType": "observation-review-record",
+  "captureClass": "historical-observation",
+  "captureId": "observation-16668410796e5680fe23",
+  "imageSha256": "16668410796e5680fe230c8957a808d3ecf071b1bc55859d48c7815093e31a41",
+  "imageBytes": 536845,
+  "sourceRevision": null,
+  "sourceScope": "Source revision unavailable; image appearance only, with no claim about the current source.",
+  "state": "Owner-reported illuminated mountain route",
+  "title": "Owner-reported illuminated mountain route",
+  "caption": "An owner-supplied historical project view shows an illuminated mountain route, a cave entrance and a lower facility. Capture method, source revision and time are unavailable. The view records historical geometry and lighting, not traversal or facility acceptance.",
+  "alt": "Elevated view of a lit mountain route leading from a lower building through a cave entrance.",
+  "location": "Mountain route",
+  "activity": "Historical observation",
+  "stage": "Historical",
+  "evidenceSubject": "Roblox scene",
+  "viewport": {
+    "width": 885,
+    "height": 424
+  },
+  "scale": null,
+  "theme": "not-applicable",
+  "method": "Owner-reported project capture; acquisition route unavailable",
+  "captureMode": "Unknown",
+  "capturedAt": null,
+  "receiptValidated": false,
+  "reviewRecordValidated": true,
+  "limitations": [
+    "Historical appearance observation, not final realism or gameplay acceptance evidence.",
+    "Capture time, timezone and display scale are unavailable; filenames and file timestamps are not capture provenance.",
+    "Source revision is unavailable for this historical image.",
+    "A still image does not establish interaction, collision, movement, saving, service operation or whole-facility acceptance."
+  ],
+  "privacyReview": {
+    "result": "passed",
+    "pixelsReviewed": true,
+    "metadataReviewed": true,
+    "filenameReviewed": true,
+    "originalInspected": true,
+    "reviewer": "Independent image review"
+  },
+  "rightsReview": {
+    "result": "passed",
+    "basis": "The project owner authorized publication of genuine project captures, including ordinary test-avatar and in-scene display pixels. No source model or supplier file is published."
+  },
+  "metadataReview": {
+    "result": "passed",
+    "summary": "Original decoded and metadata inspected. PNG color/density metadata only, no private text, EXIF or comments; bytes retained. Capture time unavailable."
+  }
+}

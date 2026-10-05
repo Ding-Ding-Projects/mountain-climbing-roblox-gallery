@@ -1,15 +1,15 @@
 # Roadmap
 
-## Current nineteen-image revision
+## Earlier nineteen-image revision
 
 - [x] Preserve the previous sixteen images and admit three reviewed original suite images in source commit `eb5790b453b7fac549019189900351f08b71c6c3`.
-- [ ] Verify public delivery of the page, nineteen-image manifest and every image hash. Earlier sixteen-image receipts do not cover the new revision.
-- [ ] Review and import the two pending project-authored staff captures with their failed-probe and endpoint-only limitations.
+- [ ] ~~Verify the earlier nineteen-image candidate separately.~~ Superseded by the 423-image delivery verification below; no historical delivery proof is invented.
+- [x] Review and import the historical staff views under the complete-inventory appearance-only limits; failed-probe and endpoint observations do not establish whole-facility acceptance.
 - [ ] Complete current browser rendering, interaction, accessibility and page-contract verification.
 
-The separate reception baseline is withheld as a near-duplicate with orientation-gizmo clutter. Six untracked transfer copies remain retained. Existing checked items below describe historical evidence at their stated revisions.
+Those earlier selection limits are superseded by the complete inventory review below. Genuine reception and test-avatar captures are now retained with historical observation limits. Source transfer copies remain private. Existing checked items describe historical evidence at their stated revisions.
 
-## Current hotel reception capture
+## Earlier hotel reception capture
 
 - [x] Review and preserve the original Edit 205 reception PNG and its limited construction provenance, retaining all fifteen earlier records.
 - [x] Restrict background HWND admission to reviewed construction records; ten focused cases and independent source review passed.
@@ -25,7 +25,7 @@ The separate reception baseline is withheld as a near-duplicate with orientation
 - [x] Review and admit the forest ascent original as construction progress with a bounded review record; final-review receipt remains unavailable.
 - [x] Review and admit the original summit aircraft stair image as Edit-mode construction progress with byte-identical source, rights and metadata review, and a public SHA-256 readback.
 - [x] Review and admit one partial daytime summit approach and one short night-lit trailhead segment as Edit-mode construction progress with unchanged JPEG bytes, bounded privacy and rights records, and no captured-time claims; full route traversal and nighttime continuity remain unverified.
-- [ ] Review and admit only further approved captures with their original bytes and honest provenance; the cave capture remains withheld.
+- [x] Review and admit all currently approved historical captures with original bytes and honest provenance, including cave views; this does not establish gameplay acceptance.
 - [x] Implement record-derived capture-type, location, and stage filters with plain-text-first search, explicit regex application, validation refusal, and match preview.
 - [ ] Complete the focused negative regression and remaining page verification.
 - [ ] Verify the new settings and command-palette search against the built page. Source behavior and English/Cantonese/bilingual copy are present; focused source checks pass, but isolated browser interaction is unavailable in the current task environment. Browser interaction and responsive checks passed on source `93abe3583cb61cb35438d3ec236835189ebf54d9`; the responsive report records the 929×1004 and 320×800 captures, no overflow, 44-pixel controls, keyboard and touch behavior, accessible-name scan, and resource checks. Screen-reader review and the full page contract remain incomplete.
@@ -41,6 +41,18 @@ The separate reception baseline is withheld as a near-duplicate with orientation
 - [x] Verify public access and all seven image hashes after publication at the source revision recorded in `docs/evidence/live-publication-007.json`.
 - [x] Verify public access and all eleven image hashes and dimensions at the deployed revision in `docs/evidence/live-publication-008.json`.
 
-Items are checked only when implemented and supported by the stated evidence. All fifteen published images document construction progress. The four Bakery Play-mode frames and four hotel Edit-mode views document scene appearance only and do not prove gameplay, facility operation, or acceptance. HTTP delivery does not prove browser-rendered rows or interaction.
+Items are checked only when implemented and supported by the stated evidence. The fifteen images covered by historical receipt 009 document construction progress. The four Bakery Play-mode frames and four hotel Edit-mode views document scene appearance only and do not prove gameplay, facility operation, or acceptance. HTTP delivery does not prove browser-rendered rows or interaction.
 
-- [x] Publish four reviewed hotel construction-progress captures and verify public delivery for all fifteen images, including hashes and dimensions in `docs/evidence/live-publication-009.json`. Four avatar/interface images remain withheld without public identity authorization.
+- [x] Publish four reviewed hotel construction-progress captures and verify public delivery for all fifteen images, including hashes and dimensions in `docs/evidence/live-publication-009.json`. The earlier avatar restriction was superseded by current explicit owner authorization; genuine game-only views are now reviewed historical observations.
+
+## Complete capture inventory candidate
+
+- [x] Review all 434 source image files and all 424 distinct originals, including retained private archive mappings.
+- [x] Preserve 423 approved distinct original images (117,016,058 bytes), deduplicating byte-identical copies.
+- [x] Account for 1 original pending account-interface authorization, with a safe public reason and retained private review evidence.
+- [x] Add closed historical-observation admission with null unknown provenance and distinct project-interface classification.
+- [x] Validate all 423 current source records through the actual browser source admission function and original hashes.
+- [x] Retain existing strict construction admission and repair four old hotel records' explicit evidence limits.
+- [ ] Integrate the reviewed candidate and verify the exact public main reference.
+- [ ] Verify unauthenticated page, manifest, admission module and all 423 original image deliveries.
+- [ ] Drive and capture the current expanded gallery in the approved isolated browser route.

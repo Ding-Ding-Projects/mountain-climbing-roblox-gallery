@@ -5,11 +5,11 @@
   "features": [
     {
       "id": "real-capture-gallery",
-      "state": "construction-progress-source-only",
-      "implementation": "docs/index.html",
-      "documentation": "docs/evidence/README.md",
+      "state": "complete-reviewed-inventory-source-only",
+      "implementation": "docs/index.html; docs/evidence/observation-contract.mjs",
+      "documentation": "docs/evidence/README.md; docs/features/historical-observations.md",
       "evidence": "docs/evidence/gallery.json",
-      "limitation": "Four genuine construction captures are reviewed and admitted as progress only, including a partial measured summit approach and the first short night-lit trailhead segment. No final realism, complete traversal, full-route night continuity, or Play-mode evidence is admitted, and there is no built-page proof for the current gallery source."
+      "limitation": "423 unique original images are reviewed and admitted in source: 19 retained construction records and 404 historical observations, including 2 project-interface images. 1 originals remain accounted for as withheld. Unknown source/time/mode provenance remains unavailable. No historical image is final realism, interaction or whole-facility acceptance. Expanded public delivery and current browser rendering remain unverified."
     },
     {
       "id": "truthful-empty-state",
@@ -57,7 +57,7 @@
       "implementation": "docs/index.html",
       "documentation": "design/README.md",
       "evidence": "docs/evidence/ui/responsive-layout.json",
-      "limitation": "Responsive search and facet layout was verified at 929×1004 and 320×800 on source 93abe3583cb61cb35438d3ec236835189ebf54d9. Both viewports had no horizontal overflow and controls met the 44-pixel minimum. Broader theme, display-scale, large-text, and full-page layout coverage remains incomplete."
+      "limitation": "Responsive search and facet layout was verified at 929\u00c3\u20141004 and 320\u00c3\u2014800 on source 93abe3583cb61cb35438d3ec236835189ebf54d9. Both viewports had no horizontal overflow and controls met the 44-pixel minimum. Broader theme, display-scale, large-text, and full-page layout coverage remains incomplete."
     },
     {
       "id": "narration",

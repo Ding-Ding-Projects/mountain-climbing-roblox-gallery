@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "recordType": "observation-review-record",
+  "captureClass": "historical-observation",
+  "captureId": "observation-8681b4caa4a8f1f95520",
+  "imageSha256": "8681b4caa4a8f1f955202f33a08e0fd01dffe1506bf6d3bd5dfee31372484b90",
+  "imageBytes": 365181,
+  "sourceRevision": null,
+  "sourceScope": "Source revision unavailable; image appearance only, with no claim about the current source.",
+  "state": "Owner-reported Forest Camp route sign",
+  "title": "Owner-reported Forest Camp route sign",
+  "caption": "An owner-supplied historical project view shows the authorized test avatar beside a large route sign, partly obscured by a tree. Capture method, source revision and time are unavailable. This observation records the sign and foliage obstruction, not readability or route acceptance.",
+  "alt": "Project test avatar beside a Forest Camp route sign partly obscured by tree foliage.",
+  "location": "Forest Camp route sign",
+  "activity": "Historical observation",
+  "stage": "Historical",
+  "evidenceSubject": "Roblox scene",
+  "viewport": {
+    "width": 625,
+    "height": 413
+  },
+  "scale": null,
+  "theme": "not-applicable",
+  "method": "Owner-reported project capture; acquisition route unavailable",
+  "captureMode": "Unknown",
+  "capturedAt": null,
+  "receiptValidated": false,
+  "reviewRecordValidated": true,
+  "limitations": [
+    "Historical appearance observation, not final realism or gameplay acceptance evidence.",
+    "Capture time, timezone and display scale are unavailable; filenames and file timestamps are not capture provenance.",
+    "Source revision is unavailable for this historical image.",
+    "A still image does not establish interaction, collision, movement, saving, service operation or whole-facility acceptance."
+  ],
+  "privacyReview": {
+    "result": "passed",
+    "pixelsReviewed": true,
+    "metadataReviewed": true,
+    "filenameReviewed": true,
+    "originalInspected": true,
+    "reviewer": "Independent image review"
+  },
+  "rightsReview": {
+    "result": "passed",
+    "basis": "The project owner authorized publication of genuine project captures, including ordinary test-avatar and in-scene display pixels. No source model or supplier file is published."
+  },
+  "metadataReview": {
+    "result": "passed",
+    "summary": "Original decoded and metadata inspected. PNG color/density metadata only, no private text, EXIF or comments; bytes retained. Capture time unavailable."
+  }
+}

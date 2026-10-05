@@ -2,6 +2,7 @@
 
 Each article describes one feature's current behavior, local configuration, failure handling, privacy boundary, and verification state.
 
+- [Reviewed historical observations](historical-observations.md): complete original-image inventory, unknown provenance, privacy boundaries and non-acceptance admission.
 - [Gallery search and reviewed-record filters](gallery-search.md): plain-text search, record-derived filters, regex preview, and image verification.
 - [Settings and command-palette search](settings-search.md): local settings indexing, section navigation, regex preview, and local file controls.
 - [Accessibility and language controls](accessibility-and-language.md): language selection, control sizing, keyboard access, and remaining cross-page localization work.

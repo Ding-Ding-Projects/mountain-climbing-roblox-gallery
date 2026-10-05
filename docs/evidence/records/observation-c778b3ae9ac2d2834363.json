@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "recordType": "observation-review-record",
+  "captureClass": "historical-observation",
+  "captureId": "observation-c778b3ae9ac2d2834363",
+  "imageSha256": "c778b3ae9ac2d2834363e13a4a502dc83bdf69f26b1ea29b94ac08f61f33e31e",
+  "imageBytes": 364186,
+  "sourceRevision": null,
+  "sourceScope": "Source revision unavailable; image appearance only, with no claim about the current source.",
+  "state": "Owner-reported facility roof and raised route",
+  "title": "Owner-reported facility roof and raised route",
+  "caption": "An owner-supplied historical project view shows a dark facility roof, porch and raised path with lights. Capture method, source revision and time are unavailable. This appearance observation does not prove finished circulation, accessibility or acceptance.",
+  "alt": "Historical project facility with a dark roof and porch beside a raised illuminated route.",
+  "location": "Route facility",
+  "activity": "Historical observation",
+  "stage": "Historical",
+  "evidenceSubject": "Roblox scene",
+  "viewport": {
+    "width": 666,
+    "height": 372
+  },
+  "scale": null,
+  "theme": "not-applicable",
+  "method": "Owner-reported project capture; acquisition route unavailable",
+  "captureMode": "Unknown",
+  "capturedAt": null,
+  "receiptValidated": false,
+  "reviewRecordValidated": true,
+  "limitations": [
+    "Historical appearance observation, not final realism or gameplay acceptance evidence.",
+    "Capture time, timezone and display scale are unavailable; filenames and file timestamps are not capture provenance.",
+    "Source revision is unavailable for this historical image.",
+    "A still image does not establish interaction, collision, movement, saving, service operation or whole-facility acceptance."
+  ],
+  "privacyReview": {
+    "result": "passed",
+    "pixelsReviewed": true,
+    "metadataReviewed": true,
+    "filenameReviewed": true,
+    "originalInspected": true,
+    "reviewer": "Independent image review"
+  },
+  "rightsReview": {
+    "result": "passed",
+    "basis": "The project owner authorized publication of genuine project captures, including ordinary test-avatar and in-scene display pixels. No source model or supplier file is published."
+  },
+  "metadataReview": {
+    "result": "passed",
+    "summary": "Original decoded and metadata inspected. PNG color/density metadata only, no private text, EXIF or comments; bytes retained. Capture time unavailable."
+  }
+}

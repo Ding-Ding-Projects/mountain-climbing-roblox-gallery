@@ -1,41 +1,42 @@
 # Evidence and capture provenance
 
-The gallery publishes only real images captured from Roblox Studio. It does not use mockups, generated scenery, stock imagery, or edited composites as game evidence.
+The source candidate contains 423 distinct original images: 19 retained construction records and 404 reviewed historical observations, including 2 project-interface images. Review covered 434 source files and 424 distinct byte hashes; ten exact duplicate files are represented once. 1 images remain separately accounted for. Original image bytes total 117,016,058. Public delivery of this expanded candidate is unverified.
 
-## Required record per image
+## Record categories
 
-| Field | Requirement |
-|---|---|
-| `path` | Public path to the original image bytes |
-| `sha256` | SHA-256 of those exact bytes |
-| `sourceRevision` | Source revision used for the capture, when available |
-| `state` | The actual screen or interaction shown |
-| `viewport` | Captured width and height |
-| `scale` | Display scale used by the capture route, or `null` when unavailable |
-| `theme` | Theme shown in the capture, or `not-applicable` for world captures |
-| `method` | The real capture method and tool |
-| `privacyReview` | Reviewer label and pass or exclusion result, without private details |
-| `capturedAt` | Timestamp and timezone copied only from a validated capture receipt; otherwise `null` |
+| Category | Claim | Admission route |
+|---|---|---|
+| Construction progress | Bounded appearance with existing source/context proof; never final acceptance | `scripts/add-reviewed-capture.mjs --construction-record` |
+| Historical observation | Reviewed historical image, no invented source or date and no final acceptance claim | `scripts/add-reviewed-observation.mjs --review-record` |
+| Project interface observation | Reviewed project documentation/interface image, not native Roblox scene evidence | Historical route with `evidenceSubject: "Project interface"` and `captureMode: "Unknown"` |
+| Final review | Only a validated formal acceptance receipt | Existing `scripts/add-reviewed-capture.mjs --receipt` route; no new historical image uses it |
 
-Original captures stay unchanged. Review image pixels, captions, metadata, and filenames before publication. Never include private source details, machine paths, account data, credentials, or unrelated screen content. A withheld image is recorded with a public-safe reason that does not repeat the sensitive content.
+## Original-byte and privacy boundary
 
-## Present inventory
+Each retained image has SHA-256, dimensions and an independent full-original pixel review. Metadata, generated public filename, title, caption, alternate text, rights and authorization are also reviewed. The current owner authorized genuine project captures, including ordinary test-avatar pixels and in-scene test labels. This permission does not authorize unrelated account chrome, credentials, private paths, private wording or other applications' personal content.
 
-The current source candidate contains sixteen images, adding the [Edit 205 reception review](records/hotel-reception-edit205-001.json). Its original 812 by 675 PNG contains only IHDR, IDAT and IEND chunks. The acquisition call was bracketed by UTC clock readings; the exact acquisition instant and display scale remain unavailable. Public delivery of the page, manifest and all sixteen original images is verified in [receipt 010](live-publication-010.json). All fifteen earlier records and images remain intact.
+Historical images retain null capture timestamps and scale. The image's dimensions are known from its bytes. Source revision is null unless an independent hash-bound record establishes it; recorded source scope must remain explicit. A preservation revision is not the revision that made an old capture. Filenames, file timestamps and camera preparation clocks never supply missing capture dates.
 
-The current source gallery has fifteen construction-progress images: the earlier eleven plus four reviewed hotel Edit-mode views of authored washroom fixtures and reception seating. Public delivery of all fifteen is recorded in [publication receipt 009](live-publication-009.json): the page, manifest, and each image returned HTTP 200, and all image hashes and JPEG dimensions matched the manifest at source revision `f03a972ef56e6046edb107f010f4a77165409be6`. Receipt 008 remains the earlier eleven-image delivery record. The four hotel captures document construction appearance only; they do not establish facility operation or acceptance. Exact capture times and display scales remain unavailable. Four other hotel views remain withheld because they show a test avatar and interface without public identity authorization. Receipt 007 remains the earlier seven-image delivery record. A cave image remains withheld pending complete pixel, metadata, caption, and rights review. Other images with an owner-review requirement, obsolete construction state, diagnostic blur, or no current per-image public-use qualification remain withheld.
-## Interface verification
+Owner-report project views are eligible after pixel and metadata review. Their origin remains owner-reported and their acquisition route, source and time remain unavailable. Unknown provenance is visible, never replaced with a stronger native acceptance claim. Raw unrelated references and uncleared account surfaces stay withheld. Exclusion rows name a content hash and safe reason without repeating private information.
 
-Browser captures under `ui/` document an earlier gallery revision's responsive layout and interaction states. They are not game-world evidence and do not add records to the gallery inventory. The responsive report binds each image to its source revision and includes viewport measurements, accessibility-tree checks, and resource results. The publication receipt binds direct HTTP delivery to its named revision; it does not prove current browser interaction or later image delivery without a fresh check.
+## Adding a reviewed observation
 
-## Adding a reviewed batch
+```sh
+node scripts/add-reviewed-observation.mjs --image <original-image> --review-record <observation-review.json>
+```
 
-Use `node scripts/add-reviewed-capture.mjs --image <original-image> --receipt <validated-receipt.json>` for final-review captures. For accepted Edit- or scene-placed Play-mode construction records, use `node scripts/add-reviewed-capture.mjs --image <original-image> --construction-record <review-record.json>`. Construction records require explicit limitations, privacy review, rights review, source revision, original file hash, and source dimensions. Edit-mode source paths are limited to approved repository evidence folders. Play-mode records require `sourcePath: null` and validated scene-only context, and cannot claim physical entry or whole-facility acceptance. Their manifest entry has `receiptValidated: false` and cannot be mistaken for final evidence. The utility copies original bytes without image editing and rejects diagnostic class names, failed reviews, duplicate capture IDs, unsupported formats, invalid dates, and unsafe paths. It never guesses a timestamp. Inspect image pixels and metadata before invoking it; the utility cannot judge whether the content is safe or realistic.
+The closed `observation-review-record` schema requires review of the actual original, safe metadata, rights basis, dimensions, byte count, exact image hash and explicit non-acceptance limitations. `sourceRevision` may be null; capture date and scale remain null. The importer validates JPEG/PNG dimensions, preserves bytes, prevents hash or identifier duplicates and atomically replaces the manifest. It rejects extra private fields, missing review, invented dates, malformed revisions and attempts to promote observation to formal acceptance. It cannot inspect pixels or prove permission; the real reviewer must do that before invocation.
 
-After an image is included, inspect the source page behavior and state every remaining feature or verification gap. After publication, verify unauthenticated page access and every image URL independently from its source checkpoint. Dates come from validated receipts, never filenames or local file timestamps.
+The browser uses the same `observation-contract.mjs` admission function, verifies image SHA-256 before rendering and shows historical or project-interface badges separately from construction progress. The full-size original is linked in provenance details. Hash verification runs with at most six requests in flight; it retains original manifest ordering.
 
-## Background viewport construction records
+## Existing strict construction route
 
-The `lowlevel-computer-use-cheap background HWND capture` method is accepted only through `--construction-record` in stopped Edit mode. It requires a PNG with matching recorded dimensions and hash, plus exactly six provenance fields: native snapshot hash and byte length, saved edit version, capture start and end UTC, and the `background-window` route. The acquisition interval is limited to sixty seconds. Private context fields, unsupported methods, Play mode and final-review receipt claims are rejected. An explicit limitation states that the record is not a formal headless UI acceptance receipt.
+The original Edit, scene-placed Play and background HWND admission remains unchanged. Background construction records require exact snapshot/byte/version and bounded UTC acquisition context, PNG dimensions and an explicit limit stating that the record is not a formal headless UI acceptance receipt. Historical admission does not relax these requirements.
 
-Run `node tests/background-admission.mjs <original-reviewed-png>` for the ten focused admission cases. This verifies admission behavior, not pixel privacy, live rendering freshness or native operation. Those remain independent reviewer responsibilities. Never publish a repeated stale frame as a new camera angle.
+Four retained hotel Edit records now explicitly state that they are not final realism evidence or Play mode proof. Their original images and source identities are unchanged. This repairs their admission wording so the strict browser route can display them.
+
+## Verification boundaries
+
+Run `node tests/observation-admission.mjs`, `node tests/gallery-inventory.mjs` and `node tests/background-admission.mjs docs/evidence/images/hotel-reception-edit205-001.png`. The inventory check evaluates the page's actual source admission function for every image, compares original hashes and tests negative review/time mutations. This verifies source admission and bytes, not a live browser rendering.
+
+Previous receipts `live-publication-*.json` and `ui/responsive-layout.json` retain the revision and image count they actually measured. A new deployment needs unauthenticated HTTP checks for the page, manifest, shared admission module and every original image, with exact byte hashes and dimensions. HTTP success alone does not prove browser layout or controls. No date or publication claim is inferred from old receipts.
