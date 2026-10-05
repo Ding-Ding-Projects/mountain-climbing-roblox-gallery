@@ -1,6 +1,6 @@
 # Evidence and capture provenance
 
-The source candidate contains 423 distinct original images: 19 retained construction records and 404 reviewed historical observations, including 2 project-interface images. Review covered 434 source files and 424 distinct byte hashes; ten exact duplicate files are represented once. 1 images remain separately accounted for. Original image bytes total 117,016,058. Public delivery of this expanded candidate is unverified.
+The source candidate contains 424 distinct original images: 19 retained construction records and 405 reviewed historical observations, including 3 project-interface images. Review covered 434 source files and 424 distinct byte hashes; ten exact duplicate files are represented once. No original remains pending or excluded from this reviewed inventory. Original image bytes total 118,029,333. Public delivery of this expanded candidate is unverified.
 
 ## Record categories
 
@@ -13,7 +13,7 @@ The source candidate contains 423 distinct original images: 19 retained construc
 
 ## Original-byte and privacy boundary
 
-Each retained image has SHA-256, dimensions and an independent full-original pixel review. Metadata, generated public filename, title, caption, alternate text, rights and authorization are also reviewed. The current owner authorized genuine project captures, including ordinary test-avatar pixels and in-scene test labels. This permission does not authorize unrelated account chrome, credentials, private paths, private wording or other applications' personal content.
+Each retained image has SHA-256, dimensions and an independent full-original pixel review. Metadata, generated public filename, title, caption, alternate text, rights and authorization are also reviewed. The current owner authorized genuine project captures, including ordinary test-avatar pixels and in-scene test labels. A separate explicit choice approved one exact full Studio/account-interface original, hash `7a981df7297812f6045b7398b3dc747ec4543fa65b7eb49d796773f9895061fb`, with visible account and collaborator controls. Its review record bounds that approval to this one original only. These permissions do not authorize any other or future account-interface capture, credentials, private paths, private wording or other applications' personal content.
 
 Historical images retain null capture timestamps and scale. The image's dimensions are known from its bytes. Source revision is null unless an independent hash-bound record establishes it; recorded source scope must remain explicit. A preservation revision is not the revision that made an old capture. Filenames, file timestamps and camera preparation clocks never supply missing capture dates.
 

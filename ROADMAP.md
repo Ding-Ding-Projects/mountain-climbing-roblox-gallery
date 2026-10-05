@@ -3,7 +3,7 @@
 ## Earlier nineteen-image revision
 
 - [x] Preserve the previous sixteen images and admit three reviewed original suite images in source commit `eb5790b453b7fac549019189900351f08b71c6c3`.
-- [ ] ~~Verify the earlier nineteen-image candidate separately.~~ Superseded by the 423-image delivery verification below; no historical delivery proof is invented.
+- [ ] ~~Verify the earlier nineteen-image candidate separately.~~ Superseded by the 424-image delivery verification below; no historical delivery proof is invented.
 - [x] Review and import the historical staff views under the complete-inventory appearance-only limits; failed-probe and endpoint observations do not establish whole-facility acceptance.
 - [ ] Complete current browser rendering, interaction, accessibility and page-contract verification.
 
@@ -48,11 +48,11 @@ Items are checked only when implemented and supported by the stated evidence. Th
 ## Complete capture inventory candidate
 
 - [x] Review all 434 source image files and all 424 distinct originals, including retained private archive mappings.
-- [x] Preserve 423 approved distinct original images (117,016,058 bytes), deduplicating byte-identical copies.
-- [x] Account for 1 original pending account-interface authorization, with a safe public reason and retained private review evidence.
+- [x] Preserve 424 approved distinct original images (118,029,333 bytes), deduplicating byte-identical copies.
+- [x] Account for all 424 distinct originals: 424 admitted and 0 pending; the one account-interface original has specific owner approval.
 - [x] Add closed historical-observation admission with null unknown provenance and distinct project-interface classification.
-- [x] Validate all 423 current source records through the actual browser source admission function and original hashes.
+- [x] Validate all 424 current source records through the actual browser source admission function and original hashes.
 - [x] Retain existing strict construction admission and repair four old hotel records' explicit evidence limits.
 - [ ] Integrate the reviewed candidate and verify the exact public main reference.
-- [ ] Verify unauthenticated page, manifest, admission module and all 423 original image deliveries.
+- [ ] Verify unauthenticated page, manifest, admission module and all 424 original image deliveries.
 - [ ] Drive and capture the current expanded gallery in the approved isolated browser route.

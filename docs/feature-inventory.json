@@ -9,7 +9,7 @@
       "implementation": "docs/index.html; docs/evidence/observation-contract.mjs",
       "documentation": "docs/evidence/README.md; docs/features/historical-observations.md",
       "evidence": "docs/evidence/gallery.json",
-      "limitation": "423 unique original images are reviewed and admitted in source: 19 retained construction records and 404 historical observations, including 2 project-interface images. 1 originals remain accounted for as withheld. Unknown source/time/mode provenance remains unavailable. No historical image is final realism, interaction or whole-facility acceptance. Expanded public delivery and current browser rendering remain unverified."
+      "limitation": "424 unique original images are reviewed and admitted in source: 19 retained construction records and 405 historical observations, including 3 project-interface images. 0 originals remain accounted for as withheld. Unknown source/time/mode provenance remains unavailable. No historical image is final realism, interaction or whole-facility acceptance. Expanded public delivery and current browser rendering remain unverified."
     },
     {
       "id": "truthful-empty-state",

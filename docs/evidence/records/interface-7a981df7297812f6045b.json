@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "recordType": "observation-review-record",
+  "captureClass": "historical-observation",
+  "captureId": "interface-7a981df7297812f6045b",
+  "imageSha256": "7a981df7297812f6045b7398b3dc747ec4543fa65b7eb49d796773f9895061fb",
+  "imageBytes": 1013275,
+  "sourceRevision": null,
+  "sourceScope": "Source revision unavailable; image appearance only, with no claim about the current source.",
+  "state": "Historical Studio rest-facility interface view",
+  "title": "Historical Studio rest-facility interface view",
+  "caption": "A genuine historical full Studio-window view shows the rest-facility interior together with editor, account and collaborator controls. The owner specifically approved this original interface capture. Source revision, acquisition route and capture time are unavailable; the view does not establish current building or gameplay acceptance.",
+  "alt": "Historical Studio window showing a rest-facility interior, editor panels and visible account and collaborator controls.",
+  "location": "Rest-facility Studio interface",
+  "activity": "Historical observation",
+  "stage": "Historical",
+  "evidenceSubject": "Project interface",
+  "viewport": {
+    "width": 1936,
+    "height": 1048
+  },
+  "scale": null,
+  "theme": "not-applicable",
+  "method": "Historical project capture; acquisition route unavailable",
+  "captureMode": "Unknown",
+  "capturedAt": null,
+  "receiptValidated": false,
+  "reviewRecordValidated": true,
+  "limitations": [
+    "Historical appearance observation, not final realism or gameplay acceptance evidence.",
+    "Capture time, timezone and display scale are unavailable; filenames and file timestamps are not capture provenance.",
+    "Source revision is unavailable for this historical image.",
+    "A still image does not establish interaction, collision, movement, saving, service operation or whole-facility acceptance.",
+    "Project documentation/interface evidence only; not a native Roblox scene capture.",
+    "Specific owner approval covers this original account/collaborator-interface capture only; it does not authorize any other or future account-interface publication."
+  ],
+  "privacyReview": {
+    "result": "passed",
+    "pixelsReviewed": true,
+    "metadataReviewed": true,
+    "filenameReviewed": true,
+    "originalInspected": true,
+    "reviewer": "Independent image review"
+  },
+  "rightsReview": {
+    "result": "passed",
+    "basis": "The owner explicitly approved publication of this exact original Studio/account-interface image after its account and collaborator controls were disclosed and independently inspected. Approval is specific to this image; no other or future account-interface capture is authorized by it."
+  },
+  "metadataReview": {
+    "result": "passed",
+    "summary": "The original image decoded successfully. No EXIF, comment, private text or embedded profile metadata was present; original bytes were retained. Capture time remains unavailable."
+  }
+}
