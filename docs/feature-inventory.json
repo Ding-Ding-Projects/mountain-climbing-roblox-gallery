@@ -5,11 +5,11 @@
   "features": [
     {
       "id": "real-capture-gallery",
-      "state": "complete-reviewed-inventory-source-only",
-      "implementation": "docs/index.html; docs/evidence/observation-contract.mjs",
+      "state": "public-http-verified-bounded-runtime-observed-strict-audit-incomplete",
+      "implementation": "docs/index.html; docs/evidence/observation-contract.mjs; docs/evidence/progressive-verification.mjs",
       "documentation": "docs/evidence/README.md; docs/features/historical-observations.md",
-      "evidence": "docs/evidence/gallery.json",
-      "limitation": "424 unique original images are reviewed and admitted in source: 19 retained construction records and 405 historical observations, including 3 project-interface images. 0 originals remain accounted for as withheld. Unknown source/time/mode provenance remains unavailable. No historical image is final realism, interaction or whole-facility acceptance. Expanded public delivery and current browser rendering remain unverified."
+      "evidence": "docs/evidence/gallery.json; docs/evidence/live-publication-424-20261005.json; docs/evidence/ui/live-424-observations-20261005.json",
+      "limitation": "All 424 original images are admitted and publicly HTTP-verified at revision 43655e9a5dc66ca6731cfb965d00c405d0877c65, with unchanged hashes and dimensions. Desktop and emulated-touch observations show 424 records and recorded search/filter, focus, resource and overflow results. Strict audit remains incomplete because task profile cleanup was rejected and retained; six raw browser captures await a stronger promotion receipt. Unknown capture provenance remains unavailable and no historical image establishes game or facility acceptance."
     },
     {
       "id": "truthful-empty-state",
@@ -57,7 +57,7 @@
       "implementation": "docs/index.html",
       "documentation": "design/README.md",
       "evidence": "docs/evidence/ui/responsive-layout.json",
-      "limitation": "Responsive search and facet layout was verified at 929\u00c3\u20141004 and 320\u00c3\u2014800 on source 93abe3583cb61cb35438d3ec236835189ebf54d9. Both viewports had no horizontal overflow and controls met the 44-pixel minimum. Broader theme, display-scale, large-text, and full-page layout coverage remains incomplete."
+      "limitation": "Responsive search and facet layout was verified at 929Ã—1004 and 320Ã—800 on source 93abe3583cb61cb35438d3ec236835189ebf54d9. Both viewports had no horizontal overflow and controls met the 44-pixel minimum. Broader theme, display-scale, large-text, and full-page layout coverage remains incomplete."
     },
     {
       "id": "narration",

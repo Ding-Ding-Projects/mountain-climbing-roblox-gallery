@@ -1,6 +1,6 @@
 # Evidence and capture provenance
 
-The source candidate contains 424 distinct original images: 19 retained construction records and 405 reviewed historical observations, including 3 project-interface images. Review covered 434 source files and 424 distinct byte hashes; ten exact duplicate files are represented once. No original remains pending or excluded from this reviewed inventory. Original image bytes total 118,029,333. Public delivery of this expanded candidate is unverified.
+The source candidate contains 424 distinct original images: 19 retained construction records and 405 reviewed historical observations, including 3 project-interface images. Review covered 434 source files and 424 distinct byte hashes; ten exact duplicate files are represented once. No original remains pending or excluded from this reviewed inventory. Original image bytes total 118,029,333. Anonymous HTTP delivery of every original, both modules, the page and manifest is verified at 43655e9 in live-publication-424-20261005.json. Bounded live desktop/emulated-touch observations passed; strict audit completion and capture promotion remain incomplete because the task profile was retained and stronger capture provenance is unavailable.
 
 ## Record categories
 
